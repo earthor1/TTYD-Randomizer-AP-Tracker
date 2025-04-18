@@ -1,0 +1,32 @@
+{
+            "tabbed_maps_horizontal": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                    "title": "Magical Map",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "Switch-Map"
+                        ]
+                    }
+                
+                }
+            ]
+        },
+            "tabbed_maps_vertical": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                    "title": "Magical Map",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "GC-Map"
+                        ]
+                    }
+                
+                }
+            ]
+        }
+    }
