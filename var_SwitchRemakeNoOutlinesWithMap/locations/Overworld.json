@@ -4078,15 +4078,15 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["SuperBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Fahr Outpost Town - Star Piece 2",
-                        "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
+                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["SuperBoots"],
+                        "access_rules": [""],
                         "item_count": 1
                     }
 		],
