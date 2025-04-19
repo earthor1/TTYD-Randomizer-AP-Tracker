@@ -62,9 +62,7 @@
                                 "SunStone",
                                 "MoonStone",
                                 "CastleKey",
-                                "BlackKey2",
-                                "f",
-                                "Cookbook"
+                                "BlackKey2"
                             ],
                             [
                                 "Necklace",
@@ -72,19 +70,13 @@
                                 "PuniOrb",
                                 "BlueKey",
                                 "f",
-                                "f",
-                                "UpArrow"
-                            ],
-                            [
                                 "StorageKey1",
-                                "StorageKey2",
-                                "ChampsBelt"
+                                "StorageKey2"
                             ],
                             [
                                 "ShopKey",
                                 "BlackKey3",
                                 "SteepleKey1",
-                                "SteepleKey2",
                                 "Superbombomb",
                                 "TheLetterP"
                             ],
@@ -124,7 +116,11 @@
                             [
                                 "PalaceKey",
                                 "StarKey",
-                                "PalaceKey(RiddleTower)"
+                                "PalaceKey(RiddleTower)",
+                                "F",
+                                "F",
+                                "Cookbook",
+                                "UpArrow"
                             ]
 						]
 					}
