@@ -3261,12 +3261,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Keelhaul Key Jungle Winding Climb - Jammin' Jelly",
-                        "visibility_rules": [""],
-                        "access_rules": ["$yoshi","UltraBoots"],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Keelhaul Key Jungle Winding Climb - Mini Mr.Mini",
                         "visibility_rules": [""],
                         "access_rules": [""],
@@ -3288,6 +3282,12 @@
                         "access_rules": [""],
                         "item_count": 1
                     },
+                    {
+                        "name": "Keelhaul Key Jungle Winding Climb - Jammin' Jelly",
+                        "visibility_rules": [""],
+                        "access_rules": ["$yoshi,UltraBoots","$yoshi,SuperHammer"],
+                        "item_count": 1
+                    },			
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - Thunder Rage",
                         "visibility_rules": [""],
