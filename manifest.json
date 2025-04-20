@@ -30,7 +30,7 @@
             "flags": ["ap"]
     },
         "var_OGSpritesWithMap": {
-            "display_name": "Map Tracker - OG Sprites",
+            "display_name": "(WIP) Map Tracker - OG Sprites",
             "flags": ["ap"]
     },
         "var_SwitchRemakeNoOutlinesWithMap": {
