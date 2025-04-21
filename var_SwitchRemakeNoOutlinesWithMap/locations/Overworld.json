@@ -1458,7 +1458,7 @@
                     {
                         "name": "Rogueport Sewers Spania Room - Defend Plus",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,Flurrie,BoatCurse,$yoshi"],
+                        "access_rules": ["$sewerwest,Flurrie,BoatCurse,$yoshi","$sewerwest,Flurrie,BoatCurse,UltraBoots,Koops"],
                         "item_count": 1
                     },
                     {
