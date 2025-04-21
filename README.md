@@ -5,3 +5,6 @@ This pack supports multiple styles and layouts.
 
 FYI: The OG Map currently does not support location tracking, but will come soon when the first official release comes out.
 Please report anything strange to me on discord!
+
+
+This will require the Poptracker software to run. The download for it can be found at https://poptracker.github.io/
