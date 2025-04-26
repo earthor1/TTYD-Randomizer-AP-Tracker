@@ -55,8 +55,8 @@ function onClear(slot_data)
     end
     -- reset items
     for _, item in pairs(ITEM_MAPPING) do
-        for _, item_code in pairs(item[1]) do
-            item_code, item_type = item
+        for _, item_code in pairs(item) do
+--          item_code, item_type = item
 --            if item_code and item[2] then
             local item_obj = Tracker:FindObjectForCode(item_code)
 --            if item_obj then
