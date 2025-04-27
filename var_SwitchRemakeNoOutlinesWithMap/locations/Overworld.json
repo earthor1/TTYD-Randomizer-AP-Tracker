@@ -1026,6 +1026,8 @@
                     },
                     {
                         "name": "Boggly Woods Plane Panel Room - Quake Hammer",
+                        "chest_unopened_img": "/images/items/RBlock.png",
+                        "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
                         "access_rules": ["PlaneCurse"],
                         "item_count": 1
@@ -1042,6 +1044,12 @@
                         "name": "Boggly Woods Plane Panel Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": [""],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boggly Woods Outside Great Tree - FP Plus",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -1065,12 +1073,6 @@
                     "Flurrie,$bogglywoods"
                 ],
                 "sections": [
-                    {
-                        "name": "Boggly Woods Outside Great Tree - FP Plus",
-                        "visibility_rules": [""],
-                        "access_rules": [""],
-                        "item_count": 1
-                    },
                     {
                         "name": "Great Tree Entrance - Coin",
                         "visibility_rules": [""],
@@ -1249,6 +1251,8 @@
                     },
                     {
                         "name": "Great Tree Zigzag Room - Damage Dodge P",
+                        "chest_unopened_img": "/images/items/RBlock.png",
+                        "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
                         "access_rules": ["RedKey,PuniOrb"],
                         "item_count": 1
@@ -1509,6 +1513,8 @@
                     },
                     {
                         "name": "Rogueport Sewers Black Key Room - Pretty Lucky",
+                        "chest_unopened_img": "/images/items/RBlock.png",
+                        "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -1529,7 +1535,7 @@
                     },
                     {
                         "name": "Rogueport Sewers Boggly Woods Pipe - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
                         "access_rules": ["PaperCurse,SuperBoots"],
@@ -2541,6 +2547,8 @@
                     },
                     {
                         "name": "Hooktail's Castle Entrance - Power Bounce",
+                        "chest_unopened_img": "/images/items/RBlock.png",
+                        "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
                         "access_rules": ["$yoshi","PlaneCurse"],
                         "item_count": 1
@@ -2967,20 +2975,6 @@
                         "visibility_rules": [""],
                         "access_rules": ["$tube,Flurrie,SuperBoots"],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Twilight Trail Steeple Exterior - Coin",
-                        "visibility_rules": [""],
-                        "access_rules": ["$steeple"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Twilight Trail Steeple Exterior - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["$steeple"],
-                        "item_count": 1
                     }
 		],
                 "map_locations": [
@@ -3001,6 +2995,20 @@
                     "$steeple"
                 ],
                 "sections": [
+                    {
+                        "name": "Twilight Trail Steeple Exterior - Coin",
+                        "visibility_rules": [""],
+                        "access_rules": ["$steeple"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Twilight Trail Steeple Exterior - Star Piece",
+                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_opened_img": "/images/items/StarPieceOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["$steeple"],
+                        "item_count": 1
+                    },
                     {
                         "name": "Creepy Steeple Main Hall - Lucky Start",
                         "visibility_rules": [""],
@@ -3093,7 +3101,7 @@
                     },
                     {
                         "name": "Creepy Steeple Parrot Room - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
                         "access_rules": ["Vivian"],
@@ -3125,6 +3133,8 @@
                     },
                     {
                         "name": "Creepy Steeple Buzzy Room - Tornado Jump",
+                        "chest_unopened_img": "/images/items/RBlock.png",
+                        "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -3139,7 +3149,7 @@
                     },
                     {
                         "name": "Creepy Steeple Back Stairs - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
@@ -3370,8 +3380,8 @@
             },
             {
                 "name": "Keelhaul Galleria",
-                "chest_unopened_img": "/images/items/YBlock.png",
-                "chest_opened_img": "/images/items/YBlockOpen.png",
+                "chest_unopened_img": "/images/items/Coin.png",
+                "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
                 "access_rules": [
                     "$keelhaul_key"
@@ -3659,6 +3669,8 @@
                     },
                     {
                         "name": "Poshley Heights Downtown Pasta Stand - Fresh Pasta Purchase",
+                        "chest_unopened_img": "/images/items/Coin.png",
+                        "chest_opened_img": "/images/items/CoinDim.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -4423,6 +4435,8 @@
                     },
                     {
                         "name": "Palace of Shadow Spike Trap Room - All or Nothing",
+                        "chest_unopened_img": "/images/items/RBlock.png",
+                        "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
