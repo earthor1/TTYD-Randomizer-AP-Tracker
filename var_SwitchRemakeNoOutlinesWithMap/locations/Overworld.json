@@ -2975,14 +2975,7 @@
                         "visibility_rules": [""],
                         "access_rules": ["$tube,Flurrie,SuperBoots"],
                         "item_count": 1
-                    },
-                    {
-                        "name": "Twilight Trail Steeple Exterior - Coin",
-                        "visibility_rules": [""],
-                        "access_rules": ["$steeple"],
-                        "item_count": 1
                     }
-
 		],
                 "map_locations": [
                     {
@@ -3002,6 +2995,12 @@
                     "$steeple"
                 ],
                 "sections": [
+                    {
+                        "name": "Twilight Trail Steeple Exterior - Coin",
+                        "visibility_rules": [""],
+                        "access_rules": ["$steeple"],
+                        "item_count": 1
+                    },
                     {
                         "name": "Twilight Trail Steeple Exterior - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
