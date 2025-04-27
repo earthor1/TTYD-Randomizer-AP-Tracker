@@ -55,8 +55,8 @@ function onClear(slot_data)
     end
     -- reset items
     for _, item in pairs(ITEM_MAPPING) do
-        for _, item_code in pairs(item[1]) do
-          item_code, item_type = item
+        for _, item_code in pairs(item) do
+          item_code, item_type, initial_state = item
 --            if item_code and item[2] then
             local item_obj = Tracker:FindObjectForCode(item_code)
 --            if item_obj then
@@ -71,10 +71,10 @@ function onClear(slot_data)
 --                    else
 --                        item_obj.AcquiredCount = 0
 --                    end
---                elseif item_type == "progressive_toggle" then
---                    item_obj.CurrentStage = 0
---                    item_obj.Active = false
---                end
+                elseif item_type == "progressive_toggle" then
+                    item_obj.CurrentStage = 0
+                    item_obj.Active = false
+                end
 --            end
             if item_obj then
                 if item_obj.Type == "toggle" then
