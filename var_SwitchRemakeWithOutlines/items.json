@@ -738,7 +738,7 @@
     },
     {
         "name": "Boots",
-        "type": "progressive",
+        "type": "progressive_toggle",
         "initial_stage_idx": 0,
         "initial_active_state": "true",
         "img": "images/items/BootsHD1.png",
@@ -763,7 +763,7 @@
     },
     {
         "name": "Hammer",
-        "type": "progressive",
+        "type": "progressive_toggle",
         "initial_stage_idx": 0,
         "initial_active_state": "true",
         "img": "images/items/HammerHD1.png",

@@ -800,7 +800,7 @@
     },
     {
         "name": "Boots",
-        "type": "progressive",
+        "type": "progressive_toggle",
         "initial_stage_idx": 0,
         "img": "images/items/BootsHD2.png",
         "allow_disabled": "false",
@@ -825,7 +825,7 @@
     },
     {
         "name": "Hammer",
-        "type": "progressive",
+        "type": "progressive_toggle",
         "initial_stage_idx": 0,
         "img": "images/items/HammerHD2.png",
         "allow_disabled": "false",
