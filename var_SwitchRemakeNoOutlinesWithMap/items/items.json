@@ -800,10 +800,10 @@
     },
     {
         "name": "Boots",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "initial_stage_idx": 0,
-        "initial_active_state": "true",
         "img": "images/items/BootsHD2.png",
+        "allow_disabled": "false",
         "stages": [
             {
                 "name": "Boots",
@@ -825,10 +825,10 @@
     },
     {
         "name": "Hammer",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "initial_stage_idx": 0,
-        "initial_active_state": "true",
         "img": "images/items/HammerHD2.png",
+        "allow_disabled": "false",
         "stages": [
             {
                 "name": "Hammer",
