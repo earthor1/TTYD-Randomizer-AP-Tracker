@@ -1392,7 +1392,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["PaperCurse,Necklace"],
+                        "access_rules": ["PaperCurse,Necklace,SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -3104,7 +3104,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["Vivian"],
+                        "access_rules": ["Vivian,SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -3152,7 +3152,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["SuperBoots"],
                         "item_count": 1
                     },
                     {
