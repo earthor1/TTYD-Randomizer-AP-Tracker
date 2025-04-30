@@ -793,10 +793,107 @@
         "codes": "7ChapterClears"
     },
     {
-        "name": "Pit is on",
+        "name": "Is The Pit of 100 Trials Included?",
         "type": "toggle",
+        "initial_active_state": "true",
         "img": "images/items/BigChest.png",
         "codes": "PitOn"
+    },
+    {
+        "name": "ZobeePlays on Discord!",
+        "initial_active_state": "true",
+        "type": "toggle",
+        "img": "images/items/Zobee.png",
+        "codes": "Zobee"
+    },
+    {
+        "name": "https://discord.gg/zar9H8vfya",
+        "initial_active_state": "true",
+        "type": "toggle",
+        "img": "images/items/Discord.png",
+        "codes": "Discord"
+    },
+    {
+        "name": "Chapter 1",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Hooktail.png",
+        "codes": "Ch1"
+    },
+    {
+        "name": "Chapter 2",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/MagnusVonGrapple.png",
+        "codes": "Ch2"
+    },
+    {
+        "name": "Chapter 3",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/MachoGrubba.png",
+        "codes": "Ch3"
+    },
+    {
+        "name": "Chapter 4",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Doopliss.png",
+        "codes": "Ch4"
+    },
+    {
+        "name": "Chapter 5",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Cortez.png",
+        "codes": "Ch5"
+    },
+    {
+        "name": "Chapter 6",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Smorg.png",
+        "codes": "Ch6"
+    },
+    {
+        "name": "Chapter 7",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/MagnusVonGrapple2.png",
+        "codes": "Ch7"
+    },
+    {
+        "name": "Chapter 8",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/ShadowQueen.png",
+        "codes": "Ch8"
+    },
+    {
+        "name": "Palace Skip",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "img": "images/items/ShadowQueen.png",
+        "stages": [
+            {
+                "name": "Palace Skip Off",
+                "img": "images/items/Gloomtail.png",
+                "codes": "NoPalaceSkip"
+            },
+            {
+                "name": "Palace Skip On",
+                "img": "images/items/ShadowQueen.png",
+                "codes": "YesPalaceSkip"
+            }
+        ],
+        "codes": "PalaceSkip"
+    },
+    {
+        "name": "Show Locations Not Yet in Pool?",
+        "type": "toggle",
+        "img": "images/items/BadgePointPM2.png",
+        "img_mods": "",
+        "codes": "HiddenOn"
     },
     {
         "name": "Boots",
@@ -847,12 +944,5 @@
             }
         ],
         "codes": "Hammers"
-    },
-    {
-        "name": "Hidden Items",
-        "type": "toggle",
-        "img": "images/items/BadgePointPM2.png",
-        "img_mods": "",
-        "codes": "HiddenOn"
     },
 ]
