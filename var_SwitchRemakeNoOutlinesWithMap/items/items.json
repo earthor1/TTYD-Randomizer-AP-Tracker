@@ -737,6 +737,63 @@
         "codes": "PalaceKey(RiddleTower)"
     },
     {
+        "name": "Boots",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "img": "images/items/BootsHD2.png",
+        "allow_disabled": "false",
+        "stages": [
+            {
+                "name": "Boots",
+                "img": "images/items/BootsHD2.png",
+                "codes": "Boots"
+            },
+            {
+                "name": "Super Boots",
+                "img": "images/items/SuperBootsHD2.png",
+                "codes": "SuperBoots"
+            },
+            {
+                "name": "Ultra Boots",
+                "img": "images/items/UltraBootsHD2.png",
+                "codes": "UltraBoots"
+            }
+        ],
+        "codes": "Bootss"
+    },
+    {
+        "name": "Hammer",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "img": "images/items/HammerHD2.png",
+        "allow_disabled": "false",
+        "stages": [
+            {
+                "name": "Hammer",
+                "img": "images/items/HammerHD2.png",
+                "codes": "Hammer"
+            },
+            {
+                "name": "Super Hammer",
+                "img": "images/items/SuperHammerHD2.png",
+                "codes": "SuperHammer"
+            },
+            {
+                "name": "Ultra Hammer",
+                "img": "images/items/UltraHammerHD2.png",
+                "codes": "UltraHammer"
+            }
+        ],
+        "codes": "Hammers"
+    },
+    {
+        "name": "Hidden Items",
+        "type": "toggle",
+        "img": "images/items/BadgePointPM2.png",
+        "img_mods": "",
+        "codes": "HiddenOn"
+    },
+    {
         "name": "0 Chapter Clears",
         "type": "toggle",
         "img": "images/items/CrystalStar.png",
@@ -793,63 +850,102 @@
         "codes": "7ChapterClears"
     },
     {
-        "name": "Pit is on",
+        "name": "Is The Pit of 100 Trials Included?",
         "type": "toggle",
+        "initial_active_state": "true",
         "img": "images/items/BigChest.png",
         "codes": "PitOn"
     },
     {
-        "name": "Boots",
-        "type": "progressive_toggle",
-        "initial_stage_idx": 0,
-        "img": "images/items/BootsHD2.png",
-        "allow_disabled": "false",
-        "stages": [
-            {
-                "name": "Boots",
-                "img": "images/items/BootsHD2.png",
-                "codes": "Boots"
-            },
-            {
-                "name": "Super Boots",
-                "img": "images/items/SuperBootsHD2.png",
-                "codes": "SuperBoots"
-            },
-            {
-                "name": "Ultra Boots",
-                "img": "images/items/UltraBootsHD2.png",
-                "codes": "UltraBoots"
-            }
-        ],
-        "codes": "Bootss"
+        "name": "ZobeePlays on Discord!",
+        "initial_active_state": "true",
+        "type": "toggle",
+        "img": "images/items/Zobee.png",
+        "codes": "Zobee"
     },
     {
-        "name": "Hammer",
-        "type": "progressive_toggle",
-        "initial_stage_idx": 0,
-        "img": "images/items/HammerHD2.png",
-        "allow_disabled": "false",
-        "stages": [
-            {
-                "name": "Hammer",
-                "img": "images/items/HammerHD2.png",
-                "codes": "Hammer"
-            },
-            {
-                "name": "Super Hammer",
-                "img": "images/items/SuperHammerHD2.png",
-                "codes": "SuperHammer"
-            },
-            {
-                "name": "Ultra Hammer",
-                "img": "images/items/UltraHammerHD2.png",
-                "codes": "UltraHammer"
-            }
-        ],
-        "codes": "Hammers"
+        "name": "https://discord.gg/zar9H8vfya",
+        "initial_active_state": "true",
+        "type": "toggle",
+        "img": "images/items/Discord.png",
+        "codes": "Discord"
     },
     {
-        "name": "Hidden Items",
+        "name": "Chapter 1",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Hooktail.png",
+        "codes": "Ch1"
+    },
+    {
+        "name": "Chapter 2",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/MagnusVonGrapple.png",
+        "codes": "Ch2"
+    },
+    {
+        "name": "Chapter 3",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/MachoGrubba.png",
+        "codes": "Ch3"
+    },
+    {
+        "name": "Chapter 4",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Doopliss.png",
+        "codes": "Ch4"
+    },
+    {
+        "name": "Chapter 5",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Cortez.png",
+        "codes": "Ch5"
+    },
+    {
+        "name": "Chapter 6",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Smorg.png",
+        "codes": "Ch6"
+    },
+    {
+        "name": "Chapter 7",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/MagnusVonGrapple2.png",
+        "codes": "Ch7"
+    },
+    {
+        "name": "Chapter 8",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/ShadowQueen.png",
+        "codes": "Ch8"
+    },
+    {
+        "name": "Palace Skip",
+        "type": "progressive",
+        "img": "images/items/ShadowQueen.png",
+        "stages": [
+            {
+                "name": "Palace Skip Off",
+                "img": "images/items/Gloomtail.png",
+                "codes": "NoPalaceSkip"
+            },
+            {
+                "name": "Palace Skip On",
+                "img": "images/items/ShadowQueen.png",
+                "codes": "YesPalaceSkip"
+            }
+        ],
+        "codes": "PalaceSkip"
+    },
+    {
+        "name": "Show Locations Not Yet in Pool?",
         "type": "toggle",
         "img": "images/items/BadgePointPM2.png",
         "img_mods": "",
