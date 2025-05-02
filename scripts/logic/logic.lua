@@ -71,7 +71,7 @@ function riverside()
 	end		
 
 function fahr_outpost()
-	return has("UltraHammer") and ((yoshi()) or (has("UltraBoots")))
+	return (twilight_town()) and has("UltraHammer")
 	end		
 
 function pirates_grotto()
@@ -79,7 +79,7 @@ function pirates_grotto()
 	end		
 
 function silly()
-	return (has("ContactLens") and has("PaperCurse")) or has("Bobbery") or (tube()) or has("UltraHammer")
+	return (has("ContactLens") and has("PaperCurse")) or has("Bobbery") or (tube()) or (has("UltraHammer") and has("PaperCurse"))
 	end		
 
 function poshley_heights()
