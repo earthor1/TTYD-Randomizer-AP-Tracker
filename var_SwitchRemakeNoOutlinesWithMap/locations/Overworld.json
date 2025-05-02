@@ -3793,7 +3793,7 @@
                         "visibility_rules": [""],
                         "access_rules": ["Flurrie,StationKey1,StationKey2,$tube"],
                         "item_count": 1
-                    },
+                    }
 		],
                 "map_locations": [
                     {

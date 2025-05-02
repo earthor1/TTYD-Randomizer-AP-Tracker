@@ -1,12 +1,11 @@
 Tracker:AddItems("items/items.json")
-Tracker:AddItems("items/labels.json")
+--Tracker:AddItems("items/labels.json")
 
 -- Items
 ScriptHost:LoadScript("scripts/items_import.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
-ScriptHost:LoadScript("scripts/watch.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Maps
