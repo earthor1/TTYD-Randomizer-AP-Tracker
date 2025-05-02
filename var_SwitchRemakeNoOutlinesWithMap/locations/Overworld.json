@@ -1080,12 +1080,6 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Great Tree Entrance - Puni Orb",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey"],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Great Tree 10-Puni Pedestal - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
@@ -1094,89 +1088,9 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Great Tree 100-Puni Pedestal - Coin",
+                        "name": "Great Tree Upper Duplex - Power Punch",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree 100-Puni Pedestal - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Bubble Room - Shine Sprite",
-                        "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
-                        "chest_opened_img": "/images/items/ShineSpriteOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Bubble Room - Thunder Rage",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Elevator Pedestal - Mushroom",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Escape Ambush Room - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Fake Pedestal - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Lower Duplex - Coin",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Middle Duplex - Shine Sprite",
-                        "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
-                        "chest_opened_img": "/images/items/ShineSpriteOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,PlaneCurse"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Pool Room - Dizzy Dial",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Pool Room - Shine Sprite",
-                        "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
-                        "chest_opened_img": "/images/items/ShineSpriteOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey","RedKey,PuniOrb,Flurrie,UltraBoots,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Pool Room - Shrink Stomp",
-                        "chest_unopened_img": "/images/items/BigChest.png",
-                        "chest_opened_img": "/images/items/BigChestOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
@@ -1208,39 +1122,31 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Great Tree Blue Key Room - Blue Key",
-                        "chest_unopened_img": "/images/items/BigChest.png",
-                        "chest_opened_img": "/images/items/BigChestOpen.png",
+                        "name": "Great Tree Entrance - Puni Orb",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie"],
+                        "access_rules": ["RedKey"],
                         "item_count": 1
                     },
                     {
-                        "name": "Great Tree Blue Key Room - Charge",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Blue Key Room - Shine Sprite",
+                        "name": "Great Tree Bubble Room - Shine Sprite",
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots"],
+                        "access_rules": ["RedKey,PuniOrb"],
                         "item_count": 1
                     },
                     {
-                        "name": "Great Tree Super Boots Room - Super Boots",
-                        "chest_unopened_img": "/images/items/BigChest.png",
-                        "chest_opened_img": "/images/items/BigChestOpen.png",
+                        "name": "Great Tree Bubble Room - Thunder Rage",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,BlueKey"],
+                        "access_rules": ["RedKey,PuniOrb"],
                         "item_count": 1
                     },
                     {
-                        "name": "Great Tree Upper Duplex - Power Punch",
+                        "name": "Great Tree Middle Duplex - Shine Sprite",
+                        "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
+                        "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,PlaneCurse"],
                         "item_count": 1
                     },
                     {
@@ -1263,6 +1169,100 @@
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
                         "access_rules": ["RedKey,PuniOrb"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Blue Key Room - Blue Key",
+                        "chest_unopened_img": "/images/items/BigChest.png",
+                        "chest_opened_img": "/images/items/BigChestOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Flurrie"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Blue Key Room - Charge",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Blue Key Room - Shine Sprite",
+                        "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
+                        "chest_opened_img": "/images/items/ShineSpriteOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Fake Pedestal - Star Piece",
+                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_opened_img": "/images/items/StarPieceOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree 100-Puni Pedestal - Coin",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree 100-Puni Pedestal - Star Piece",
+                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_opened_img": "/images/items/StarPieceOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Lower Duplex - Coin",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Super Boots Room - Super Boots",
+                        "chest_unopened_img": "/images/items/BigChest.png",
+                        "chest_opened_img": "/images/items/BigChestOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Flurrie,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Pool Room - Dizzy Dial",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Pool Room - Shine Sprite",
+                        "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
+                        "chest_opened_img": "/images/items/ShineSpriteOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey","RedKey,PuniOrb,Flurrie,UltraBoots,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Pool Room - Shrink Stomp",
+                        "chest_unopened_img": "/images/items/BigChest.png",
+                        "chest_opened_img": "/images/items/BigChestOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Elevator Pedestal - Mushroom",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Escape Ambush Room - Star Piece",
+                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_opened_img": "/images/items/StarPieceOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
                         "item_count": 1
                     },
                     {
