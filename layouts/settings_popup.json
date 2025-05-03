@@ -20,8 +20,8 @@
                         "rows": [
                             [
                                 "HiddenOn",
-                                "PitOn",
-                                "PalaceSkip",
+                                "Pit_Items",
+                                "palace_skip",
                             ]
                         ]
                     }

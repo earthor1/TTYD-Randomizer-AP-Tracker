@@ -394,7 +394,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
-                "visibility_rules": ["HiddenOn,PitOn"],
+                "visibility_rules": ["HiddenOn,Pit_Items"],
                 "access_rules": [
                     "$pit"
                 ],
@@ -450,7 +450,7 @@
                 "chest_unopened_img": "/images/items/BigChest.png",
                 "chest_opened_img": "/images/items/BigChestOpen.png",
                 "overlay_background": "#000000",
-                "visibility_rules": ["PitOn"],
+                "visibility_rules": ["Pit_Items"],
                 "access_rules": [
                     "$pit"
                 ],

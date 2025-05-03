@@ -886,7 +886,7 @@
                 "codes": "YesPalaceSkip"
             }
         ],
-        "codes": "PalaceSkip"
+        "codes": "palace_skip"
     },
     {
         "name": "Show Locations Not Yet in Pool?",

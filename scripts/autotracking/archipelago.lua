@@ -1,6 +1,7 @@
 
         ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/settings_mapping.lua")
 
 CUR_INDEX = -1
 --SLOT_DATA = nil
@@ -53,6 +54,10 @@ function onClear(slot_data)
             end
         end
     end
+    -- grabs settings from SLOT_DATA
+    if SLOT_CODES[key] then
+        Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]
+      end
     -- reset items
     for _, item in pairs(ITEM_MAPPING) do
         for _, item_code in pairs(item) do

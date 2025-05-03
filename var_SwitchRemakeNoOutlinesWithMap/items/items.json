@@ -854,7 +854,7 @@
         "type": "toggle",
         "initial_active_state": "true",
         "img": "images/items/BigChest.png",
-        "codes": "PitOn"
+        "codes": "Pit_Items"
     },
     {
         "name": "ZobeePlays on Discord!",
@@ -942,7 +942,7 @@
                 "codes": "YesPalaceSkip"
             }
         ],
-        "codes": "PalaceSkip"
+        "codes": "palace_skip"
     },
     {
         "name": "Show Locations Not Yet in Pool?",
