@@ -1,0 +1,224 @@
+{
+    "tabbed_maps_horizontal": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Magical Map",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Magical Map"
+                    ]
+                }
+            },
+            {
+                "title": "Rogueport",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rogueport"
+                    ]
+                }
+            },
+            {
+                "title": "Underground",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Underground"
+                    ]
+                }
+            },
+            {
+                "title": "Chapter 1",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Petal Meadows",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Petal Meadows"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Petalburg",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Petalburg"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shhwonk Fortress",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shhwonk Fortress"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sewers",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sewers"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hooktail Castle",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "HT 1",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "HT 1"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "HT 2",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "HT 2"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "HT 3",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "HT 3"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "tabbed_maps_vertical": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Magical Map",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Magical Map"
+                    ]
+                }
+            },
+            {
+                "title": "Rogueport",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Rogueport"
+                    ]
+                }
+            },
+            {
+                "title": "Underground",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "Underground"
+                    ]
+                }
+            },
+            {
+                "title": "Chapter 1",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Petal Meadows",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Petal Meadows"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Petalburg",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Petalburg"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Shhwonk Fortress",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Shhwonk Fortress"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Sewers",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Sewers"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hooktail Castle",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "HT 1",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "HT 1"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "HT 2",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "HT 2"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "HT 3",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "HT 3"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

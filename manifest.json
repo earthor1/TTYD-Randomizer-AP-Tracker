@@ -3,7 +3,7 @@
     "game_name": "TTYD",
     "package_version": "0.9.5",
     "package_uid": "ttyd_ap",
-    "author": "ZobeePlays & earthor1",
+    "author": "ZobeePlays, earthor1, & PillarAngel",
     "variants": {
         "OGSprites": {
             "display_name": "Items Only - OG Sprites",
@@ -35,6 +35,10 @@
     },
         "var_SwitchRemakeNoOutlinesWithMap": {
             "display_name": "Map Tracker - Switch Remake No Outlines",
+            "flags": ["ap"]
+    },
+        "var_SwitchRemakeNoOutlinesWithAllGCMaps": {
+            "display_name": "Map Tracker (Detailed) - Switch Remake No Outlines",
             "flags": ["ap"]
     }
     },
