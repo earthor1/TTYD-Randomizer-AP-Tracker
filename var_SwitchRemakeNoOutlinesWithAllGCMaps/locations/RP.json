@@ -1,99 +1,19 @@
 [
     {
-        "name": "Rogueport",
+        "name": "Rogueport Center",
         "chest_unopened_img": "/images/items/YBlock.png",
         "chest_opened_img": "/images/items/YBlockOpen.png",
         "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ],
+        "access_rules": [" "],
         "children": [
             {
-                "name": "Rogueport Center",
-                "chest_unopened_img": "/images/items/YBlock.png",
-                "chest_opened_img": "/images/items/YBlockOpen.png",
-                "overlay_background": "#000000",
-                "access_rules": [
-                    " "
-                ],
-                "sections": [
-                    {
-                        "name": "Rogueport Center - Goombella",
-                        "access_rules": [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rogueport Center - Star Piece 1",
-                        "chest_unopened_img": "/images/items/StarPiecePanel.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": [
-                            "SuperBoots"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rogueport Center - Star Piece 2",
-                        "chest_unopened_img": "/images/items/StarPiecePanel.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": [
-                            "SuperBoots"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rogueport Center - Star Piece 3",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rogueport Center - Star Piece 4",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rogueport Center - Star Piece 5",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": [
-                            ""
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rogueport Center - Old Letter",
-                        "access_rules": [
-                            "$tube,$yoshi"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Rogueport Center - Ultra Hammer",
-                        "chest_unopened_img": "/images/items/BigChest.png",
-                        "chest_opened_img": "/images/items/BigChestOpen.png",
-                        "access_rules": [
-                            "UltraBoots"
-                        ],
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Rogueport",
-                        "x": "1740",
-                        "y": "1250",
-                        "size": 70
-                    }
-                ]
+                "name": "Rogueport Center - Ultra Hammer",
+                "chest_unopened_img": "/images/items/BigChest.png",
+                "chest_opened_img": "/images/items/BigChestOpen.png",
+                "access_rules": ["UltraBoots"],
+                "item_count": 1,
+                "sections": [{"name": ""}],
+                "map_locations": [{"map": "Rogueport", "x": "1975", "y": "867"}]
             }
         ]
     }
