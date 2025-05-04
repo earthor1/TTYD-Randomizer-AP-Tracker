@@ -63,11 +63,8 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Rogueport Center - Ultra Hammer",
-                        "chest_unopened_img": "/images/items/BigChest.png",
-                        "chest_opened_img": "/images/items/BigChestOpen.png",
-                        "access_rules": ["UltraBoots"],
-                        "item_count": 1
+                       "name": "Rogueport Center - Ultra Hammer",
+                       "ref": "Rogueport Center/Rogueport Center - Ultra Hammer/"
                     }
                 ],
                 "map_locations": [
