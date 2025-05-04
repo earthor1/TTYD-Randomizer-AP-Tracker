@@ -7,12 +7,7 @@
         "access_rules": [" "],
         "children": [
             {
-                "name": "Rogueport Center - Ultra Hammer",
-                "chest_unopened_img": "/images/items/BigChest.png",
-                "chest_opened_img": "/images/items/BigChestOpen.png",
-                "access_rules": ["UltraBoots"],
-                "item_count": 1,
-                "sections": [{"name": ""}],
+                "sections": [{"name": "", "ref": "Magical Map/Rogueport Center/Rogueport Center - Ultra Hammer"}],
                 "map_locations": [{"map": "Rogueport", "x": "1975", "y": "867"}]
             }
         ]
