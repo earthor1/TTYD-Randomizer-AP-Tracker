@@ -6,7 +6,9 @@ CUR_INDEX = -1
 SLOT_DATA = {}
 
 function onClear(slot_data)
-    --SLOT_DATA = slot_data
+    PLAYER_ID = Archipelago.PlayerNumber or -1
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
+    SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
@@ -49,9 +51,6 @@ function onClear(slot_data)
             end
         end
     end
-    PLAYER_ID = Archipelago.PlayerNumber or -1
-    TEAM_NUMBER = Archipelago.TeamNumber or 0
-    SLOT_DATA = slot_data
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -88,7 +87,7 @@ function onItem(index, item_id, item_name, player_number)
             end
         end
     else
-        print(string.format("onItem: could not find object for code %s", item_code[1]))
+        -- print(string.format("onItem: could not find object for code %s", item_code[1]))
     end
 end
 
@@ -110,19 +109,10 @@ function onLocation(location_id, location_name)
                 location_obj.Active = true
             end
         else
-            print(string.format("onLocation: could not find location_object for code %s", location))
+            -- print(string.format("onLocation: could not find location_object for code %s", location))
         end
     end
 end
-
-function onEvent(key, value, old_value)
-    updateEvents(value)
-end
-
-function onEventsLaunch(key, value)
-    updateEvents(value)
-end
-
 
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 Archipelago:AddClearHandler("clear handler", onClear)
