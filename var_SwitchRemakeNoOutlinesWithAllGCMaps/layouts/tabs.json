@@ -164,15 +164,6 @@
                             }
                         },
                         {
-                            "title": "Sewers",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Sewers"
-                                ]
-                            }
-                        },
-                        {
                             "title": "Hooktail Castle",
                             "content": {
                                 "type": "tabbed",
