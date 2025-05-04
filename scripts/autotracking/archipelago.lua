@@ -55,6 +55,12 @@ function onClear(slot_data)
         end
     end
     -- grabs settings from SLOT_DATA
+    print(dump_table(slot_data))
+    if SLOT_CODES[PalaceSkip] == 1 then
+        Tracker:FindObjectForCode(palace_skip).CurrentStage = 1
+    else
+        Tracker:FindObjectForCode(palace_skip).CurrentStage = 0
+      end
     if SLOT_CODES[key] then
         Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]
       end

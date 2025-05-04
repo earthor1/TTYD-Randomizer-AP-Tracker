@@ -929,20 +929,19 @@
     {
         "name": "Palace Skip",
         "type": "progressive",
+        "initial_stage_idx": 0,
         "img": "images/items/ShadowQueen.png",
+        "codes": "palace_skip"
         "stages": [
             {
                 "name": "Palace Skip Off",
                 "img": "images/items/Gloomtail.png",
-                "codes": "NoPalaceSkip"
             },
             {
                 "name": "Palace Skip On",
                 "img": "images/items/ShadowQueen.png",
-                "codes": "YesPalaceSkip"
             }
         ],
-        "codes": "palace_skip"
     },
     {
         "name": "Show Locations Not Yet in Pool?",
