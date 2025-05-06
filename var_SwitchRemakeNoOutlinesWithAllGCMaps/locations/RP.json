@@ -1,13 +1,9 @@
 [
     {
         "name": "Rogueport Center",
-        "chest_unopened_img": "/images/items/YBlock.png",
-        "chest_opened_img": "/images/items/YBlockOpen.png",
-        "overlay_background": "#000000",
-        "access_rules": [" "],
         "children": [
             {
-                "sections": [{"name": "", "ref": "Magical Map/Rogueport Center/Rogueport Center - Ultra Hammer"}],
+                "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Ultra Hammer"}],
                 "map_locations": [{"map": "Rogueport", "x": "1975", "y": "867"}]
             }
         ]
