@@ -2600,13 +2600,13 @@
                     {
                         "name": "Hooktail's Castle Stair Central Staircase - Castle Key",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PaperCurse,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
                         "item_count": 1
                     },
                     {
                         "name": "Hooktail's Castle Stair Central Staircase - Last Stand P",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PaperCurse,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
                         "item_count": 1
                     },
                     {
@@ -2614,7 +2614,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PaperCurse,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
                         "item_count": 1
                     },
                     {
