@@ -58,6 +58,12 @@
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 1/Hooktail Castle/ht3.png"
+            },
+            {
+                "name": "Boggly Woods",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 2/BogglyWoods.png"
             }
 
 ]

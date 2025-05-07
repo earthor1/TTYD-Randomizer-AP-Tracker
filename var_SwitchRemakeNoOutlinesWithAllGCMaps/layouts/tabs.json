@@ -98,6 +98,23 @@
                         }
                     ]
                 }
+            },
+            {
+                "title": "Chapter 2",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Boggly Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Boggly Woods"
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ]
     },
@@ -195,6 +212,23 @@
                                             ]
                                         }
                                     }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "Chapter 2",
+                "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Boggly Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Boggly Woods"
                                 ]
                             }
                         }
