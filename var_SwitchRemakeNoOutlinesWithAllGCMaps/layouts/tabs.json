@@ -14,18 +14,26 @@
             {
                 "title": "Rogueport",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Rogueport"
-                    ]
-                }
-            },
-            {
-                "title": "Underground",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Underground"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Rogueport",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Rogueport"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Underground",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Underground"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -133,18 +141,26 @@
             {
                 "title": "Rogueport",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "Rogueport"
-                    ]
-                }
-            },
-            {
-                "title": "Underground",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "Underground"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Rogueport",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Rogueport"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Underground",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Underground"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
