@@ -120,6 +120,32 @@
                                     "Boggly Woods"
                                 ]
                             }
+                        },
+                        {
+                            "title": "The Great Tree",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Upper",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Great Tree (Upper)"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Lower",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Great Tree (Lower)"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -245,6 +271,32 @@
                                 "type": "map",
                                 "maps": [
                                     "Boggly Woods"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Great Tree",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Upper",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Great Tree (Upper)"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Lower",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Great Tree (Lower)"
+                                            ]
+                                        }
+                                    }
                                 ]
                             }
                         }

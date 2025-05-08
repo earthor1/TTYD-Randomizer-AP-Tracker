@@ -64,6 +64,18 @@
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 2/BogglyWoods.png"
+            },
+            
+            {
+                "name": "Great Tree (Upper)",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 2/GreatTreeUpper.png"
+            },
+            {
+                "name": "Great Tree (Lower)",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 2/GreatTreeLower.png"
             }
-
 ]
