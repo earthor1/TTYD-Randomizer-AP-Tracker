@@ -75,29 +75,29 @@
                                 "type": "tabbed",
                                 "tabs": [
                                     {
-                                        "title": "HT 1",
+                                        "title": "HTC 1",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "HT 1"
+                                                "HTC 1"
                                             ]
                                         }
                                     },
                                     {
-                                        "title": "HT 2",
+                                        "title": "HTC 2",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "HT 2"
+                                                "HTC 2"
                                             ]
                                         }
                                     },
                                     {
-                                        "title": "HT 3",
+                                        "title": "HTC 3",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "HT 3"
+                                                "HTC 3"
                                             ]
                                         }
                                     }
@@ -228,29 +228,29 @@
                                 "type": "tabbed",
                                 "tabs": [
                                     {
-                                        "title": "HT 1",
+                                        "title": "HTC 1",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "HT 1"
+                                                "HTC 1"
                                             ]
                                         }
                                     },
                                     {
-                                        "title": "HT 2",
+                                        "title": "HTC 2",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "HT 2"
+                                                "HTC 2"
                                             ]
                                         }
                                     },
                                     {
-                                        "title": "HT 3",
+                                        "title": "HTC 3",
                                         "content": {
                                             "type": "map",
                                             "maps": [
-                                                "HT 3"
+                                                "HTC 3"
                                             ]
                                         }
                                     }
