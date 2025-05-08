@@ -42,22 +42,22 @@
                 "img": "images/maps/Chapter 1/sewers.png"
             },
             {
-                "name": "HT 1",
+                "name": "HTC 1",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/Chapter 1/Hooktail Castle/ht1.png"
+                "img": "images/maps/Chapter 1/Hooktail Castle/HTC1.png"
             },
             {
-                "name": "HT 2",
+                "name": "HTC 2",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/Chapter 1/Hooktail Castle/ht2.png"
+                "img": "images/maps/Chapter 1/Hooktail Castle/HTC2.png"
             },
             {
-                "name": "HT 3",
+                "name": "HTC 3",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/Chapter 1/Hooktail Castle/ht3.png"
+                "img": "images/maps/Chapter 1/Hooktail Castle/HTC3.png"
             },
             {
                 "name": "Boggly Woods",
