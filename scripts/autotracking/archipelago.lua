@@ -1,5 +1,4 @@
-
-        ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 
 CUR_INDEX = -1
@@ -7,7 +6,7 @@ CUR_INDEX = -1
 
 SLOT_DATA = {}
 
-function has_value (t, val)
+function has_value(t, val)
     for i, v in ipairs(t) do
         if v == val then return 1 end
     end
@@ -34,7 +33,6 @@ function dump_table(o, depth)
     end
 end
 
-
 function onClear(slot_data)
     --SLOT_DATA = slot_data
     CUR_INDEX = -1
@@ -56,28 +54,28 @@ function onClear(slot_data)
     -- reset items
     for _, item in pairs(ITEM_MAPPING) do
         for _, item_code in pairs(item) do
-          item_code = item[1]
-          item_type = item[2]
-          initial_state = item[3]
---            if item_code and item[2] then
+            item_code = item[1]
+            item_type = item[2]
+            initial_state = item[3]
+            --            if item_code and item[2] then
             local item_obj = Tracker:FindObjectForCode(item_code)
---            if item_obj then
---                if item_type == "toggle" then
---                    item_obj.Active = false
---                elseif item_type == "progressive" then
---                    item_obj.CurrentStage = 0
---                    item_obj.Active = false
---                elseif item_type == "consumable" then
---                    if item_obj.MinCount then
---                        item_obj.AcquiredCount = item_obj.MinCount
---                    else
---                        item_obj.AcquiredCount = 0
---                    end
---                elseif item_type == "progressive_toggle" then
---                    item_obj.CurrentStage = 0
---                    item_obj.Active = false
---                end
---            end
+            --            if item_obj then
+            --                if item_type == "toggle" then
+            --                    item_obj.Active = false
+            --                elseif item_type == "progressive" then
+            --                    item_obj.CurrentStage = 0
+            --                    item_obj.Active = false
+            --                elseif item_type == "consumable" then
+            --                    if item_obj.MinCount then
+            --                        item_obj.AcquiredCount = item_obj.MinCount
+            --                    else
+            --                        item_obj.AcquiredCount = 0
+            --                    end
+            --                elseif item_type == "progressive_toggle" then
+            --                    item_obj.CurrentStage = 0
+            --                    item_obj.Active = false
+            --                end
+            --            end
             if item_obj then
                 if item_obj.Type == "toggle" then
                     item_obj.Active = false
@@ -96,7 +94,7 @@ function onClear(slot_data)
                 end
             end
         end
---        end
+        --        end
     end
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
@@ -105,13 +103,13 @@ function onClear(slot_data)
     --     autoFill(slot_data)
     -- end
 
--- Placeholder code for auto tab switching.
---    if Archipelago.PlayerNumber > -1 then
---        print("HOOO BOI")
---        cur_stage = "ttyd_map_"..TEAM_NUMBER.."_"..PLAYER_ID
---        Archipelago:SetNotify({cur_stage})
---        Archipelago:Get({cur_stage})
---    end
+    -- Placeholder code for auto tab switching.
+    --    if Archipelago.PlayerNumber > -1 then
+    --        print("HOOO BOI")
+    --        cur_stage = "ttyd_map_"..TEAM_NUMBER.."_"..PLAYER_ID
+    --        Archipelago:SetNotify({cur_stage})
+    --        Archipelago:Get({cur_stage})
+    --    end
 end
 
 -- Placeholder code for auto tab switching.
@@ -140,32 +138,32 @@ function onItem(index, item_id, item_name, player_number)
         --print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
---    for _, item_code in pairs(item[1]) do
-        -- print(item[1], item[2])
+    --    for _, item_code in pairs(item[1]) do
+    -- print(item[1], item[2])
     item_code = item[1]
     item_type = item[2]
     local item_obj = Tracker:FindObjectForCode(item_code)
---    if item_obj then
---        if item_type == "toggle" then
---            -- print("toggle")
---            item_obj.Active = true
---        elseif item_type == "progressive" then
---            -- print("progressive")
---            item_obj.Active = true
---        elseif item_type == "consumable" then
---            -- print("consumable")
---            item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment
---        elseif item_type == "progressive_toggle" then
---            -- print("progressive_toggle")
---            if item_obj.Active then
---                item_obj.CurrentStage = item_obj.CurrentStage + 1
---            else
---                item_obj.Active = true
---            end
---        end
---    else
---        print(string.format("onItem: could not find object for code %s", item_code[1]))
---    end
+    --    if item_obj then
+    --        if item_type == "toggle" then
+    --            -- print("toggle")
+    --            item_obj.Active = true
+    --        elseif item_type == "progressive" then
+    --            -- print("progressive")
+    --            item_obj.Active = true
+    --        elseif item_type == "consumable" then
+    --            -- print("consumable")
+    --            item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment
+    --        elseif item_type == "progressive_toggle" then
+    --            -- print("progressive_toggle")
+    --            if item_obj.Active then
+    --                item_obj.CurrentStage = item_obj.CurrentStage + 1
+    --            else
+    --                item_obj.Active = true
+    --            end
+    --        end
+    --    else
+    --        print(string.format("onItem: could not find object for code %s", item_code[1]))
+    --    end
     if item_obj then
         if item_obj.Type == "toggle" then
             -- print("toggle")
@@ -187,7 +185,7 @@ function onItem(index, item_id, item_name, player_number)
     else
         print(string.format("onItem: could not find object for code %s", item_code[1]))
     end
---    end
+    --    end
 end
 
 --called when a location gets cleared
@@ -244,7 +242,7 @@ end
 --                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
 --                 if item.Type == "toggle" then
 --                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else 
+--                 else
 --                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
 --                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
 --                 end
