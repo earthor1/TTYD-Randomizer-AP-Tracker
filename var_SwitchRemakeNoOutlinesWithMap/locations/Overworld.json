@@ -609,7 +609,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,SuperBoots"],
+                        "access_rules": ["[$yoshi],SuperBoots"],
                         "item_count": 1
                     }
                 ],
@@ -2600,13 +2600,13 @@
                     {
                         "name": "Hooktail's Castle Stair Central Staircase - Castle Key",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PaperCurse,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
                         "item_count": 1
                     },
                     {
                         "name": "Hooktail's Castle Stair Central Staircase - Last Stand P",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PaperCurse,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
                         "item_count": 1
                     },
                     {
@@ -2614,7 +2614,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,PaperCurse,PlaneCurse,Koops,CastleKey3","$htcastle,PaperCurse,PlaneCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
                         "item_count": 1
                     },
                     {
@@ -2644,7 +2644,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,CastleKey1,Koops","$htcastle,CastleKey1,[Koops],Bobbery"],
+                        "access_rules": ["$htcastle,CastleKey1,Koops","$htcastle,CastleKey1,[Koops],Bobbery","$htcastle,CastleKey1,PaperCurse"],
                         "item_count": 1
                     },
                     {
