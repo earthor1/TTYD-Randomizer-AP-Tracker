@@ -104,7 +104,30 @@ function onClear(slot_data)
     -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
     --     autoFill(slot_data)
     -- end
+
+-- Placeholder code for auto tab switching.
+--    if Archipelago.PlayerNumber > -1 then
+--        print("HOOO BOI")
+--        cur_stage = "ttyd_map_"..TEAM_NUMBER.."_"..PLAYER_ID
+--        Archipelago:SetNotify({cur_stage})
+--        Archipelago:Get({cur_stage})
+--    end
 end
+
+-- Placeholder code for auto tab switching.
+--function onNotify(key, value, old_value)
+--    if value ~= old_value then
+--        if key == cur_stage then
+--            print("map"..value)
+--        end
+--    end
+--end
+
+--function onNotifyLaunch(key, value)
+--    if key == cur_stage then
+--        print("map: "..value)
+--    end
+--end
 
 function onItem(index, item_id, item_name, player_number)
     if index <= CUR_INDEX then
@@ -235,3 +258,7 @@ end
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+
+-- Placeholder code for auto tab switching.
+--Archipelago:AddSetReplyHandler("notify handler", onNotify)
+--Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
