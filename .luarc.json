@@ -1,5 +1,0 @@
-{
-    "workspace.library": ["../../api/lua/definition"],
-    "runtime.version": "Lua 5.3",
-    "hint.enable": true
-}
