@@ -43,7 +43,7 @@ function sewerwestground()
 	end		
 
 function ttyd()
-return has("PlaneCurse") or has("SuperHammer") or (has("Flurrie") and has("Bobbery")) or (has("Flurrie") and(tube())) or (has("ContactLens") and has("PaperCurse"))
+return has("PlaneCurse") or has("SuperHammer") or (has("Flurrie") and has("Bobbery")) or (has("Flurrie") and(tube())) or (has("ContactLens") and has("PaperCurse") and has("Flurrie"))
 end	
 
 function twilight_town()

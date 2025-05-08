@@ -72,3 +72,11 @@ function containsItem(list, item)
     
     return false
 end
+
+function onEvent(key, value, old_value)
+    updateEvents(value)
+end
+
+function onEventsLaunch(key, value)
+    updateEvents(value)
+end
