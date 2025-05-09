@@ -83,12 +83,12 @@ function silly()
 	end		
 
 function poshley_heights()
-	return (has("TrainTicket") and (westside()) and (riverside()) and has("StationKey1") and has("ElevatorKey") and has("SuperHammer")) or (has("UltraHammer") and has("SuperBoots"))
-	end			
+	return ((poshleysanctum())) or (has("UltraHammer") and has("SuperBoots"))
+	end
 
 function poshleysanctum()
-	return has("TrainTicket") and (westside()) and (riverside()) and has("StationKey1") and has("ElevatorKey") and has("SuperHammer")
-	end			
+	return has("TrainTicket") and (westside()) and (riverside()) and has("StationKey1") and has("ElevatorKey") and has("UltraBoots")
+	end
 
 function htcastle()
 	return (has("PlaneCurse")) or (yoshi())
