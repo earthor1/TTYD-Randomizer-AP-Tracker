@@ -59,7 +59,7 @@
                 "name": "Yoshi",
                 "img": "images/items/WYoshiHD2.png",
                 "codes": "WYoshi"
-            },
+            }
         ],
         "codes": "Yoshi"
     },
@@ -676,7 +676,7 @@
                 "img": "images/items/PalaceKeyHD2.png",
                 "img_mods": "overlay|/images/Items/GreenOverlay3HD2.png,",
                 "codes": "PalaceKey3"
-            },
+            }
         ],
         "codes": "PalaceKey"
     },
@@ -732,7 +732,7 @@
                 "img": "images/items/PalaceKey(RiddleTower)HD2.png",
                 "img_mods": "overlay|/images/Items/GreenOverlay8HD2.png,",
                 "codes": "PalaceKey(RiddleTower)8"
-            },
+            }
         ],
         "codes": "PalaceKey(RiddleTower)"
     },
@@ -931,17 +931,17 @@
         "type": "progressive",
         "initial_stage_idx": 0,
         "img": "images/items/ShadowQueen.png",
-        "codes": "palace_skip"
+        "codes": "palace_skip",
         "stages": [
             {
                 "name": "Palace Skip Off",
-                "img": "images/items/Gloomtail.png",
+                "img": "images/items/Gloomtail.png"
             },
             {
                 "name": "Palace Skip On",
-                "img": "images/items/ShadowQueen.png",
+                "img": "images/items/ShadowQueen.png"
             }
-        ],
+        ]
     },
     {
         "name": "Show Locations Not Yet in Pool?",
@@ -949,5 +949,5 @@
         "img": "images/items/BadgePointPM2.png",
         "img_mods": "",
         "codes": "HiddenOn"
-    },
+    }
 ]

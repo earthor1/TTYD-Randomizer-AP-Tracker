@@ -12,6 +12,7 @@ function onClear(slot_data)
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
+    print(dump_table(slot_data))
     for _, location_array in pairs(LOCATION_MAPPING) do
         for _, location in pairs(location_array) do
             if location then
@@ -26,23 +27,14 @@ function onClear(slot_data)
             end
         end
     end
-    -- grabs settings from SLOT_DATA
-    print(dump_table(slot_data))
-    if SLOT_CODES[PalaceSkip] == 1 then
-        Tracker:FindObjectForCode(palace_skip).CurrentStage = 1
-    else
-        Tracker:FindObjectForCode(palace_skip).CurrentStage = 0
-      end
-    if SLOT_CODES[key] then
-        Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]
-      end
+
     -- reset items
     for _, item in pairs(ITEM_MAPPING) do
         for _, item_code in pairs(item) do
           item_code = item[1]
           item_type = item[2]
           initial_state = item[3]
-            local item_obj = Tracker:FindObjectForCode(item_code)
+            item_obj = Tracker:FindObjectForCode(item_code)
             if item_obj then
                 if item_obj.Type == "toggle" then
                     item_obj.Active = false
@@ -60,6 +52,24 @@ function onClear(slot_data)
                     item_obj.Active = initial_state or false
                 end
             end
+        end
+    end
+    -- Apply settings from SLOT_CODES
+    for key, value in pairs(SLOT_CODES) do
+        local setting_value = slot_data[key]
+        if setting_value ~= nil then
+            local item_obj = Tracker:FindObjectForCode(value.code)
+            if item_obj then
+                if value.mapping[setting_value] then
+                    item_obj.CurrentStage = value.mapping[setting_value]
+                else
+                    print(string.format("Warning: No mapping found for %s with value %s", key, setting_value))
+                end
+            else
+                print(string.format("Warning: Could not find object for code %s", value.code))
+            end
+        else
+            print(string.format("Warning: No slot_data found for key %s", key))
         end
     end
 end
