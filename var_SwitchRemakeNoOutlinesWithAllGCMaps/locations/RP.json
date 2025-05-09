@@ -231,15 +231,15 @@
                 "map_locations": [{"map": "Rogueport", "x": "615", "y": "1615"}]
             },
             {
-                "sections": [{"ref": "Magical Map/Rogueport Docks/Rogueport Docks - HP Drain"},
-                             {"ref": "Magical Map/Rogueport Docks/Rogueport Docks - Star Piece 2"}],
+                "sections": [{"name":"Rogueport Docks - HP Drain", "ref": "Magical Map/Rogueport Docks/Rogueport Docks - HP Drain"},
+                             {"name":"Star Piece 2", "ref": "Magical Map/Rogueport Docks/Rogueport Docks - Star Piece 2"}],
                 "map_locations": [{"map": "Rogueport", "x": "250", "y": "1475"}]
             }
         ]
     },
     {
         "name": "Rogeport Blimp Room",
-        "children":[
+        "children": [
             {
                 "sections": [{"ref": "Magical Map/Rogueport Blimp Room/Rogueport Blimp Room - Star Piece 1"}],
                 "map_locations": [{"map": "Rogueport", "x": "852", "y": "647"}]
@@ -252,10 +252,11 @@
     },
     {
         "name": "Rogueport Westside",
-        "children":[
+        "children": [
             {
-                "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Blimp Ticket"},
-                             {"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Train Ticket"}],
+                "name": " ",
+                "sections": [{"name":"Rogueport Westside - Blimp Ticket", "ref": "Magical Map/Rogueport Westside/Rogueport Westside - Blimp Ticket"},
+                             {"name":"Rogueport Westside - Train Ticket", "ref": "Magical Map/Rogueport Westside/Rogueport Westside - Train Ticket"}],
                 "map_locations": [{"map": "Rogueport", "x": "290", "y": "570"}]
             },
             {
