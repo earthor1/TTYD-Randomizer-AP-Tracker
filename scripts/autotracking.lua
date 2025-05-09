@@ -21,6 +21,3 @@ print("")
 
 -- loads the AP autotracking code
 ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
-
-
-        
