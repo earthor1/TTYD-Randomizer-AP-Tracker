@@ -4,7 +4,7 @@
         "children": [
             {
                 "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Ultra Hammer"}],
-                "map_locations": [{"map": "Rogueport", "x": "1975", "y": "867"}]
+                "map_locations": [{"map": "Rogueport", "x": "1052", "y": "1342"}]
             }
         ]
     }
