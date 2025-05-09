@@ -24,15 +24,6 @@
                                     "Rogueport"
                                 ]
                             }
-                        },
-                        {
-                            "title": "Underground",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Underground"
-                                ]
-                            }
                         }
                     ]
                 }
