@@ -5,11 +5,11 @@ ScriptHost:LoadScript("scripts/autotracking/settings_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = {}
+slot_data = SLOT_DATA
 
 function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
-    SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
     print(dump_table(slot_data))
@@ -58,23 +58,19 @@ function onClear(slot_data)
     for key, value in pairs(SLOT_CODES) do
         local setting_value = slot_data[key]
         if setting_value ~= nil then
-            local item_obj = Tracker:FindObjectForCode(value.code)
-            if item_obj then
-                if value.mapping[setting_value] then
+            item_obj = Tracker:FindObjectForCode(value.code)
+            if item_obj.Name ~= nil then
+                if item_obj.Name == "Chapter_Clears" then
                     item_obj.CurrentStage = value.mapping[setting_value]
-                else
-                    print(string.format("Warning: No mapping found for %s with value %s", key, setting_value))
                 end
-            else
-                print(string.format("Warning: Could not find object for code %s", value.code))
             end
-        else
-            print(string.format("Warning: No slot_data found for key %s", key))
         end
     end
 end
 
+
 function onItem(index, item_id, item_name, player_number)
+
     if index <= CUR_INDEX then
         return
     end
@@ -86,6 +82,23 @@ function onItem(index, item_id, item_name, player_number)
         return
     end
 
+    -- why must yoshi be so complicated. having this in onClear will populate their color on connection but we want this color to be filled on pickup of Yoshi
+--[[    for key, value in pairs(SLOT_CODES) do
+    local setting_value = slot_data[key]
+    if setting_value ~= nil then
+        local item_obj = Tracker:FindObjectForCode(value.code)
+        if item_obj then
+            if value.mapping then
+                if value.mapping["yoshi_color"] then
+                    if value.mapping[setting_value] ~= nil then
+                        item_obj.CurrentStage = item_obj.CurrentStage or {}
+                    end
+                end
+            end
+        end
+    end
+end
+--]]
     item_code = item[1]
     item_type = item[2]
     local item_obj = Tracker:FindObjectForCode(item_code)

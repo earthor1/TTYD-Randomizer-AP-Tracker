@@ -51,14 +51,14 @@ SLOT_CODES =
       [1] = 1  -- True
     }
   },
--- StartingCoins =
--- {
---   code = "starting_coins",
---   mapping =
---   {
---
---    }
---  },
+--[[
+StartingCoins =
+{
+  code = "starting_coins",
+  mapping =
+  {
+   }
+ },
 StartingPartner =
   {
     code = "starting_partner",
@@ -73,18 +73,19 @@ StartingPartner =
       [7] = 7, -- Ms. Mowz
     }
   },
+--]]
   YoshiColor =
   {
     code = "yoshi_color",
     mapping =
     {
-      [0] = 0, -- Green
-      [1] = 1, -- Red
-      [2] = 2, -- Blue
-      [3] = 3, -- Orange
-      [4] = 4, -- Pink
-      [5] = 5, -- Black
-      [6] = 6, -- White
+      [0] = "GYoshi", -- Green
+      [1] = "RYoshi", -- Red
+      [2] = "BYoshi", -- Blue
+      [3] = "OYoshi", -- Orange
+      [4] = "PYoshi", -- Pink
+      [5] = "DYoshi", -- Black
+      [6] = "WYoshi", -- White
     }
   }
 }
