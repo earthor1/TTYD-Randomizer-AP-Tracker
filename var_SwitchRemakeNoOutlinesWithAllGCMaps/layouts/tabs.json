@@ -24,6 +24,15 @@
                                     "Rogueport"
                                 ]
                             }
+                        },
+                        {
+                            "title": "Underground",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Rogueport"
+                                ]
+                            }
                         }
                     ]
                 }
@@ -113,6 +122,15 @@
                     "tabs": [
                         {
                             "title": "Rogueport",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Rogueport"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Underground",
                             "content": {
                                 "type": "map",
                                 "maps": [
