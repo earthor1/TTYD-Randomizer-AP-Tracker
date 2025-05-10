@@ -3451,7 +3451,7 @@
                     {
                         "name": "Pirate's Grotto Gate Handle Room - Gate Handle",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,Bobbery,BoatCurse{}"],
+                        "access_rules": ["$yoshi,Bobbery,BoatCurse","{}"],
                         "item_count": 1
                     },
                     {
