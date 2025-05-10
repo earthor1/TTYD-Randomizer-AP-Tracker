@@ -124,26 +124,29 @@ function onLocation(location_id, location_name)
 end
 
 -- Code for auto tab switching.
-function onNotify(key, value, old_value)
-    if value ~= old_value then
+if has("AutoTabOn") then
+    function onNotify(key, value, old_value)
+        if value ~= old_value then
+            if key == cur_room then
+                print("yeah")
+                print("map: " .. value)
+            end
+        end
+    end
+
+    function onNotifyLaunch(key, value)
         if key == cur_room then
             print("yeah")
             print("map: " .. value)
         end
     end
-end
 
-function onNotifyLaunch(key, value)
-    if key == cur_room then
-        print("yeah")
-        print("map: " .. value)
-    end
-end
 
-function onMapChange(key, value, old)
-    tabs = MAP_MAPPING[tostring(value)]
-    for i, tab in ipairs(tabs) do
+    function onMapChange(key, value, old)
+        tabs = MAP_MAPPING[tostring(value)]
+        for i, tab in ipairs(tabs) do
         Tracker:UiHint("ActivateTab", tab)
+        end
     end
 end
 
