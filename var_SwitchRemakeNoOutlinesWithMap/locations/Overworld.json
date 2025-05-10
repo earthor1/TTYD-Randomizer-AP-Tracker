@@ -3319,7 +3319,7 @@
                     {
                         "name": "Keelhaul Key Jungle Bridge - Ice Power",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,PaperCurse"],
+                        "access_rules": ["[$yoshi,PaperCurse]"],
                         "item_count": 1
                     },
                     {
@@ -3451,7 +3451,7 @@
                     {
                         "name": "Pirate's Grotto Gate Handle Room - Gate Handle",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,Bobbery,BoatCurse"],
+                        "access_rules": ["$yoshi,Bobbery,BoatCurse{}"],
                         "item_count": 1
                     },
                     {
