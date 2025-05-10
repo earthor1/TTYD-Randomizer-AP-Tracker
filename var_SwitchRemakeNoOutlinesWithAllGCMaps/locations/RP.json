@@ -232,7 +232,7 @@
             },
             {
                 "sections": [{"name":"Rogueport Docks - HP Drain", "ref": "Magical Map/Rogueport Docks/Rogueport Docks - HP Drain"},
-                             {"name":"Star Piece 2", "ref": "Magical Map/Rogueport Docks/Rogueport Docks - Star Piece 2"}],
+                             {"name":"Rogueport Docks - Star Piece 2", "ref": "Magical Map/Rogueport Docks/Rogueport Docks - Star Piece 2"}],
                 "map_locations": [{"map": "Rogueport", "x": "250", "y": "1475"}]
             }
         ]
@@ -254,7 +254,6 @@
         "name": "Rogueport Westside",
         "children": [
             {
-                "name": " ",
                 "sections": [{"name":"Rogueport Westside - Blimp Ticket", "ref": "Magical Map/Rogueport Westside/Rogueport Westside - Blimp Ticket"},
                              {"name":"Rogueport Westside - Train Ticket", "ref": "Magical Map/Rogueport Westside/Rogueport Westside - Train Ticket"}],
                 "map_locations": [{"map": "Rogueport", "x": "290", "y": "570"}]
