@@ -1,101 +1,56 @@
 MAP_MAPPING = {}
 
+function addMapIds(map, range_start, range_end, tabpath)
+    for i = range_start, range_end do
+        MAP_MAPPING[string.format("%s_%02d", map, i)] = tabpath
+    end
+end
+
 --Rogueport
-for i = 0, 4 do
-    MAP_MAPPING[string.format("gor_%02d", i)] = {"Rogueport", "Rogueport"}
-end
-
+addMapIds("gor", 0, 4, {"Rogueport", "Rogueport"})
 --Underground
-for i = 0, 21 do
-    MAP_MAPPING[string.format("tik_%02d", i)] = {"Rogueport", "Underground"}
-end
-
+addMapIds("tik", 0,21, {"Rogueport", "Underground"})
 --Hooktail Castle
-for i = 0, 13 do
-    MAP_MAPPING[string.format("gon_%02d", i)] = {"Chapter 1"}
-end
-
+addMapIds("gon", 0, 13, {"Chapter 1", "Hooktail Castle"})
 --Petal Meadows
-for i = 0, 13 do
-    MAP_MAPPING[string.format("hei_%02d", i)] = {"Chapter 1"}
-end
-
+addMapIds("hei", 0, 1, {"Chapter 1", "Petal Meadows"})
+addMapIds("hei", 13, 13, {"Chapter 1", "Petal Meadows"})
 --Petalburg
-for i = 0, 1 do
-    MAP_MAPPING[string.format("nok_%02d", i)] = {"Chapter 1"}
-end
-
+addMapIds("nok", 0, 1, {"Chapter 1", "Petalburg"})
+--Shhwonk Fortress
+addMapIds("hei", 2, 12, {"Chapter 1", "Shhwonk Fortress"})
 --Great Tree
-for i = 0, 20 do
-    MAP_MAPPING[string.format("mri_%02d", i)] = {"Chapter 2"}
-end
-
+addMapIds("mri", 0, 20, {"Chapter 2", "The Great Tree"})
 --Boggly Woods
-for i = 0, 6 do
-    MAP_MAPPING[string.format("win_%02d", i)] = {"Chapter 2"}
-end
-
+addMapIds("win", 0, 6, {"Chapter 2", "Boggly Woods"})
 --Glitzville
-for i = 0, 13 do
-    MAP_MAPPING[string.format("tou_%02d", i)] = {"Chapter 3"}
-end
-
---Twilight Trail
-for i = 0, 6 do
-    MAP_MAPPING[string.format("gra_%02d", i)] = {"Chapter "}
-end
-
+addMapIds("tou", 1, 1, {"Chapter 3"})
+--Glitzpit
+addMapIds("tou", 2, 13, {"Chapter 3"})
+--Twilight trail
+addMapIds("gra", 0, 6, {"Chapter 4"})
 --Creepy Steeple
-for i = 0, 11 do
-    MAP_MAPPING[string.format("jin_%02d", i)] = {"Chapter 4"}
-end
-
+addMapIds("jin", 0, 11, {"Chapter 4"})
 --Twilight Town
-for i = 0, 1 do
-    MAP_MAPPING[string.format("usu_%02d", i)] = {"Chapter 4"}
-end
-
+addMapIds("usu", 0, 1, {"Chapter 4"})
 --Pirate's Grotto
-for i = 0, 13 do
-    MAP_MAPPING[string.format("dou_%02d", i)] = {"Chapter 5"}
-end
-
+addMapIds("dou", 0, 13, {"Chapter 5"})
 --Keelhaul Key
-for i = 0, 12 do
-    MAP_MAPPING[string.format("muj_%02d", i)] = {"Chapter 5"}
-end
-
+addMapIds("muj", 0, 12, {"Chapter 5"})
+--Riverside Station
+addMapIds("hom", 0, 0, {"Chapter 6"})
+addMapIds("eki", 0, 6, {"Chapter 6"})
 --Poshley Heights
-for i = 0, 4 do
-    MAP_MAPPING[string.format("pik_%02d", i)] = {"Chapter 6"}
-end
-
+addMapIds("pik", 0, 4, {"Chapter 6"})
 --Excess Express
-for i = 0, 6 do
-    MAP_MAPPING[string.format("rsh_%02d", i)] = {"Chapter 6"}
-end
-
+addMapIds("rsh", 0, 6, {"Chapter 6"})
 --X-Naut Fortress
-for i = 0, 19 do
-    MAP_MAPPING[string.format("aji_%02d", i)] = {"Chapter 7"}
-end
-
+addMapIds("aji", 0, 19, {"Chapter 7"})
 --Fahr Outpost
-for i = 0, 4 do
-    MAP_MAPPING[string.format("bom_%02d", i)] = {"Chapter 7"}
-end
-
+addMapIds("bom", 0, 4, {"Chapter 7"})
 --The Moon
-for i = 0, 7 do
-    MAP_MAPPING[string.format("moo_%02d", i)] = {"Chapter 7"}
-end
-
+addMapIds("moo", 0, 7, {"Chapter 7"})
 --The Thousand-Year Door
-for i = 0, 30 do
-    MAP_MAPPING[string.format("las_%02d", i)] = {"Chapter 8"}
-end
-
+addMapIds("las", 0, 30, {"Chapter 8"})
 --Pit of 100 Trials
-for i = 0, 6 do
-    MAP_MAPPING[string.format("jon_%02d", i)] = {"Magical Map"}
-end
+addMapIds("jon", 0, 6, {"Magical Map"})
