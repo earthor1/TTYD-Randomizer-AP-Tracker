@@ -23,7 +23,6 @@
     {
         "name": "Yoshi",
         "type": "progressive_toggle",
-        "img": "images/items/YoshiHD2.png",
         "stages": [
             {
                 "name": "Yoshi",

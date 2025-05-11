@@ -54,19 +54,19 @@ function onClear(slot_data)
             end
         end
     end
-    -- Apply settings from SLOT_CODES
+-- Apply settings from SLOT_CODES
     for key, value in pairs(SLOT_CODES) do
         local setting_value = slot_data[key]
         if setting_value ~= nil then
             item_obj = Tracker:FindObjectForCode(value.code)
-            if item_obj.Name ~= nil then
-                if item_obj.Name == "Chapter_Clears" then
-                    item_obj.CurrentStage = value.mapping[setting_value]
-                end
+            if item_obj then
+                item_obj.CurrentStage = value.mapping[setting_value]
             end
         end
     end
 end
+
+
 
 
 function onItem(index, item_id, item_name, player_number)
@@ -81,24 +81,6 @@ function onItem(index, item_id, item_name, player_number)
         --print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
-
-    -- why must yoshi be so complicated. having this in onClear will populate their color on connection but we want this color to be filled on pickup of Yoshi
---[[    for key, value in pairs(SLOT_CODES) do
-    local setting_value = slot_data[key]
-    if setting_value ~= nil then
-        local item_obj = Tracker:FindObjectForCode(value.code)
-        if item_obj then
-            if value.mapping then
-                if value.mapping["yoshi_color"] then
-                    if value.mapping[setting_value] ~= nil then
-                        item_obj.CurrentStage = item_obj.CurrentStage or {}
-                    end
-                end
-            end
-        end
-    end
-end
---]]
     item_code = item[1]
     item_type = item[2]
     local item_obj = Tracker:FindObjectForCode(item_code)

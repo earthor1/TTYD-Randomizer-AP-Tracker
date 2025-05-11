@@ -5,13 +5,14 @@ SLOT_CODES =
     code = "Chapter_Clears",
     mapping =
     {
-      [0] = 0, --  1 Chapter
-      [1] = 1, --  2 Chapters
-      [2] = 2, --  3 Chapters
-      [3] = 3, --  4 Chapters
-      [4] = 4, --  5 Chapters
-      [5] = 5, --  6 Chapters
-      [6] = 6, --  7 Chapters
+      [0] = 1, --  0 Chapters
+      [1] = 2, --  1 Chapters
+      [2] = 3, --  2 Chapters
+      [3] = 4, --  3 Chapters
+      [4] = 5, --  4 Chapters
+      [5] = 6, --  5 Chapters
+      [6] = 7, --  6 Chapters
+      [7] = 8, --  7 Chapters
     }
   },
   PitItems =
@@ -20,8 +21,8 @@ SLOT_CODES =
     mapping =
     {
       [0] = 0, -- Vanilla Pit
-      [1] = 1, -- Filler Pit
-      [2] = 2  -- Any item in Pit
+      [1] = 0, -- Filler Pit
+      [2] = 1  -- Any item in Pit
     }
   },
   LimitChapterLogic =
@@ -74,18 +75,17 @@ StartingPartner =
     }
   },
 --]]
-  YoshiColor =
-  {
-    code = "yoshi_color",
+{
+code = "yoshi_color",
     mapping =
     {
-      [0] = "GYoshi", -- Green
-      [1] = "RYoshi", -- Red
-      [2] = "BYoshi", -- Blue
-      [3] = "OYoshi", -- Orange
-      [4] = "PYoshi", -- Pink
-      [5] = "DYoshi", -- Black
-      [6] = "WYoshi", -- White
+      [0] = "1", -- Green
+      [1] = "2", -- Red
+      [2] = "3", -- Blue
+      [3] = "4", -- Orange
+      [4] = "5", -- Pink
+      [5] = "6", -- Black
+      [6] = "7", -- White
     }
   }
 }
