@@ -22,7 +22,8 @@
     },
     {
         "name": "Yoshi",
-        "type": "progressive_toggle",
+        "type": "progressive",
+        "loop": "true",
         "img": "images/items/YoshiHD2.png",
         "stages": [
             {
@@ -623,7 +624,7 @@
     },
     {
         "name": "Castle Key",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "img": "images/items/CastleKeyHD2.png",
         "stages": [
             {
@@ -656,7 +657,7 @@
     {
         "name": "Palace Key",
         "type": "progressive",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "img_mods": "overlay|/images/Items/Overlay0HD2.png,",
         "stages": [
             {
@@ -682,7 +683,7 @@
     },
     {
         "name": "Palace Key (Riddle Tower)",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "img": "images/items/PalaceKey(RiddleTower)HD2.png",
         "stages": [
             {
@@ -738,7 +739,7 @@
     },
     {
         "name": "Boots",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "initial_stage_idx": 0,
         "initial_active_state": "true",
         "img": "images/items/BootsHD2.png",
@@ -763,7 +764,7 @@
     },
     {
         "name": "Hammer",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "initial_stage_idx": 0,
         "initial_active_state": "true",
         "img": "images/items/HammerHD2.png",

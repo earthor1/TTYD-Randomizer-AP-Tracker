@@ -15,7 +15,8 @@
     },
     {
         "name": "Yoshi",
-        "type": "progressive_toggle",
+        "type": "progressive",
+        "loop": "true",
         "img": "images/items/Yoshi.png",
         "stages": [
             {
@@ -731,7 +732,7 @@
     },
     {
         "name": "Boots",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "img": "images/items/Boots.png",
         "stages": [
             {
@@ -754,7 +755,7 @@
     },
     {
         "name": "Hammer",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "img": "images/items/Hammer.png",
         "stages": [
             {
