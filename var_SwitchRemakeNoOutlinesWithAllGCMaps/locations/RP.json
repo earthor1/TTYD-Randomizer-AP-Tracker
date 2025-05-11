@@ -1,35 +1,34 @@
 [
     {
         "name": "Rogueport Center",
-        "children": [
+        "children": [            
             {
                 "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Star Piece 1"}],
-                "map_locations": [{"map": "Rogueport", "x": "852", "y": "1005"}]
+                "map_locations": [{"map": "Rogueport", "x": "1890", "y": "1063"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Star Piece 2"}],
-                "map_locations": [{"map": "Rogueport", "x": "743", "y": "1407"}]
+                "map_locations": [{"map": "Rogueport", "x": "1781", "y": "1465"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Star Piece 3"}],
-                "map_locations": [{"map": "Rogueport", "x": "1020", "y": "1514"}]
+                "map_locations": [{"map": "Rogueport", "x": "2040", "y": "1560"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Star Piece 4"}],
-                "map_locations": [{"map": "Rogueport", "x": "1214", "y": "1318"}]
+                "map_locations": [{"map": "Rogueport", "x": "2252", "y": "1376"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Star Piece 5"}],
-                "map_locations": [{"map": "Rogueport", "x": "750", "y": "990"}]
+                "map_locations": [{"map": "Rogueport", "x": "1788", "y": "1048"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Ultra Hammer"}],
-                "map_locations": [{"map": "Rogueport", "x": "1052", "y": "1342"}]
+                "map_locations": [{"map": "Rogueport", "x": "2090", "y": "1400"}]
             },
             {
-                
                 "sections": [{"ref": "Magical Map/Rogueport Center/Rogueport Center - Old Letter"}],
-                "map_locations": [{"map": "Rogueport", "x": "980", "y": "1272"}]
+                "map_locations": [{"map": "Rogueport", "x": "2018", "y": "1330"}]
             },
             {
                 "name": "Rogueport Center - Lovely Howz of Badges",
@@ -103,7 +102,7 @@
                     }
 
                 ],
-                "map_locations": [{"map": "Rogueport", "x": "918", "y": "1129"}]
+                "map_locations": [{"map": "Rogueport", "x": "1956", "y": "1187"}]
             },
             {
                 "name": "Rogueport Center - Toad Bros. Bazaar",
@@ -125,7 +124,7 @@
                         "ref": "Magical Map/Rogueport Center - Toad Bros. Bazaar/Rogueport Center (Toad Bros. Bazaar) - Fright Mask Purchase"
                     }
                 ],
-                "map_locations": [{"map": "Rogueport", "x": "888", "y": "1190"}]
+                "map_locations": [{"map": "Rogueport", "x": "1926", "y": "1248"}]
             },
             {
                 "name": "Rogueport Center - Charlieton",
@@ -174,7 +173,7 @@
                         "ref": "Magical Map/Rogueport Center - Charlieton/Rogueport Center (Charlieton) - Attack FX G Purchase"
                     }
                 ],
-                "map_locations": [{"map": "Rogueport", "x": "724", "y": "1245"}]
+                "map_locations": [{"map": "Rogueport", "x": "1762", "y": "1303"}]
             }
         ]
     },
@@ -182,44 +181,38 @@
         "name": "Rogueport Eastside",
         "children": [
             {
-                "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Power Smash"}],
-                "map_locations": [{"map": "Rogueport", "x": "1384", "y": "1627"}]
-            },
-            {
                 "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Double Dip"}],
-                "map_locations": [{"map": "Rogueport", "x": "1330", "y": "1872"}]
+                "map_locations": [{"map": "Rogueport", "x": "2368", "y": "1930"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Shine Sprite 1"}],
-                "map_locations": [{"map": "Rogueport", "x": "1540", "y": "1444"}]
+                "map_locations": [{"map": "Rogueport", "x": "2578", "y": "1502"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Shine Sprite 2"}],
-                "map_locations": [{"map": "Rogueport", "x": "1760", "y": "1740"}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Shine Sprite 3"}],
-                "map_locations": [{"map": "Rogueport", "x": "1450", "y": "1650"}]
+                "map_locations": [{"map": "Rogueport", "x": "2798", "y": "1798"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Star Piece 1"}],
-                "map_locations": [{"map": "Rogueport", "x": "1550", "y": "1550"}]
+                "map_locations": [{"map": "Rogueport", "x": "2588", "y": "1608"}]
             },
             {
-                "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Star Piece 2"}],
-                "map_locations": [{"map": "Rogueport", "x": "852", "y": "1005"}]
+                "sections": [{"name": "Rogueport Eastside - Power Smash", "ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Power Smash"},
+                             {"name": "Rogueport Eastside - Star Piece 2", "ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Star Piece 2"}],
+                "map_locations": [{"map": "Rogueport", "x": "2422", "y": "1685"}]
             },
             {
-                "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Star Piece 3"}],
-                "map_locations": [{"map": "Rogueport", "x": "852", "y": "1005"}]
+                "sections": [{"name": "Rogueport Eastside - Star Piece 3", "ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Star Piece 3"},
+                             {"name": "Rogueport Eastside - Shine Sprite 3", "ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Shine Sprite 3"}],
+                "map_locations": [{"map": "Rogueport", "x": "2488", "y": "1708"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Star Piece 4"}],
-                "map_locations": [{"map": "Rogueport", "x": "1600", "y": "1610"}]
+                "map_locations": [{"map": "Rogueport", "x": "2638", "y": "1668"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Eastside/Rogueport Eastside - Star Piece 5"}],
-                "map_locations": [{"map": "Rogueport", "x": "1645", "y": "1808"}]
+                "map_locations": [{"map": "Rogueport", "x": "2683", "y": "1866"}]
             }
         ]        
     },
@@ -228,12 +221,12 @@
         "children": [
             {
                 "sections": [{"ref": "Magical Map/Rogueport Docks/Rogueport Docks - Star Piece 1"}],
-                "map_locations": [{"map": "Rogueport", "x": "615", "y": "1615"}]
+                "map_locations": [{"map": "Rogueport", "x": "1653", "y": "1673"}]
             },
             {
                 "sections": [{"name":"Rogueport Docks - HP Drain", "ref": "Magical Map/Rogueport Docks/Rogueport Docks - HP Drain"},
                              {"name":"Rogueport Docks - Star Piece 2", "ref": "Magical Map/Rogueport Docks/Rogueport Docks - Star Piece 2"}],
-                "map_locations": [{"map": "Rogueport", "x": "250", "y": "1475"}]
+                "map_locations": [{"map": "Rogueport", "x": "1288", "y": "1533"}]
             }
         ]
     },
@@ -242,11 +235,11 @@
         "children": [
             {
                 "sections": [{"ref": "Magical Map/Rogueport Blimp Room/Rogueport Blimp Room - Star Piece 1"}],
-                "map_locations": [{"map": "Rogueport", "x": "852", "y": "647"}]
+                "map_locations": [{"map": "Rogueport", "x": "1890", "y": "705"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Blimp Room/Rogueport Blimp Room - Star Piece 2"}],
-                "map_locations": [{"map": "Rogueport", "x": "430", "y": "292"}]
+                "map_locations": [{"map": "Rogueport", "x": "1468", "y": "350"}]
             }
         ]
     },
@@ -256,35 +249,35 @@
             {
                 "sections": [{"name":"Rogueport Westside - Blimp Ticket", "ref": "Magical Map/Rogueport Westside/Rogueport Westside - Blimp Ticket"},
                              {"name":"Rogueport Westside - Train Ticket", "ref": "Magical Map/Rogueport Westside/Rogueport Westside - Train Ticket"}],
-                "map_locations": [{"map": "Rogueport", "x": "290", "y": "570"}]
+                "map_locations": [{"map": "Rogueport", "x": "1328", "y": "628"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Mushroom"}],
-                "map_locations": [{"map": "Rogueport", "x": "200", "y": "950"}]
+                "map_locations": [{"map": "Rogueport", "x": "1238", "y": "1008"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Shine Sprite 1"}],
-                "map_locations": [{"map": "Rogueport", "x": "200", "y": "590"}]
+                "map_locations": [{"map": "Rogueport", "x": "1238", "y": "648"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Shine Sprite 2"}],
-                "map_locations": [{"map": "Rogueport", "x": "700", "y": "635"}]
+                "map_locations": [{"map": "Rogueport", "x": "1738", "y": "693"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Star Piece 1"}],
-                "map_locations": [{"map": "Rogueport", "x": "545", "y": "1060"}]
+                "map_locations": [{"map": "Rogueport", "x": "1583", "y": "1118"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Star Piece 2"}],
-                "map_locations": [{"map": "Rogueport", "x": "400", "y": "955"}]
+                "map_locations": [{"map": "Rogueport", "x": "1438", "y": "1013"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Star Piece 3"}],
-                "map_locations": [{"map": "Rogueport", "x": "105", "y": "692"}]
+                "map_locations": [{"map": "Rogueport", "x": "1143", "y": "750"}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Star Piece 4"}],
-                "map_locations": [{"map": "Rogueport", "x": "305", "y": "775"}]
+                "map_locations": [{"map": "Rogueport", "x": "1343", "y": "833"}]
             },
             {
                 "name": "Rogueport Westside (Pianta Parlor)",
@@ -345,7 +338,7 @@
                         "ref": "Magical Map/Rogueport Westside (Pianta Parlor)/Rogueport Westside (Pianta Parlor) - Ultra Shroom"
                     }
                 ],
-                "map_locations": [{"map": "Rogueport", "x": "480", "y": "670"}]
+                "map_locations": [{"map": "Rogueport", "x": "1518", "y": "728"}]
             },
             {
                 "name": "Rogueport Westside (Westside Goods)",
@@ -370,7 +363,7 @@
                         "ref": "Magical Map/Rogueport Westside (Westside Goods)/Super Shroom Purchase"
                     }
                 ],
-                "map_locations": [{"map": "Rogueport", "x": "170", "y": "710"}]
+                "map_locations": [{"map": "Rogueport", "x": "1208", "y": "768"}]
             }
         ]
     }
