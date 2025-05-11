@@ -52,15 +52,6 @@
                             }
                         },
                         {
-                            "title": "Petalburg",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Petalburg"
-                                ]
-                            }
-                        },
-                        {
                             "title": "Shhwonk Fortress",
                             "content": {
                                 "type": "map",
@@ -249,15 +240,6 @@
                                 "type": "map",
                                 "maps": [
                                     "Petal Meadows"
-                                ]
-                            }
-                        },
-                        {
-                            "title": "Petalburg",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Petalburg"
                                 ]
                             }
                         },

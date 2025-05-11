@@ -24,22 +24,10 @@
                 "img": "images/maps/Chapter 1/petal_meadows.png"
             },
             {
-                "name": "Petalburg",
-                "location_size": 32,
-                "location_border_thickness": 2,
-                "img": "images/maps/Chapter 1/petalburg.png"
-            },
-            {
                 "name": "Shhwonk Fortress",
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 1/shhwonk_fortress.png"
-            },
-            {
-                "name": "Sewers",
-                "location_size": 32,
-                "location_border_thickness": 2,
-                "img": "images/maps/Chapter 1/sewers.png"
             },
             {
                 "name": "HTC 1",
