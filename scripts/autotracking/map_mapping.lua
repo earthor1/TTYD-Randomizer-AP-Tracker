@@ -9,14 +9,14 @@ end
 --Rogueport
 addMapIds("gor", 0, 4, {"Rogueport", "Rogueport"})
 --Underground
-addMapIds("tik", 0,21, {"Rogueport", "Underground"})
+addMapIds("tik", 0, 21, {"Rogueport", "Underground"})
 --Hooktail Castle
 addMapIds("gon", 0, 13, {"Chapter 1", "Hooktail Castle"})
 --Petal Meadows
 addMapIds("hei", 0, 1, {"Chapter 1", "Petal Meadows"})
 addMapIds("hei", 13, 13, {"Chapter 1", "Petal Meadows"})
 --Petalburg
-addMapIds("nok", 0, 1, {"Chapter 1", "Petalburg"})
+addMapIds("nok", 0, 1, {"Chapter 1", "Petal Meadows"})
 --Shhwonk Fortress
 addMapIds("hei", 2, 12, {"Chapter 1", "Shhwonk Fortress"})
 --Great Tree
