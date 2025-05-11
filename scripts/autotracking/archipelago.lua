@@ -15,48 +15,48 @@ function onClear(slot_data)
     if Archipelago.PlayerNumber > -1 then
         print("SUCCESS?")
         cur_room = "ttyd_room_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
-        Archipelago:SetNotify({cur_room})
-        Archipelago:Get({cur_room})
+        Archipelago:SetNotify({ cur_room })
+        Archipelago:Get({ cur_room })
     end
-end
 
--- reset locations
-for _, location_array in pairs(LOCATION_MAPPING) do
-    for _, location in pairs(location_array) do
-        if location then
-            local location_obj = Tracker:FindObjectForCode(location)
-            if location_obj then
-                if location:sub(1, 1) == "@" then
-                    location_obj.AvailableChestCount = location_obj.ChestCount
-                else
-                    location_obj.Active = false
+    -- reset locations
+    for _, location_array in pairs(LOCATION_MAPPING) do
+        for _, location in pairs(location_array) do
+            if location then
+                local location_obj = Tracker:FindObjectForCode(location)
+                if location_obj then
+                    if location:sub(1, 1) == "@" then
+                        location_obj.AvailableChestCount = location_obj.ChestCount
+                    else
+                        location_obj.Active = false
+                    end
                 end
             end
         end
     end
-end
--- reset items
-for _, item in pairs(ITEM_MAPPING) do
-    for _, item_code in pairs(item) do
-        item_code = item[1]
-        item_type = item[2]
-        initial_state = item[3]
-        local item_obj = Tracker:FindObjectForCode(item_code)
-        if item_obj then
-            if item_obj.Type == "toggle" then
-                item_obj.Active = false
-            elseif item_obj.Type == "progressive" then
-                item_obj.CurrentStage = 0
-                item_obj.Active = initial_state or false
-            elseif item_obj.Type == "consumable" then
-                if item_obj.MinCount then
-                    item_obj.AcquiredCount = item_obj.MinCount
-                else
-                    item_obj.AcquiredCount = 0
+    -- reset items
+    for _, item in pairs(ITEM_MAPPING) do
+        for _, item_code in pairs(item) do
+            item_code = item[1]
+            item_type = item[2]
+            initial_state = item[3]
+            local item_obj = Tracker:FindObjectForCode(item_code)
+            if item_obj then
+                if item_obj.Type == "toggle" then
+                    item_obj.Active = false
+                elseif item_obj.Type == "progressive" then
+                    item_obj.CurrentStage = 0
+                    item_obj.Active = initial_state or false
+                elseif item_obj.Type == "consumable" then
+                    if item_obj.MinCount then
+                        item_obj.AcquiredCount = item_obj.MinCount
+                    else
+                        item_obj.AcquiredCount = 0
+                    end
+                elseif item_obj.Type == "progressive_toggle" then
+                    item_obj.CurrentStage = 0
+                    item_obj.Active = initial_state or false
                 end
-            elseif item_obj.Type == "progressive_toggle" then
-                item_obj.CurrentStage = 0
-                item_obj.Active = initial_state or false
             end
         end
     end
@@ -124,30 +124,32 @@ function onLocation(location_id, location_name)
 end
 
 -- Code for auto tab switching.
-if Tracker:FindObjectForCode("AutoTabOn").Active then
-    function onNotify(key, value, old_value)
+function onNotify(key, value, old_value)
+    if has("AutoTabOn") then
         if value ~= old_value then
             if key == cur_room then
                 print("map: " .. value)
             end
         end
     end
+end
 
-    function onNotifyLaunch(key, value)
+function onNotifyLaunch(key, value)
+    if has("AutoTabOn") then
         if key == cur_room then
             print("map: " .. value)
         end
     end
+end
 
-
-    function onMapChange(key, value, old)
+function onMapChange(key, value, old)
+    if has("AutoTabOn") then
         tabs = MAP_MAPPING[tostring(value)]
         for i, tab in ipairs(tabs) do
             Tracker:UiHint("ActivateTab", tab)
         end
     end
 end
-
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
