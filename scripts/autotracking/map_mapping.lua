@@ -19,7 +19,7 @@ local mapData = {
     -- Boggly Woods
     {"win", 0, 6, {"Chapter 2", "Boggly Woods"}},
     -- Glitzville
-    {"tou", 1, 1, {"Chapter 3"}},
+    {"tou", 0, 1, {"Chapter 3"}},
     -- Glitzpit
     {"tou", 2, 13, {"Chapter 3"}},
     -- Twilight Trail
