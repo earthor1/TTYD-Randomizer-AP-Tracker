@@ -51,7 +51,7 @@ local mapData = {
     {"jon", 0, 6, {"Magical Map"}}
 }
 
-function addMapIds(map, range_start, range_end, tabpath)
+local function addMapIds(map, range_start, range_end, tabpath)
     for i = range_start, range_end do
         MAP_MAPPING[string.format("%s_%02d", map, i)] = tabpath
     end
