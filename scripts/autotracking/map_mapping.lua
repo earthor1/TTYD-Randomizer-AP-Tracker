@@ -1,6 +1,5 @@
 MAP_MAPPING = {}
 
--- Define map data in a table
 local mapData = {
     -- Rogueport
     {"gor", 0, 4, {"Rogueport", "Rogueport"}},
@@ -58,8 +57,6 @@ function addMapIds(map, range_start, range_end, tabpath)
     end
 end
 
-
--- Populate MAP_MAPPING using the map data
 for _, data in ipairs(mapData) do
     addMapIds(data[1], data[2], data[3], data[4])
 end
