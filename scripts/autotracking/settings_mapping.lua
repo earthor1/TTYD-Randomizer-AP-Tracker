@@ -25,6 +25,7 @@ SLOT_CODES =
       [2] = 1  -- Any item in Pit
     }
   },
+--[[ commenting these out for now to prevent trying to load code that's not needed until we have an implementation we want to do
   LimitChapterLogic =
   {
     code = "limit_chapter_logic",
@@ -43,6 +44,7 @@ SLOT_CODES =
       [1] = 1  -- True
     }
   },
+--]]
   PalaceSkip =
   {
     code = "palace_skip", -- Entering the Thousand-Year door will take you straight to Grodus.
