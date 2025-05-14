@@ -741,7 +741,6 @@
         "type": "progressive",
         "initial_stage_idx": 0,
         "img": "images/items/BootsHD2.png",
-        "allow_disabled": "false",
         "stages": [
             {
                 "name": "Boots",
@@ -766,7 +765,6 @@
         "type": "progressive",
         "initial_stage_idx": 0,
         "img": "images/items/HammerHD2.png",
-        "allow_disabled": "false",
         "stages": [
             {
                 "name": "Hammer",
