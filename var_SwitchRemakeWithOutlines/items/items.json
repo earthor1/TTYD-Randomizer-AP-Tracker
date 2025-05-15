@@ -15,8 +15,7 @@
     },
     {
         "name": "Yoshi",
-        "type": "progressive",
-        "loop": "true",
+        "type": "progressive_toggle",
         "img": "images/items/Yoshi.png",
         "stages": [
             {
