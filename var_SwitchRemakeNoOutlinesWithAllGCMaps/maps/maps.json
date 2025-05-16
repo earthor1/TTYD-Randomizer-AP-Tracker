@@ -30,22 +30,10 @@
                 "img": "images/maps/Chapter 1/shhwonk_fortress.png"
             },
             {
-                "name": "HTC 1",
+                "name": "Hooktail Castle",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/Chapter 1/Hooktail Castle/HTC1.png"
-            },
-            {
-                "name": "HTC 2",
-                "location_size": 32,
-                "location_border_thickness": 2,
-                "img": "images/maps/Chapter 1/Hooktail Castle/HTC2.png"
-            },
-            {
-                "name": "HTC 3",
-                "location_size": 32,
-                "location_border_thickness": 2,
-                "img": "images/maps/Chapter 1/Hooktail Castle/HTC3.png"
+                "img": "images/maps/Chapter 1/hooktail_castle.png"
             },
             {
                 "name": "Boggly Woods",
@@ -55,15 +43,9 @@
             },
             
             {
-                "name": "Great Tree (Upper)",
+                "name": "Great Tree",
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 2/GreatTreeUpper.png"
-            },
-            {
-                "name": "Great Tree (Lower)",
-                "location_size": 32,
-                "location_border_thickness": 2,
-                "img": "images/maps/Chapter 2/GreatTreeLower.png"
             }
 ]
