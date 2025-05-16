@@ -63,35 +63,9 @@
                         {
                             "title": "Hooktail Castle",
                             "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "HTC 1",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "HTC 1"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "HTC 2",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "HTC 2"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "HTC 3",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "HTC 3"
-                                            ]
-                                        }
-                                    }
+                                "type": "map",
+                                "maps": [
+                                    "Hooktail Castle"
                                 ]
                             }
                         }
@@ -115,26 +89,9 @@
                         {
                             "title": "The Great Tree",
                             "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Upper",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "Great Tree (Upper)"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Lower",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "Great Tree (Lower)"
-                                            ]
-                                        }
-                                    }
+                                "type": "map",
+                                "maps": [
+                                    "The Great Tree"
                                 ]
                             }
                         }
@@ -255,35 +212,9 @@
                         {
                             "title": "Hooktail Castle",
                             "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "HTC 1",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "HTC 1"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "HTC 2",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "HTC 2"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "HTC 3",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "HTC 3"
-                                            ]
-                                        }
-                                    }
+                                "type": "map",
+                                "maps": [
+                                    "Hooktail Castle"
                                 ]
                             }
                         }
@@ -305,28 +236,20 @@
                             }
                         },
                         {
+                            "title": "Boggly Woods",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Boggly Woods"
+                                ]
+                            }
+                        },
+                        {
                             "title": "The Great Tree",
                             "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                        "title": "Upper",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "Great Tree (Upper)"
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "title": "Lower",
-                                        "content": {
-                                            "type": "map",
-                                            "maps": [
-                                                "Great Tree (Lower)"
-                                            ]
-                                        }
-                                    }
+                                "type": "map",
+                                "maps": [
+                                    "The Great Tree"
                                 ]
                             }
                         }
