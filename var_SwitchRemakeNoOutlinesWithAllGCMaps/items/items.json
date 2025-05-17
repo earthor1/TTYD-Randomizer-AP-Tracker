@@ -623,7 +623,7 @@
     },
     {
         "name": "Castle Key",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "img": "images/items/CastleKeyHD2.png",
         "stages": [
             {
@@ -656,7 +656,6 @@
     {
         "name": "Palace Key",
         "type": "progressive",
-        "type": "progressive_toggle",
         "img_mods": "overlay|/images/Items/Overlay0HD2.png,",
         "stages": [
             {
@@ -682,7 +681,7 @@
     },
     {
         "name": "Palace Key (Riddle Tower)",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "img": "images/items/PalaceKey(RiddleTower)HD2.png",
         "stages": [
             {
@@ -738,10 +737,9 @@
     },
     {
         "name": "Boots",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "initial_stage_idx": 0,
         "img": "images/items/BootsHD2.png",
-        "allow_disabled": "false",
         "stages": [
             {
                 "name": "Boots",
@@ -763,10 +761,9 @@
     },
     {
         "name": "Hammer",
-        "type": "progressive_toggle",
+        "type": "progressive",
         "initial_stage_idx": 0,
         "img": "images/items/HammerHD2.png",
-        "allow_disabled": "false",
         "stages": [
             {
                 "name": "Hammer",
@@ -929,16 +926,19 @@
     {
         "name": "Palace Skip",
         "type": "progressive",
+        "allow_disabled": "false",
         "img": "images/items/ShadowQueen.png",
         "stages": [
             {
                 "name": "Palace Skip Off",
                 "img": "images/items/Gloomtail.png",
+                "inherit_codes": "false",
                 "codes": "NoPalaceSkip"
             },
             {
                 "name": "Palace Skip On",
                 "img": "images/items/ShadowQueen.png",
+                "inherit_codes": "false",
                 "codes": "YesPalaceSkip"
             }
         ],
