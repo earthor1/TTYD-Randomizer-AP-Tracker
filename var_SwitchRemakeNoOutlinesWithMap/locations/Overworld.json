@@ -989,7 +989,7 @@
                     {
                         "name": "Boggly Woods Shadow Sirens Room - Necklace",
                         "visibility_rules": [""],
-                        "access_rules": ["PlaneCurse,PaperCurse","{}"],
+                        "access_rules": ["PlaneCurse,PaperCurse"],
                         "item_count": 1
                     },
                     {
