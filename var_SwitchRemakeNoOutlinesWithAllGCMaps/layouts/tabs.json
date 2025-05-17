@@ -26,11 +26,11 @@
                             }
                         },
                         {
-                            "title": "Underground",
+                            "title": "Sewers",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Underground"
+                                    "Sewers"
                                 ]
                             }
                         }
@@ -175,11 +175,11 @@
                             }
                         },
                         {
-                            "title": "Underground",
+                            "title": "Sewers",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Underground"
+                                    "Sewers"
                                 ]
                             }
                         }

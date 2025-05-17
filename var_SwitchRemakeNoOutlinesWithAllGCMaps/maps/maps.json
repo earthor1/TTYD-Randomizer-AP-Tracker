@@ -12,10 +12,10 @@
                 "img": "images/maps/rogueport.png"
             },
             {
-                "name": "Underground",
+                "name": "Sewers",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/underground.png"
+                "img": "images/maps/sewers.png"
             },
             {
                 "name": "Petal Meadows",
