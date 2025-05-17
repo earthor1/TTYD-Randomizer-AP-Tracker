@@ -926,16 +926,19 @@
     {
         "name": "Palace Skip",
         "type": "progressive",
+        "allow_disabled": "false",
         "img": "images/items/ShadowQueen.png",
         "stages": [
             {
                 "name": "Palace Skip Off",
                 "img": "images/items/Gloomtail.png",
+                "inherit_codes": "false",
                 "codes": "NoPalaceSkip"
             },
             {
                 "name": "Palace Skip On",
                 "img": "images/items/ShadowQueen.png",
+                "inherit_codes": "false",
                 "codes": "YesPalaceSkip"
             }
         ],
