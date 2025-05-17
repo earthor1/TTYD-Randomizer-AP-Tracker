@@ -982,6 +982,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch2"],
                 "access_rules": [
                     "$bogglywoods"
                 ],
@@ -1069,6 +1070,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch2"],
                 "access_rules": [
                     "Flurrie,$bogglywoods"
                 ],
@@ -1300,6 +1302,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch2"],
                 "access_rules": [
                     "Flurrie,$bogglywoods,RedKey,PuniOrb","Flurrie,$bogglywoods,BlueKey,PuniOrb"
                 ],
@@ -1355,6 +1358,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch2"],
                 "access_rules": [
                     "$bogglywoods,PlaneCurse"
                 ],
@@ -1896,6 +1900,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch3"],
                 "access_rules": [
                     "$westside,BlimpTicket"
                 ],
@@ -1995,6 +2000,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch3"],
                 "access_rules": [
                     "$westside,BlimpTicket"
                 ],
@@ -2062,6 +2068,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch3"],
                 "access_rules": [
                     "$westside,BlimpTicket"
                 ],
@@ -2185,6 +2192,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch7"],
                 "access_rules": [
                     "$moon"
                 ],
@@ -2242,6 +2250,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch1"],
                 "access_rules": [
                     "PlaneCurse","SuperBoots,SuperHammer"
                 ],
@@ -2337,6 +2346,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch1"],
                 "access_rules": [
                     " "
                 ],
@@ -2440,6 +2450,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch1"],
                 "access_rules": [
                     "PlaneCurse","SuperBoots,SuperHammer"
                 ],
@@ -2535,6 +2546,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch1"],
                 "access_rules": [
                     "PlaneCurse,SunStone,MoonStone,Koops","PlaneCurse,SunStone,MoonStone,Bobbery"
                 ],
@@ -2724,6 +2736,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch4"],
                 "access_rules": [
                     "$twilight_town"
                 ],
@@ -2831,6 +2844,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch4"],
                 "access_rules": [
                     "$twilight_town,ShopKey"
                 ],
@@ -2886,6 +2900,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch4"],
                 "access_rules": [
                     "$twilight_town"
                 ],
@@ -2991,6 +3006,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch4"],
                 "access_rules": [
                     "$steeple"
                 ],
@@ -3178,6 +3194,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch5"],
                 "access_rules": [
                     "$keelhaul_key"
                 ],
@@ -3383,6 +3400,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch5"],
                 "access_rules": [
                     "$keelhaul_key"
                 ],
@@ -3438,6 +3456,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch5"],
                 "access_rules": [
                     "$keelhaul_key,$pirates_grotto"
                 ],
@@ -3595,6 +3614,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch6"],
                 "access_rules": [
                     "$poshley_heights"
                 ],
@@ -3710,6 +3730,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch6"],
                 "access_rules": [
                     "$westside,TrainTicket,$riverside"
                 ],
@@ -3809,6 +3830,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch6"],
                 "access_rules": [
                     "$westside,TrainTicket"
                 ],
@@ -3950,6 +3972,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch6"],
                 "access_rules": [
                     "$westside,TrainTicket"
                 ],
@@ -4005,6 +4028,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch7"],
                 "access_rules": [
                     "$fahr_outpost"
                 ],
@@ -4116,6 +4140,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch7"],
                 "access_rules": [
                     "$fahr_outpost"
                 ],
@@ -4171,6 +4196,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch7"],
                 "access_rules": [
                     "$moon,Bobbery"
                 ],
@@ -4334,6 +4360,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch8"],
                 "access_rules": [
                     "$riddle_tower,$palace"
                 ],
@@ -4417,6 +4444,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch8"],
                 "access_rules": [
                     "$palace"
                 ],
@@ -4494,6 +4522,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch8"],
                 "access_rules": [
                     "$palace,$ttyd,PalaceKey1"
                 ],
