@@ -1208,13 +1208,13 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "access_rules": ["$hundredpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree 100-Puni Pedestal - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "access_rules": ["$hundredpunis"],
                         "item_count": 1
                     },
                     {
@@ -1222,19 +1222,19 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "access_rules": ["$hundredpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Lower Duplex - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,SuperBoots,BlueKey"],
+                        "access_rules": ["$hundredpunis,SuperBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Pool Room - Dizzy Dial",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1242,7 +1242,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey","RedKey,PuniOrb,UltraBoots,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops","$hundredpunis,UltraBoots"],
                         "item_count": 1
                     },
                     {
@@ -1250,13 +1250,13 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Elevator Pedestal - Mushroom",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1264,7 +1264,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1272,7 +1272,7 @@
                         "chest_unopened_img": "/images/items/EmeraldStarHD2.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {

@@ -108,3 +108,6 @@ function palace()
 function tenpunis()
 	return has("PuniOrb") and (has("RedKey") or has("BlueKey"))
 	end
+function hundredpunis()
+	return has("PuniOrb") and has("RedKey") and has("BlueKey")
+	end
