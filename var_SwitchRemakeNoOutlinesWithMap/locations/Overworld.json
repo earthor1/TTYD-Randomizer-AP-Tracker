@@ -1134,13 +1134,13 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Bubble Room - Thunder Rage",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1148,13 +1148,13 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey,PlaneCurse"],
+                        "access_rules": ["$tenpunis,PlaneCurse"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Zigzag Room - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1162,7 +1162,7 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1170,7 +1170,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1178,13 +1178,13 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Blue Key Room - Charge",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey,SuperBoots,Koops","$punikey,SuperBoots,$yoshi"],
+                        "access_rules": ["$tenpunis,SuperBoots,Koops","$tenpunis,SuperBoots,$yoshi"],
                         "item_count": 1
                     },
                     {
@@ -1192,7 +1192,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey,SuperBoots"],
+                        "access_rules": ["$tenpunis,SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -1200,7 +1200,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$punikey"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1304,7 +1304,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch2"],
                 "access_rules": [
-                    "Flurrie,$bogglywoods,$punikey"
+                    "Flurrie,$bogglywoods,$tenpunis"
                 ],
                 "sections": [
                     {
