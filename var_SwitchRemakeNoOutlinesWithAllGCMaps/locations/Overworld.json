@@ -1134,13 +1134,13 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Bubble Room - Thunder Rage",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1148,13 +1148,13 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,PlaneCurse","BlueKey,PuniOrb,PlaneCurse"],
+                        "access_rules": ["$tenpunis,PlaneCurse"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Zigzag Room - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1162,7 +1162,7 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1170,7 +1170,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1178,13 +1178,13 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie","BlueKey,PuniOrb,Flurrie"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Blue Key Room - Charge",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots","BlueKey,PuniOrb,Flurrie,SuperBoots"],
+                        "access_rules": ["$tenpunis,SuperBoots,Koops","$tenpunis,SuperBoots,$yoshi"],
                         "item_count": 1
                     },
                     {
@@ -1192,7 +1192,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots","BlueKey,PuniOrb,Flurrie,SuperBoots"],
+                        "access_rules": ["$tenpunis,SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -1200,7 +1200,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie","BlueKey,PuniOrb,Flurrie"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1208,13 +1208,13 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "access_rules": ["$hundredpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree 100-Puni Pedestal - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "access_rules": ["$hundredpunis"],
                         "item_count": 1
                     },
                     {
@@ -1222,19 +1222,19 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
+                        "access_rules": ["$hundredpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Lower Duplex - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots,BlueKey"],
+                        "access_rules": ["$hundredpunis,SuperBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Pool Room - Dizzy Dial",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1242,7 +1242,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey","RedKey,PuniOrb,Flurrie,UltraBoots,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops","$hundredpunis,UltraBoots"],
                         "item_count": 1
                     },
                     {
@@ -1250,13 +1250,13 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Elevator Pedestal - Mushroom",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1264,7 +1264,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1272,7 +1272,7 @@
                         "chest_unopened_img": "/images/items/EmeraldStarHD2.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1304,7 +1304,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch2"],
                 "access_rules": [
-                    "Flurrie,$bogglywoods,RedKey,PuniOrb","Flurrie,$bogglywoods,BlueKey,PuniOrb"
+                    "Flurrie,$bogglywoods,$tenpunis"
                 ],
                 "sections": [
                     {
@@ -3336,7 +3336,7 @@
                     {
                         "name": "Keelhaul Key Jungle Bridge - Ice Power",
                         "visibility_rules": [""],
-                        "access_rules": ["[$yoshi],[PaperCurse]"],
+                        "access_rules": ["$yoshi,[PaperCurse]"],
                         "item_count": 1
                     },
                     {
