@@ -39,13 +39,13 @@
                 "name": "Boggly Woods",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/Chapter 2/BogglyWoods.png"
+                "img": "images/maps/Chapter 2/boggly_woods.png"
             },
             
             {
-                "name": "Great Tree",
+                "name": "The Great Tree",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/Chapter 2/GreatTreeUpper.png"
+                "img": "images/maps/Chapter 2/the_great_tree.png"
             }
 ]

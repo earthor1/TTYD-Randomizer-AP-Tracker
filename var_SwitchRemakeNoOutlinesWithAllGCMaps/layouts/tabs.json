@@ -236,15 +236,6 @@
                             }
                         },
                         {
-                            "title": "Boggly Woods",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Boggly Woods"
-                                ]
-                            }
-                        },
-                        {
                             "title": "The Great Tree",
                             "content": {
                                 "type": "map",
