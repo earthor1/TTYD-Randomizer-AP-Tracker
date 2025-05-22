@@ -17,7 +17,7 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Rogueport",
+                            "title": "Town",
                             "content": {
                                 "type": "map",
                                 "maps": [
