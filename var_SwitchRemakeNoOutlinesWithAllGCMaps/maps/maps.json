@@ -6,16 +6,16 @@
                 "img": "images/maps/map.png"
             },
             {
-                "name": "Rogueport",
+                "name": "Town",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/rogueport.png"
+                "img": "images/maps/Rogueport/town.png"
             },
             {
                 "name": "Sewers",
                 "location_size": 32,
                 "location_border_thickness": 2,
-                "img": "images/maps/sewers.png"
+                "img": "images/maps/Rogueport/sewers.png"
             },
             {
                 "name": "Petal Meadows",
