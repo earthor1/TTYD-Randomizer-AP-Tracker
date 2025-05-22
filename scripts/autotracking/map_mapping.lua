@@ -2,9 +2,9 @@ MAP_MAPPING = {}
 
 local mapData = {
     -- Rogueport
-    {"gor", 0, 4, {"Rogueport", "Rogueport"}},
+    {"gor", 0, 4, {"Rogueport", "Town"}},
     -- Underground
-    {"tik", 0, 21, {"Rogueport", "Underground"}},
+    {"tik", 0, 21, {"Rogueport", "Sewers"}},
     -- Hooktail Castle
     {"gon", 0, 13, {"Chapter 1", "Hooktail Castle"}},
     -- Petal Meadows
