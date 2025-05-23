@@ -41,11 +41,22 @@
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 2/boggly_woods.png"
             },
-            
             {
                 "name": "The Great Tree",
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 2/the_great_tree.png"
+            },
+            {
+                "name": "Glitzville",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 2/ville.png"
+            },
+            {
+                "name": "The Glitz Pit",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 2/pit.png"
             }
 ]

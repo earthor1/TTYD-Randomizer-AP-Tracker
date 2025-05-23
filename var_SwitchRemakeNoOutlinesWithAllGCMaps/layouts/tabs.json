@@ -103,6 +103,24 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Glitzville",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Glitzville"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Glitz Pit",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Glitz Pit"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -252,6 +270,24 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Glitzville",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Glitzville"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Glitz Pit",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Glitz Pit"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
