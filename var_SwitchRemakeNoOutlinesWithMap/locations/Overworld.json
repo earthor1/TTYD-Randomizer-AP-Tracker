@@ -982,6 +982,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch2"],
                 "access_rules": [
                     "$bogglywoods"
                 ],
@@ -989,7 +990,7 @@
                     {
                         "name": "Boggly Woods Shadow Sirens Room - Necklace",
                         "visibility_rules": [""],
-                        "access_rules": ["PlaneCurse,PaperCurse","{}"],
+                        "access_rules": ["PlaneCurse,PaperCurse"],
                         "item_count": 1
                     },
                     {
@@ -1069,6 +1070,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch2"],
                 "access_rules": [
                     "Flurrie,$bogglywoods"
                 ],
@@ -1132,13 +1134,13 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Bubble Room - Thunder Rage",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1146,13 +1148,13 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,PlaneCurse","BlueKey,PuniOrb,PlaneCurse"],
+                        "access_rules": ["$tenpunis,PlaneCurse"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Zigzag Room - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1160,7 +1162,7 @@
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1168,7 +1170,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb","BlueKey,PuniOrb"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
@@ -1176,13 +1178,13 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie","BlueKey,PuniOrb,Flurrie"],
+                        "access_rules": ["$tenpunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Blue Key Room - Charge",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots","BlueKey,PuniOrb,Flurrie,SuperBoots"],
+                        "access_rules": ["$tenpunis,SuperBoots,Koops","$tenpunis,SuperBoots,$yoshi"],
                         "item_count": 1
                     },
                     {
@@ -1190,35 +1192,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots","BlueKey,PuniOrb,Flurrie,SuperBoots"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Fake Pedestal - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree 100-Puni Pedestal - Coin",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree 100-Puni Pedestal - Star Piece",
-                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
-                        "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,BlueKey"],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Great Tree Lower Duplex - Coin",
-                        "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,SuperBoots,BlueKey"],
+                        "access_rules": ["$tenpunis,SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -1226,13 +1200,41 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,BlueKey"],
+                        "access_rules": ["$tenpunis"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Fake Pedestal - Star Piece",
+                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_opened_img": "/images/items/StarPieceOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["$hundredpunis"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree 100-Puni Pedestal - Coin",
+                        "visibility_rules": [""],
+                        "access_rules": ["$hundredpunis"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree 100-Puni Pedestal - Star Piece",
+                        "chest_unopened_img": "/images/items/StarPieceClosed.png",
+                        "chest_opened_img": "/images/items/StarPieceOpen.png",
+                        "visibility_rules": [""],
+                        "access_rules": ["$hundredpunis"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Great Tree Lower Duplex - Coin",
+                        "visibility_rules": [""],
+                        "access_rules": ["$hundredpunis,SuperBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Pool Room - Dizzy Dial",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1240,7 +1242,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey","RedKey,PuniOrb,Flurrie,UltraBoots,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops","$hundredpunis,UltraBoots"],
                         "item_count": 1
                     },
                     {
@@ -1248,13 +1250,13 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Elevator Pedestal - Mushroom",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1262,7 +1264,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1270,7 +1272,7 @@
                         "chest_unopened_img": "/images/items/EmeraldStarHD2.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [""],
-                        "access_rules": ["RedKey,PuniOrb,Flurrie,Koops,BlueKey"],
+                        "access_rules": ["$hundredpunis,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1300,8 +1302,9 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch2"],
                 "access_rules": [
-                    "Flurrie,$bogglywoods,RedKey,PuniOrb","Flurrie,$bogglywoods,BlueKey,PuniOrb"
+                    "Flurrie,$bogglywoods,$tenpunis"
                 ],
                 "sections": [
                     {
@@ -1355,6 +1358,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch2"],
                 "access_rules": [
                     "$bogglywoods,PlaneCurse"
                 ],
@@ -1896,6 +1900,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch3"],
                 "access_rules": [
                     "$westside,BlimpTicket"
                 ],
@@ -1995,6 +2000,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch3"],
                 "access_rules": [
                     "$westside,BlimpTicket"
                 ],
@@ -2062,6 +2068,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch3"],
                 "access_rules": [
                     "$westside,BlimpTicket"
                 ],
@@ -2185,6 +2192,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch7"],
                 "access_rules": [
                     "$moon"
                 ],
@@ -2242,6 +2250,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+                "visibility_rules": ["Ch1"],
                 "access_rules": [
                     "PlaneCurse","SuperBoots,SuperHammer"
                 ],
@@ -2337,6 +2346,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch1"],
                 "access_rules": [
                     " "
                 ],
@@ -2440,6 +2450,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch1"],
                 "access_rules": [
                     "PlaneCurse","SuperBoots,SuperHammer"
                 ],
@@ -2535,6 +2546,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch1"],
                 "access_rules": [
                     "PlaneCurse,SunStone,MoonStone,Koops","PlaneCurse,SunStone,MoonStone,Bobbery"
                 ],
@@ -2542,7 +2554,7 @@
                     {
                         "name": "Hooktail's Castle Drawbridge - HP Plus",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi","Koops","{}"],
+                        "access_rules": ["[$yoshi],PlaneCurse","[Koops],PlaneCurse","{}"],
                         "item_count": 1
                     },
                     {
@@ -2556,7 +2568,7 @@
                     {
                         "name": "Hooktail's Castle Red Bones Room - Castle Key",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse"],
+                        "access_rules": ["$htcastle,PaperCurse","$htcastle,{}"],
                         "item_count": 1
                     },
                     {
@@ -2564,7 +2576,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,SuperBoots"],
+                        "access_rules": ["$htcastle,PaperCurse,SuperBoots","$htcastle,SuperBoots,{}"],
                         "item_count": 1
                     },
                     {
@@ -2594,7 +2606,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,Koops,CastleKey2","$htcastle,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,PaperCurse,Koops,CastleKey2","$htcastle,[Koops],$yoshi,Bobbery,CastleKey2"],
                         "item_count": 1
                     },
                     {
@@ -2724,6 +2736,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch4"],
                 "access_rules": [
                     "$twilight_town"
                 ],
@@ -2831,6 +2844,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch4"],
                 "access_rules": [
                     "$twilight_town,ShopKey"
                 ],
@@ -2886,6 +2900,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch4"],
                 "access_rules": [
                     "$twilight_town"
                 ],
@@ -2991,6 +3006,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch4"],
                 "access_rules": [
                     "$steeple"
                 ],
@@ -3012,7 +3028,7 @@
                     {
                         "name": "Creepy Steeple Main Hall - Lucky Start",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["SuperHammer"],
                         "item_count": 1
                     },
                     {
@@ -3178,6 +3194,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch5"],
                 "access_rules": [
                     "$keelhaul_key"
                 ],
@@ -3319,7 +3336,7 @@
                     {
                         "name": "Keelhaul Key Jungle Bridge - Ice Power",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,PaperCurse"],
+                        "access_rules": ["$yoshi,[PaperCurse]"],
                         "item_count": 1
                     },
                     {
@@ -3383,6 +3400,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch5"],
                 "access_rules": [
                     "$keelhaul_key"
                 ],
@@ -3438,6 +3456,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch5"],
                 "access_rules": [
                     "$keelhaul_key,$pirates_grotto"
                 ],
@@ -3451,7 +3470,7 @@
                     {
                         "name": "Pirate's Grotto Gate Handle Room - Gate Handle",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,Bobbery,BoatCurse"],
+                        "access_rules": ["$yoshi,Bobbery,BoatCurse","{}"],
                         "item_count": 1
                     },
                     {
@@ -3595,6 +3614,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch6"],
                 "access_rules": [
                     "$poshley_heights"
                 ],
@@ -3710,6 +3730,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch6"],
                 "access_rules": [
                     "$westside,TrainTicket,$riverside"
                 ],
@@ -3809,6 +3830,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch6"],
                 "access_rules": [
                     "$westside,TrainTicket"
                 ],
@@ -3950,6 +3972,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch6"],
                 "access_rules": [
                     "$westside,TrainTicket"
                 ],
@@ -4005,6 +4028,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch7"],
                 "access_rules": [
                     "$fahr_outpost"
                 ],
@@ -4116,6 +4140,7 @@
                 "chest_unopened_img": "/images/items/Coin.png",
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch7"],
                 "access_rules": [
                     "$fahr_outpost"
                 ],
@@ -4171,6 +4196,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch7"],
                 "access_rules": [
                     "$moon,Bobbery"
                 ],
@@ -4334,6 +4360,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch8"],
                 "access_rules": [
                     "$riddle_tower,$palace"
                 ],
@@ -4417,6 +4444,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch8"],
                 "access_rules": [
                     "$palace"
                 ],
@@ -4466,13 +4494,15 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Palace of Shadow Large Open Room - Jammin' Jelly",
+                        "name": "Palace of Shadow Large Open Room - P-Up D-Down P",
+                        "chest_unopened_img": "/images/items/RBlock.png",
+                        "chest_opened_img": "/images/items/RBlockOpen.png",
                         "visibility_rules": [""],
                         "access_rules": ["$tube,PalaceKey1","Vivian,PalaceKey1"],
                         "item_count": 1
                     },
                     {
-                        "name": "Palace of Shadow Large Open Room - P-Up D-Down P",
+                        "name": "Palace of Shadow Large Open Room - Jammin' Jelly",
                         "visibility_rules": [""],
                         "access_rules": ["$tube,PalaceKey1","Vivian,PalaceKey1"],
                         "item_count": 1
@@ -4492,6 +4522,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
+		"visibility_rules": ["Ch8"],
                 "access_rules": [
                     "$palace,$ttyd,PalaceKey1"
                 ],

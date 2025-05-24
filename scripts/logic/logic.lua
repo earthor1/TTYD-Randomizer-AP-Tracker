@@ -83,12 +83,12 @@ function silly()
 	end		
 
 function poshley_heights()
-	return (has("TrainTicket") and (westside()) and (riverside()) and has("StationKey1") and has("ElevatorKey") and has("SuperHammer")) or (has("UltraHammer") and has("SuperBoots"))
-	end			
+	return ((poshleysanctum())) or (has("UltraHammer") and has("SuperBoots"))
+	end
 
 function poshleysanctum()
-	return has("TrainTicket") and (westside()) and (riverside()) and has("StationKey1") and has("ElevatorKey") and has("SuperHammer")
-	end			
+	return has("TrainTicket") and (westside()) and (riverside()) and has("StationKey1") and has("ElevatorKey") and has("UltraBoots")
+	end
 
 function htcastle()
 	return (has("PlaneCurse")) or (yoshi())
@@ -105,3 +105,9 @@ function palaceright()
 function palace()
 	return (ttyd()) and (((stars(0)) and has("0ChapterClears")) or ((stars(1)) and has("1ChapterClears")) or ((stars(2)) and has("2ChapterClears")) or ((stars(3)) and has("3ChapterClears")) or ((stars(4)) and has("4ChapterClears")) or ((stars(5)) and has("5ChapterClears")) or ((stars(6)) and has("6ChapterClears")) or ((stars(7)) and has("7ChapterClears")))
 	end		
+function tenpunis()
+	return has("PuniOrb") and (has("RedKey") or has("BlueKey"))
+	end
+function hundredpunis()
+	return has("PuniOrb") and has("RedKey") and has("BlueKey")
+	end

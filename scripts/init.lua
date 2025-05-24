@@ -1,8 +1,5 @@
-Tracker:AddItems("items/items.json")
---Tracker:AddItems("items/labels.json")
-
 -- Items
-ScriptHost:LoadScript("scripts/items_import.lua")
+Tracker:AddItems("items/items.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
@@ -10,9 +7,9 @@ ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Maps
 if Tracker.ActiveVariantUID == "maps-u" then
-Tracker:AddMaps("maps/maps-u.json")  
+Tracker:AddMaps("maps/maps-u.json")
 else
-Tracker:AddMaps("maps/maps.json")  
+Tracker:AddMaps("maps/maps.json")
 end
 
 if PopVersion and PopVersion >= "0.23.0" then
