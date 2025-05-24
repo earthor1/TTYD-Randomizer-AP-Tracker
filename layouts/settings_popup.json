@@ -44,14 +44,14 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "Ch1Boss",
-                                "Ch2Boss",
-                                "Ch3Boss",
-                                "Ch4Boss",
-                                "Ch5Boss",
-                                "Ch6Boss",
-                                "Ch7Boss",
-                                "Ch8Boss"
+                                "Ch1",
+                                "Ch2",
+                                "Ch3",
+                                "Ch4",
+                                "Ch5",
+                                "Ch6",
+                                "Ch7",
+                                "Ch8"
                             ]
                         ]
                     }

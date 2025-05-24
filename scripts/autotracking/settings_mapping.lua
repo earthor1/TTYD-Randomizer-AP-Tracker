@@ -89,5 +89,13 @@ code = "yoshi",
       [5] = "6", -- Black
       [6] = "7", -- White
     }
+  },
+  {
+code = "open_westside",
+    mapping =
+    {
+      [0] = "0", -- False
+      [1] = "1", -- True
+    }
   }
 }
