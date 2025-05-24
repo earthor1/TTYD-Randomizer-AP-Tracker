@@ -22,7 +22,7 @@
     },
     {
         "name": "Yoshi",
-        "type": "progressive",
+        "type": "progressive_toggle",
         "loop": "true",
         "stages": [
             {
@@ -61,7 +61,7 @@
                 "codes": "WYoshi"
             }
         ],
-        "codes": "yoshi_color"
+        "codes": "yoshi"
     },
     {
         "name": "Madame Flurrie",

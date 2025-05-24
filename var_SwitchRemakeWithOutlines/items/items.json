@@ -15,7 +15,7 @@
     },
     {
         "name": "Yoshi",
-        "type": "progressive",
+        "type": "progressive_toggle",
         "loop": "true",
         "img": "images/items/Yoshi.png",
         "stages": [
@@ -55,7 +55,7 @@
                 "codes": "WYoshi"
             },
         ],
-        "codes": "yoshi_color"
+        "codes": "yoshi"
     },
     {
         "name": "Madame Flurrie",

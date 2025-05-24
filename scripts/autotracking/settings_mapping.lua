@@ -78,7 +78,7 @@ StartingPartner =
   },
 --]]
 {
-code = "yoshi_color",
+code = "yoshi",
     mapping =
     {
       [0] = "1", -- Green
