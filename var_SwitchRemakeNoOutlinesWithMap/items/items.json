@@ -23,7 +23,6 @@
     {
         "name": "Yoshi",
         "type": "progressive_toggle",
-        "loop": "true",
         "stages": [
             {
                 "name": "Yoshi",
@@ -61,7 +60,7 @@
                 "codes": "WYoshi"
             }
         ],
-        "codes": "yoshi"
+        "codes": "Yoshi"
     },
     {
         "name": "Madame Flurrie",

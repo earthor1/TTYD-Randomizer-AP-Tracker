@@ -16,7 +16,6 @@
     {
         "name": "Yoshi",
         "type": "progressive_toggle",
-        "loop": "true",
         "img": "images/items/Yoshi.png",
         "stages": [
             {
@@ -55,7 +54,7 @@
                 "codes": "WYoshi"
             },
         ],
-        "codes": "yoshi"
+        "codes": "Yoshi"
     },
     {
         "name": "Madame Flurrie",
