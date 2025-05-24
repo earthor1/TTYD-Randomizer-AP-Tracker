@@ -655,7 +655,6 @@
     {
         "name": "Palace Key",
         "type": "progressive",
-        "type": "progressive_toggle",
         "img_mods": "overlay|/images/Items/Overlay0HD2.png,",
         "stages": [
             {
