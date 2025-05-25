@@ -129,6 +129,24 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Twilight Trail",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Twilight Trail"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Creepy Steeple",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Creepy Steeple"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -296,6 +314,24 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Twilight Trail",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Twilight Trail"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Creepy Steeple",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Creepy Steeple"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
