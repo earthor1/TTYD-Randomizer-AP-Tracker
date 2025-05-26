@@ -22,12 +22,12 @@ local mapData = {
     {"tou", 0, 1, {"Chapter 3", "Glitzville"}},
     -- Glitzpit
     {"tou", 2, 13, {"Chapter 3", "The Glitz Pit"}},
-    -- Twilight Trail
-    {"gra", 0, 6, {"Chapter 4"}},
-    -- Creepy Steeple
-    {"jin", 0, 11, {"Chapter 4"}},
     -- Twilight Town
-    {"usu", 0, 1, {"Chapter 4"}},
+    {"usu", 0, 1, {"Chapter 4", "Twilight Trail"}},
+    -- Twilight Trail
+    {"gra", 0, 6, {"Chapter 4", "Twilight Trail"}},
+    -- Creepy Steeple
+    {"jin", 0, 11, {"Chapter 4", "Creepy Steeple"}},
     -- Pirate's Grotto
     {"dou", 0, 13, {"Chapter 5"}},
     -- Keelhaul Key
