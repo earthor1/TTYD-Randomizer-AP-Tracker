@@ -464,7 +464,7 @@
                     {
                         "name": "Pit of 100 Trials Floor 20 - Fire Drive",
                         "visibility_rules": [""],
-                        "access_rules": ["[$stars|2]"],
+                        "access_rules": ["[$stars|1]"],
                         "item_count": 1
                     },
                     {
@@ -476,7 +476,7 @@
                     {
                         "name": "Pit of 100 Trials Floor 40 - Pity Flower",
                         "visibility_rules": [""],
-                        "access_rules": ["[$stars|3]"],
+                        "access_rules": ["[$stars|2]"],
                         "item_count": 1
                     },
                     {
@@ -488,7 +488,7 @@
                     {
                         "name": "Pit of 100 Trials Floor 60 - Double Dip",
                         "visibility_rules": [""],
-                        "access_rules": ["[$stars|4]"],
+                        "access_rules": ["[$stars|3]"],
                         "item_count": 1
                     },
                     {
@@ -500,7 +500,7 @@
                     {
                         "name": "Pit of 100 Trials Floor 80 - Bump Attack",
                         "visibility_rules": [""],
-                        "access_rules": ["[$stars|5]"],
+                        "access_rules": ["[$stars|4]"],
                         "item_count": 1
                     },
                     {
@@ -512,7 +512,7 @@
                     {
                         "name": "Pit of 100 Trials Floor 100 - Return Postage",
                         "visibility_rules": [""],
-                        "access_rules": ["[$stars|6]"],
+                        "access_rules": ["[$stars|5]"],
                         "item_count": 1
                     }
                 ],
