@@ -155,6 +155,24 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Keelhaul Key",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Keelhaul Key"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Pirate's Grotto",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Pirate's Grotto"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -340,6 +358,24 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Keelhaul Key",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Keelhaul Key"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Pirate's Grotto",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Pirate's Grotto"
+                                ]
+                            }
+                        }
                     ]
                 }
             },

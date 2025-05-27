@@ -70,5 +70,11 @@
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 4/creepy_steeple.png"
+            },
+            {
+                "name": "Keelhaul Key",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 5/keelhaul_key.png"
             }
 ]
