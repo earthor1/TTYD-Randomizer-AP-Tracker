@@ -23,7 +23,8 @@
                                 "Pit_Items",
                                 "palace_skip",
                                 "Chapter_Clears",
-                                "open_westside"
+                                "open_westside",
+                                "AutoTabOn"
                             ]
                         ]
                     }
