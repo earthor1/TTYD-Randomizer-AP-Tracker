@@ -1,8 +1,8 @@
 [
             {
-                "name": "Magical Map",
-                "location_size": 32,
-                "location_border_thickness": 2,
+                "name": "OG Map",
+                "location_size": 9,
+                "location_border_thickness": 1,
                 "img": "images/maps/map.png"
             }
 ]

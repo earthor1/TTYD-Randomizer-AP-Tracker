@@ -21,15 +21,18 @@
                                 "v_alignment": "center",
                                 "key": "shared_item_grid_horizontal"
                             }
-                        },
+                        }
                     ]
                 },
                 {
                     "type": "dock",
-                    "content": {
-                        "type": "layout",
-                        "key": "tabbed_maps_vertical"
-                    }
+                    "content": 
+                    [
+                        {
+                            "type": "layout",
+                            "key": "tabbed_maps_horizontal"
+                        }
+                    ]
                 }
             ]
         }

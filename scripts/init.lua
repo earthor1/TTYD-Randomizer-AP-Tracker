@@ -1,3 +1,4 @@
+ENABLE_DEBUG_LOG = false
 -- Items
 Tracker:AddItems("items/items.json")
 
