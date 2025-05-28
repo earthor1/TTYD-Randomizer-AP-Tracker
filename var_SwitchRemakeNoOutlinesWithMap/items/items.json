@@ -623,7 +623,6 @@
     {
         "name": "Castle Key",
         "type": "progressive",
-        "img": "images/items/CastleKeyHD2.png",
         "stages": [
             {
                 "name": "1 Castle Key",
@@ -655,7 +654,6 @@
     {
         "name": "Palace Key",
         "type": "progressive",
-        "img_mods": "overlay|/images/Items/Overlay0HD2.png,",
         "stages": [
             {
                 "name": "1 Palace Key",
@@ -681,7 +679,6 @@
     {
         "name": "Palace Key (Riddle Tower)",
         "type": "progressive",
-        "img": "images/items/PalaceKey(RiddleTower)HD2.png",
         "stages": [
             {
                 "name": "1 Palace Key (Riddle Tower)",
@@ -738,7 +735,6 @@
         "name": "Boots",
         "type": "progressive",
         "initial_stage_idx": 0,
-        "img": "images/items/BootsHD2.png",
         "stages": [
             {
                 "name": "Boots",
@@ -762,7 +758,6 @@
         "name": "Hammer",
         "type": "progressive",
         "initial_stage_idx": 0,
-        "img": "images/items/HammerHD2.png",
         "stages": [
             {
                 "name": "Hammer",
@@ -863,14 +858,14 @@
     },
     {
         "name": "ZobeePlays on Discord!",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "type": "toggle",
         "img": "images/items/Zobee.png",
         "codes": "Zobee"
     },
     {
         "name": "https://discord.gg/zar9H8vfya",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "type": "toggle",
         "img": "images/items/Discord.png",
         "codes": "Discord"
@@ -878,49 +873,49 @@
     {
         "name": "Chapter 1",
         "type": "toggle",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "img": "images/items/Hooktail.png",
         "codes": "Ch1"
     },
     {
         "name": "Chapter 2",
         "type": "toggle",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "img": "images/items/MagnusVonGrapple.png",
         "codes": "Ch2"
     },
     {
         "name": "Chapter 3",
         "type": "toggle",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "img": "images/items/MachoGrubba.png",
         "codes": "Ch3"
     },
     {
         "name": "Chapter 4",
         "type": "toggle",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "img": "images/items/Doopliss.png",
         "codes": "Ch4"
     },
     {
         "name": "Chapter 5",
         "type": "toggle",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "img": "images/items/Cortez.png",
         "codes": "Ch5"
     },
     {
         "name": "Chapter 6",
         "type": "toggle",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "img": "images/items/Smorg.png",
         "codes": "Ch6"
     },
     {
         "name": "Chapter 7",
         "type": "toggle",
-        "initial_active_state": "true",
+        "initial_active_state": true,
         "img": "images/items/MagnusVonGrapple2.png",
         "codes": "Ch7"
     },
@@ -948,19 +943,18 @@
     {
         "name": "Palace Skip",
         "type": "progressive",
-        "allow_disabled": "false",
-        "img": "images/items/ShadowQueen.png",
+        "allow_disabled": false,
         "stages": [
             {
                 "name": "Palace Skip Off",
                 "img": "images/items/Gloomtail.png",
-                "inherit_codes": "false",
+                "inherit_codes": false,
                 "codes": "NoPalaceSkip"
             },
             {
                 "name": "Palace Skip On",
                 "img": "images/items/ShadowQueen.png",
-                "inherit_codes": "false",
+                "inherit_codes": false,
                 "codes": "YesPalaceSkip"
             }
         ],
