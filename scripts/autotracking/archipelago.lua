@@ -1,14 +1,17 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+<<<<<<< HEAD
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
+=======
+ScriptHost:LoadScript("scripts/autotracking/settings_mapping.lua")
+>>>>>>> upstream/main
 
 CUR_INDEX = -1
-SLOT_DATA = {}
+
 
 function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
-    SLOT_DATA = slot_data
     CUR_INDEX = -1
 
     -- Map Datastorage
@@ -20,6 +23,7 @@ function onClear(slot_data)
     end
 
     -- reset locations
+    print("onClear called, slot_data:", dump_table(slot_data))
     for _, location_array in pairs(LOCATION_MAPPING) do
         for _, location in pairs(location_array) do
             if location then
@@ -34,13 +38,21 @@ function onClear(slot_data)
             end
         end
     end
+
     -- reset items
     for _, item in pairs(ITEM_MAPPING) do
         for _, item_code in pairs(item) do
+<<<<<<< HEAD
             item_code = item[1]
             item_type = item[2]
             initial_state = item[3]
             local item_obj = Tracker:FindObjectForCode(item_code)
+=======
+          item_code = item[1]
+          item_type = item[2]
+          initial_state = item[3]
+            item_obj = Tracker:FindObjectForCode(item_code)
+>>>>>>> upstream/main
             if item_obj then
                 if item_obj.Type == "toggle" then
                     item_obj.Active = false
@@ -60,9 +72,23 @@ function onClear(slot_data)
             end
         end
     end
+-- Apply settings from SLOT_CODES
+    for key, value in pairs(SLOT_CODES) do
+        local setting_value = slot_data[key]
+        if setting_value ~= nil then
+            item_obj = Tracker:FindObjectForCode(value.code)
+            if item_obj then
+                item_obj.CurrentStage = value.mapping[setting_value]
+            end
+        end
+    end
 end
 
+
+
+
 function onItem(index, item_id, item_name, player_number)
+
     if index <= CUR_INDEX then
         return
     end
@@ -73,7 +99,6 @@ function onItem(index, item_id, item_name, player_number)
         --print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
-
     item_code = item[1]
     item_type = item[2]
     local item_obj = Tracker:FindObjectForCode(item_code)

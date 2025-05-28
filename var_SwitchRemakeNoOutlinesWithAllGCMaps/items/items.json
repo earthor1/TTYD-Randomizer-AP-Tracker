@@ -23,7 +23,6 @@
     {
         "name": "Yoshi",
         "type": "progressive_toggle",
-        "img": "images/items/YoshiHD2.png",
         "stages": [
             {
                 "name": "Yoshi",
@@ -59,7 +58,7 @@
                 "name": "Yoshi",
                 "img": "images/items/WYoshiHD2.png",
                 "codes": "WYoshi"
-            },
+            }
         ],
         "codes": "Yoshi"
     },
@@ -675,7 +674,7 @@
                 "img": "images/items/PalaceKeyHD2.png",
                 "img_mods": "overlay|/images/Items/GreenOverlay3HD2.png,",
                 "codes": "PalaceKey3"
-            },
+            }
         ],
         "codes": "PalaceKey"
     },
@@ -731,7 +730,7 @@
                 "img": "images/items/PalaceKey(RiddleTower)HD2.png",
                 "img_mods": "overlay|/images/Items/GreenOverlay8HD2.png,",
                 "codes": "PalaceKey(RiddleTower)8"
-            },
+            }
         ],
         "codes": "PalaceKey(RiddleTower)"
     },
@@ -791,67 +790,65 @@
         "codes": "HiddenOn"
     },
     {
-        "name": "0 Chapter Clears",
-        "type": "toggle",
-        "img": "images/items/CrystalStar.png",
-        "img_mods": "overlay|/images/Items/Overlay0.png,",
-        "codes": "0ChapterClears"
-    },
-    {
-        "name": "1 Chapter Clear",
-        "type": "toggle",
-        "img": "images/items/CrystalStar.png",
-        "img_mods": "overlay|/images/Items/Overlay1.png,",
-        "codes": "1ChapterClears"
-    },
-    {
-        "name": "2 Chapter Clears",
-        "type": "toggle",
-        "img": "images/items/CrystalStar.png",
-        "img_mods": "overlay|/images/Items/Overlay2.png,",
-        "codes": "2ChapterClears"
-    },
-    {
-        "name": "3 Chapter Clears",
-        "type": "toggle",
-        "img": "images/items/CrystalStar.png",
-        "img_mods": "overlay|/images/Items/Overlay3.png,",
-        "codes": "3ChapterClears"
-    },
-    {
-        "name": "4 Chapter Clears",
-        "type": "toggle",
-        "img": "images/items/CrystalStar.png",
-        "img_mods": "overlay|/images/Items/Overlay4.png,",
-        "codes": "4ChapterClears"
-    },
-    {
-        "name": "5 Chapter Clears",
-        "type": "toggle",
-        "img": "images/items/CrystalStar.png",
-        "img_mods": "overlay|/images/Items/Overlay5.png,",
-        "codes": "5ChapterClears"
-    },
-    {
-        "name": "6 Chapter Clears",
-        "type": "toggle",
-        "img": "images/items/CrystalStar.png",
-        "img_mods": "overlay|/images/Items/Overlay6.png,",
-        "codes": "6ChapterClears"
-    },
-    {
-        "name": "7 Chapter Clears",
-        "type": "toggle",
-        "img": "images/items/CrystalStar.png",
-        "img_mods": "overlay|/images/Items/Overlay7.png,",
-        "codes": "7ChapterClears"
+        "name": "Chapter Clears",
+        "type": "progressive",
+        "stages": [
+            {
+                "name": "Chapter 0",
+                "img": "images/items/CrystalStar.png",
+                "img_mods": "overlay|/images/Items/Overlay0.png,",
+                "codes": "Chapter0"
+            },
+            {
+                "name": "Chapter 1",
+                "img": "images/items/CrystalStar.png",
+                "img_mods": "overlay|/images/Items/Overlay1.png,",
+                "codes": "Chapter1"
+            },
+            {
+                "name": "Chapter 2",
+                "img": "images/items/CrystalStar.png",
+                "img_mods": "overlay|/images/Items/Overlay2.png,",
+                "codes": "Chapter2"
+            },
+            {
+                "name": "Chapter 3",
+                "img": "images/items/CrystalStar.png",
+                "img_mods": "overlay|/images/Items/Overlay3.png,",
+                "codes": "Chapter3"
+            },
+            {
+                "name": "Chapter 4",
+                "img": "images/items/CrystalStar.png",
+                "img_mods": "overlay|/images/Items/Overlay4.png,",
+                "codes": "Chapter4"
+            },
+            {
+                "name": "Chapter 5",
+                "img": "images/items/CrystalStar.png",
+                "img_mods": "overlay|/images/Items/Overlay5.png,",
+                "codes": "Chapter5"
+            },
+            {
+                "name": "Chapter 6",
+                "img": "images/items/CrystalStar.png",
+                "img_mods": "overlay|/images/Items/Overlay6.png,",
+                "codes": "Chapter6"
+            },
+            {
+                "name": "Chapter 7",
+                "img": "images/items/CrystalStar.png",
+                "img_mods": "overlay|/images/Items/Overlay7.png,",
+                "codes": "Chapter7"
+            }
+        ],
+        "codes": "Chapter_Clears"
     },
     {
         "name": "Is The Pit of 100 Trials Included?",
-        "type": "toggle",
-        "initial_active_state": "true",
+        "type": "progressive",
         "img": "images/items/BigChest.png",
-        "codes": "PitOn"
+        "codes": "Pit_Items"
     },
     {
         "name": "ZobeePlays on Discord!",
@@ -918,10 +915,24 @@
     },
     {
         "name": "Chapter 8",
-        "type": "toggle",
-        "initial_active_state": "true",
-        "img": "images/items/ShadowQueen.png",
-        "codes": "Ch8"
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Chapter 8",
+                "img": "images/items/ShadowQueenDim.png",
+                "inherit_codes": false,
+                "codes": "NoChap8"
+            },
+            {
+                "name": "Chapter 8",
+                "img": "images/items/ShadowQueen.png",
+                "inherit_codes": false,
+                "codes": "YesChap8"
+            }
+        ],
+        "codes": "limit_chapter_eight, Ch8"
     },
     {
         "name": "Palace Skip",
@@ -942,7 +953,7 @@
                 "codes": "YesPalaceSkip"
             }
         ],
-        "codes": "PalaceSkip"
+        "codes": "palace_skip"
     },
     {
         "name": "Show Locations Not Yet in Pool?",
@@ -952,10 +963,51 @@
         "codes": "HiddenOn"
     },
     {
+<<<<<<< HEAD:var_SwitchRemakeNoOutlinesWithAllGCMaps/items/items.json
         "name": "Auto Tab Switching",
         "type": "toggle",
         "initial_active_state": "false",
         "img": "images/items/MagicalMapHD2.png",
         "codes": "AutoTabOn"
+=======
+        "name": "Open Westside",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Closed Westside",
+                "img": "images/items/ZessTDim.png",
+                "inherit_codes": false,
+                "codes": "west_closed"
+            },
+            {
+                "name": "Open Westside",
+                "img": "images/items/ZessT.png",
+                "inherit_codes": false,
+                "codes": "west_open"
+            }
+        ],
+        "codes": "open_westside"
+    },
+    {
+        "name": "Limit Chapter 8",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "All of Chapter 8",
+                "img": "images/items/Overlay8.png",
+                "inherit_codes": false,
+                "codes": "LimitCh8Off"
+            },
+            {
+                "name": "Limit Chapter 8",
+                "img": "images/items/GreenOverlay8.png",
+                "inherit_codes": false,
+                "codes": "LimitCh8On"
+            }
+        ],
+        "codes": "limit_chapter_eightt"
+>>>>>>> upstream/main:var_SwitchRemakeNoOutlinesWithMap/items/items.json
     }
 ]
