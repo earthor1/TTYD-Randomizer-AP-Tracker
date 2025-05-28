@@ -12,14 +12,6 @@ function onClear(slot_data)
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     CUR_INDEX = -1
 
-    -- Map Datastorage
-    if Archipelago.PlayerNumber > -1 then
-        print("SUCCESS?")
-        cur_room = "ttyd_room_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
-        Archipelago:SetNotify({ cur_room })
-        Archipelago:Get({ cur_room })
-    end
-
     -- reset locations
     print("onClear called, slot_data:", dump_table(slot_data))
     for _, location_array in pairs(LOCATION_MAPPING) do
@@ -63,7 +55,7 @@ function onClear(slot_data)
             end
         end
     end
--- Apply settings from SLOT_CODES
+    -- Apply settings from SLOT_CODES
     for key, value in pairs(SLOT_CODES) do
         local setting_value = slot_data[key]
         if setting_value ~= nil then
@@ -72,6 +64,13 @@ function onClear(slot_data)
                 item_obj.CurrentStage = value.mapping[setting_value]
             end
         end
+    end
+    -- Map Datastorage
+    if Archipelago.PlayerNumber > -1 then
+        print("SUCCESS?")
+        cur_room = "ttyd_room_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+        Archipelago:SetNotify({ cur_room })
+        Archipelago:Get({ cur_room })
     end
 end
 
