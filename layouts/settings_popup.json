@@ -20,37 +20,10 @@
                         "rows": [
                             [
                                 "HiddenOn",
-                                "PitOn",
-                                "PalaceSkip",
-                            ]
-                        ]
-                    }
-                ]
-            },
-            {
-                "type": "group",
-                "header": "Chapters Cleared required for Palace of Shadow",
-                "description": "Enable/Disable the automatic fill of the settings panel from for connected Slot_Data",
-                "header_background": "#3e4b57",
-                "content": [
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "2, 2",
-                        "h_alignment": "left",
-                        "item_h_alignment": "center",
-                        "item_v_alignment": "center",
-                        "item_height": 36,
-                        "item_width": 36,
-                        "rows": [
-                            [
-                                "0ChapterClears",
-                                "1ChapterClears",
-                                "2ChapterClears",
-                                "3ChapterClears",
-                                "4ChapterClears",
-                                "5ChapterClears",
-                                "6ChapterClears",
-                                "7ChapterClears"
+                                "Pit_Items",
+                                "palace_skip",
+                                "Chapter_Clears",
+                                "open_westside"
                             ]
                         ]
                     }

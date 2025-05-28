@@ -3,11 +3,11 @@
             "type": "tabbed",
             "tabs": [
                 {
-                    "title": "Magical Map",
+                    "title": "OG Map",
                     "content": {
                         "type": "map",
                         "maps": [
-                            "Switch-Map"
+                            "Magical Map"
                         ]
                     }
                 
@@ -18,11 +18,11 @@
             "type": "tabbed",
             "tabs": [
                 {
-                    "title": "Magical Map",
+                    "title": "HD Map",
                     "content": {
                         "type": "map",
                         "maps": [
-                            "GC-Map"
+                            "Magical Map"
                         ]
                     }
                 
