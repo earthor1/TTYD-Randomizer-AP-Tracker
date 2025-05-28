@@ -963,13 +963,6 @@
         "codes": "HiddenOn"
     },
     {
-<<<<<<< HEAD:var_SwitchRemakeNoOutlinesWithAllGCMaps/items/items.json
-        "name": "Auto Tab Switching",
-        "type": "toggle",
-        "initial_active_state": "false",
-        "img": "images/items/MagicalMapHD2.png",
-        "codes": "AutoTabOn"
-=======
         "name": "Open Westside",
         "type": "progressive",
         "allow_disabled": false,
@@ -1008,6 +1001,12 @@
             }
         ],
         "codes": "limit_chapter_eightt"
->>>>>>> upstream/main:var_SwitchRemakeNoOutlinesWithMap/items/items.json
+    },
+    {
+        "name": "Auto Tab Switching",
+        "type": "toggle",
+        "initial_active_state": "false",
+        "img": "images/items/MagicalMapHD2.png",
+        "codes": "AutoTabOn"
     }
 ]

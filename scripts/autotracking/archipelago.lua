@@ -1,10 +1,8 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
-<<<<<<< HEAD
 ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
-=======
 ScriptHost:LoadScript("scripts/autotracking/settings_mapping.lua")
->>>>>>> upstream/main
+
 
 CUR_INDEX = -1
 
@@ -42,17 +40,10 @@ function onClear(slot_data)
     -- reset items
     for _, item in pairs(ITEM_MAPPING) do
         for _, item_code in pairs(item) do
-<<<<<<< HEAD
-            item_code = item[1]
-            item_type = item[2]
-            initial_state = item[3]
-            local item_obj = Tracker:FindObjectForCode(item_code)
-=======
           item_code = item[1]
           item_type = item[2]
           initial_state = item[3]
             item_obj = Tracker:FindObjectForCode(item_code)
->>>>>>> upstream/main
             if item_obj then
                 if item_obj.Type == "toggle" then
                     item_obj.Active = false
