@@ -23,7 +23,7 @@ function yoshi()
 	end
 
 function westside()
-	return has("ContactLens") or has("Bobbery") or (tube()) or has("UltraHammer")
+	return (has("ContactLens") or has("Bobbery") or (tube()) or has("UltraHammer")) or has("west_open")
 	end
 
 function bogglywoods()
