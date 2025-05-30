@@ -82,5 +82,11 @@
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 5/pirates_grotto.png"
+            },
+            {
+                "name": "Excess Express",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 6/excess_express.png"
             }
 ]

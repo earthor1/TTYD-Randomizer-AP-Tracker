@@ -181,6 +181,33 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Excess Express",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Excess Express"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Riverside Station",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Riverside Station"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Poshly Heights",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Poshly Heights"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -384,6 +411,33 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Excess Express",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Excess Express"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Riverside Station",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Riverside Station"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Poshly Heights",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Poshly Heights"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
