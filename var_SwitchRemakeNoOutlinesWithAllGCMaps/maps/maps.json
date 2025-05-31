@@ -100,5 +100,11 @@
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 6/poshley_heights.png"
+            },
+            {
+                "name": "Fahr Outpost",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 7/fahr_outpost.png"
             }
 ]

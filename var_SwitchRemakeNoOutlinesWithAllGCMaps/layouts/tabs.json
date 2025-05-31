@@ -216,6 +216,33 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Fahr Outpost",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fahr Outpost"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Moon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Moon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "X-Naut Fortress",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "X-Naut Fortress"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
@@ -446,6 +473,33 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Fahr Outpost",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Fahr Outpost"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "The Moon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "The Moon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "X-Naut Fortress",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "X-Naut Fortress"
+                                ]
+                            }
+                        }
                     ]
                 }
             },
