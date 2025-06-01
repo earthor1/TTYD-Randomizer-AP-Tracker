@@ -106,5 +106,11 @@
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/maps/Chapter 7/fahr_outpost.png"
+            },
+            {
+                "name": "The Moon",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/maps/Chapter 7/the_moon.png"
             }
 ]
