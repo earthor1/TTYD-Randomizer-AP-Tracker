@@ -16,7 +16,7 @@
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers East Enemy Hall - Mushroom"}],
-                "map_locations": [{"map": "Sewers", "x": 2087, "y": 920}]
+                "map_locations": [{"map": "Sewers", "x": 2087, "y": 930}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers Spike Room - Spike Shield"}],
@@ -27,16 +27,10 @@
                 "map_locations": [{"map": "Sewers", "x": 2440, "y": 570}]
             },
             {
-                "sections": [{"ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers Spania Room - Shine Sprite 1"}],
-                "map_locations": [{"map": "Sewers", "x": 2380, "y": 682}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers Spania Room - Shine Sprite 2"}],
-                "map_locations": [{"map": "Sewers", "x": 2413, "y": 655}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers Spania Room - Shine Sprite 3"}],
-                "map_locations": [{"map": "Sewers", "x": 2433, "y": 632}]
+                "sections": [{"name":"Rogueport Sewers Spania Room - Shine Sprite 1", "ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers Spania Room - Shine Sprite 1"},
+                             {"name":"Rogueport Sewers Spania Room - Shine Sprite 2", "ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers Spania Room - Shine Sprite 2"},
+                             {"name":"Rogueport Sewers Spania Room - Shine Sprite 3", "ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers Spania Room - Shine Sprite 3"}],
+                "map_locations": [{"map": "Sewers", "x": 2413, "y": 680}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Sewers East/Rogueport Sewers East Pipe Room - Shine Sprite"}],
@@ -128,16 +122,13 @@
                 "map_locations": [{"map": "Sewers", "x": 1512, "y": 1305}]
             },
             {
-                "sections": [{"ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Shine Sprite"}],
+                "sections": [{"name":"Rogueport Sewers Town - Shine Sprite", "ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Shine Sprite"},
+                             {"name":"Rogueport Sewers Town - Star Piece 1", "ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Star Piece 1"}],
                 "map_locations": [{"map": "Sewers", "x": 1449, "y": 777}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Soft Stomp"}],
                 "map_locations": [{"map": "Sewers", "x": 1317, "y": 1212}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Star Piece 1"}],
-                "map_locations": [{"map": "Sewers", "x": 1422, "y": 753}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Star Piece 2"}],
