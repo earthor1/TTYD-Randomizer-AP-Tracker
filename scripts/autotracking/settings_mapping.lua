@@ -39,8 +39,8 @@ SLOT_CODES =
     code = "limit_chapter_eight", -- All chapter 8 keys will be vanilla, all other locations will have non-progression items.
     mapping =
     {
-      [0] = 0, --False
-      [1] = 1  -- True
+      [0] = 1, --False
+      [1] = 0  -- True
     }
   },
   palace_skip =
