@@ -1005,7 +1005,7 @@
     {
         "name": "Auto Tab Switching",
         "type": "toggle",
-        "initial_active_state": "false",
+        "initial_active_state": "true",
         "img": "images/items/MagicalMapHD2.png",
         "codes": "AutoTabOn"
     }
