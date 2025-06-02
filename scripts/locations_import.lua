@@ -1,3 +1,5 @@
 Tracker:AddLocations("locations/Overworld.json")
-Tracker:AddLocations("locations/Rogueport.json")
+Tracker:AddLocations("locations/Town.json")
 Tracker:AddLocations("locations/Sewers.json")
+Tracker:AddLocations("locations/Petal_Meadows.json")
+Tracker:AddLocations("locations/Shhwonk_Fortress.json")
