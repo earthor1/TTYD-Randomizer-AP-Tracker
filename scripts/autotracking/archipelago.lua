@@ -69,8 +69,8 @@ function onClear(slot_data)
     if Archipelago.PlayerNumber > -1 then
         print("SUCCESS?")
         cur_room = "ttyd_room_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
-        Archipelago:SetNotify({ cur_room })
-        Archipelago:Get({ cur_room })
+        Archipelago:SetNotify({cur_room})
+        Archipelago:Get({cur_room})
     end
 end
 
