@@ -2897,6 +2897,8 @@
                     },
                     {
                         "name": "Twilight Town Leftside - Peachy Peach",
+                        "chest_unopened_img": "/images/items/InnCoupon.png",
+                        "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -3888,6 +3890,8 @@
                     },
                     {
                         "name": "Poshley Heights Downtown - Omelette Meal",
+                        "chest_unopened_img": "/images/items/InnCoupon.png",
+                        "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -4311,6 +4315,8 @@
                     },
                     {
                         "name": "Fahr Outpost Town - Space Food",
+                        "chest_unopened_img": "/images/items/InnCoupon.png",
+                        "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
