@@ -29,26 +29,33 @@ local mapData = {
     -- Creepy Steeple
     {"jin", 0, 11, {"Chapter 4", "Creepy Steeple"}},
     -- Pirate's Grotto
-    {"dou", 0, 13, {"Chapter 5"}},
+    {"dou", 0, 13, {"Chapter 5", "Pirate's Grotto"}},
     -- Keelhaul Key
-    {"muj", 0, 12, {"Chapter 5"}},
+    {"muj", 0, 12, {"Chapter 5", "Keelhaul Key"}},
     -- Riverside Station
-    {"hom", 0, 0, {"Chapter 6"}},
-    {"eki", 0, 6, {"Chapter 6"}},
+    {"hom", 0, 0, {"Chapter 6", "Riverside Station"}},
+    {"eki", 0, 6, {"Chapter 6", "Riverside Station"}},
     -- Poshley Heights
-    {"pik", 0, 4, {"Chapter 6"}},
+    {"pik", 0, 4, {"Chapter 6", "Poshley Heights"}},
     -- Excess Express
-    {"rsh", 0, 6, {"Chapter 6"}},
+    {"rsh", 0, 6, {"Chapter 6", "Excess Express"}},
     -- X-Naut Fortress
-    {"aji", 0, 19, {"Chapter 7"}},
+    {"aji", 0, 19, {"Chapter 7", "X-Naut Fortress"}},
     -- Fahr Outpost
-    {"bom", 0, 4, {"Chapter 7"}},
+    {"bom", 0, 4, {"Chapter 7", "Fahr Outpost"}},
     -- The Moon
-    {"moo", 0, 7, {"Chapter 7"}},
+    {"moo", 0, 7, {"Chapter 7", "The Moon"}},
     -- The Thousand-Year Door
-    {"las", 0, 30, {"Chapter 8"}},
+    -- Pos Left
+    {"las", 0, 8, {"Chapter 8", "Palace of Shadow", "Left"}},
+    -- Riddle Tower
+    {"las", 9, 19, {"Chapter 8", "Palace of Shadow", "Riddle Tower"}},
+    {"las", 26, 26, {"Chapter 8", "Palace of Shadow", "Riddle Tower"}},
+    -- Pos Right
+    {"las", 20, 25, {"Chapter 8", "Palace of Shadow", "Right"}},
+    {"las", 27, 30, {"Chapter 8", "Palace of Shadow", "Right"}},
     -- Pit of 100 Trials
-    {"jon", 0, 6, {"Magical Map"}}
+    {"jon", 0, 6, {"Rogueport", "Sewers"}}
 }
 
 local function addMapIds(map, range_start, range_end, tabpath)
