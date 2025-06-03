@@ -269,11 +269,11 @@
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Star Piece 2"}],
-                "map_locations": [{"map": "Town", "x": 1328, "y": 1013}]
+                "map_locations": [{"map": "Town", "x": 1033, "y": 750}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Star Piece 3"}],
-                "map_locations": [{"map": "Town", "x": 1033, "y": 750}]
+                "map_locations": [{"map": "Town", "x": 1328, "y": 1013}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Westside/Rogueport Westside - Star Piece 4"}],
