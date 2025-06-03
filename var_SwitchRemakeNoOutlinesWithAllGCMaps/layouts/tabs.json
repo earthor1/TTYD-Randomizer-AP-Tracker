@@ -251,6 +251,41 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Palace of Shadow",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Left",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Pos Left"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Riddle Tower",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Riddle Tower"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Right",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Pos Right"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             }
@@ -508,6 +543,41 @@
                 "content": {
                     "type": "tabbed",
                     "tabs": [
+                        {
+                            "title": "Palace of Shadow",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                    {
+                                        "title": "Left",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Pos Left"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Riddle Tower",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Riddle Tower"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "title": "Right",
+                                        "content": {
+                                            "type": "map",
+                                            "maps": [
+                                                "Pos Right"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     ]
                 }
             }
