@@ -1,12 +1,11 @@
 {
     "settings_popup": {
         "type": "array",
-        "margin": "5",
+        "margin": 5,
         "content": [
             {
                 "type": "group",
                 "header": "General Settings",
-                "description": "Enable/Disable the automatic fill of the settings panel from for connected Slot_Data",
                 "header_background": "#3e4b57",
                 "content": [
                     {
@@ -32,7 +31,6 @@
             {
                 "type": "group",
                 "header": "Limit Chapter Logic",
-                "description": "Enable/Disable the automatic fill of the settings panel from for connected Slot_Data",
                 "header_background": "#3e4b57",
                 "content": [
                     {
@@ -61,7 +59,6 @@
             {
                 "type": "group",
                 "header": "If you find a bug, please report it in the discord!",
-                "description": "Enable/Disable the automatic fill of the settings panel from for connected Slot_Data",
                 "header_background": "#3e4b57",
                 "content": [
                     {
