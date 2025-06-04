@@ -2897,6 +2897,8 @@
                     },
                     {
                         "name": "Twilight Town Leftside - Peachy Peach",
+                        "chest_unopened_img": "/images/items/InnCoupon.png",
+                        "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -3888,6 +3890,8 @@
                     },
                     {
                         "name": "Poshley Heights Downtown - Omelette Meal",
+                        "chest_unopened_img": "/images/items/InnCoupon.png",
+                        "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -4311,6 +4315,8 @@
                     },
                     {
                         "name": "Fahr Outpost Town - Space Food",
+                        "chest_unopened_img": "/images/items/InnCoupon.png",
+                        "chest_opened_img": "/images/items/InnCouponDim.png",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -4678,13 +4684,13 @@
                 "sections": [
                     {
                         "name": "Palace of Shadow Swoopula Staircase - Stopwatch",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": [""],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Bullet Bill Hallway - Shooting Star",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": [""],
                         "item_count": 1
                     },
@@ -4692,13 +4698,13 @@
                         "name": "Palace of Shadow Spike Trap Room - All or Nothing",
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": [""],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Fire Trap Room - Boo's Sheet",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": [""],
                         "item_count": 1
                     },
@@ -4710,13 +4716,13 @@
                     },
                     {
                         "name": "Palace of Shadow Second Bullet Bill Hallway - Ultra Shroom",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$tube,PalaceKey1","Vivian,PalaceKey1"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Large Open Room - Coin",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$tube,PalaceKey1","Vivian,PalaceKey1"],
                         "item_count": 1
                     },
@@ -4724,13 +4730,13 @@
                         "name": "Palace of Shadow Large Open Room - P-Up D-Down P",
                         "chest_unopened_img": "/images/items/RBlock.png",
                         "chest_opened_img": "/images/items/RBlockOpen.png",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$tube,PalaceKey1","Vivian,PalaceKey1"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Large Open Room - Jammin' Jelly",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$tube,PalaceKey1","Vivian,PalaceKey1"],
                         "item_count": 1
                     }
@@ -4769,37 +4775,37 @@
                     },
                     {
                         "name": "Palace of Shadow Gloomtail Room - Ultra Shroom",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$tube,Bobbery","Vivian,Bobbery"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Gloomtail Room - Jammin' Jelly",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$tube,Bobbery","Vivian,Bobbery"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Far Hallway 1 - Thunder Rage",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Koops,$yoshi","$palaceright,UltraBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Far Backroom 1 - Life Shroom",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey2"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Far Backroom 1 - Repel Cape",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi","$palaceright,Koops"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Far Backroom 2 - Life Shroom",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey2,PaperCurse"],
                         "item_count": 1
                     },
@@ -4813,13 +4819,13 @@
                         "name": "Palace of Shadow Far Backroom 2 - Shooting Star",
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Far Backroom 3 - Coin",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey2,PaperCurse,Flurrie,UltraHammer"],
                         "item_count": 1
                     },
@@ -4833,19 +4839,19 @@
                     },
                     {
                         "name": "Palace of Shadow Far Backroom 3 - Point Swap",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey2,PaperCurse,Flurrie,UltraHammer"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Far Hallway 4 - Life Shroom",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey2,PaperCurse,Flurrie,UltraHammer,PlaneCurse"],
                         "item_count": 1
                     },
                     {
                         "name": "Palace of Shadow Far Hallway 4 - Shooting Star",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey2,PaperCurse,Flurrie,UltraHammer,PlaneCurse"],
                         "item_count": 1
                     },
@@ -4853,7 +4859,7 @@
                         "name": "Palace of Shadow Final Staircase - Jammin' Jelly",
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse"],
                         "item_count": 1
                     },
@@ -4861,7 +4867,7 @@
                         "name": "Palace of Shadow Final Staircase - Ultra Shroom",
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
-                        "visibility_rules": ["NoChap8"],
+                        "visibility_rules": ["YesChap8"],
                         "access_rules": ["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse"],
                         "item_count": 1
                     }
