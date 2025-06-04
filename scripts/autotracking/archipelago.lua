@@ -142,8 +142,24 @@ function onLocation(location_id, location_name)
     end
 end
 
--- Code for auto tab switching.
+-- Code for auto tab switching and player tracking.
+local currentCode
+
 function onMapChange(key, value, old)
+    local newCode = value
+    local currentObject = currentCode and Tracker:FindObjectForCode(currentCode)
+    local newObject = Tracker:FindObjectForCode(newCode)
+
+    if currentObject and currentObject.Active then
+        currentObject.Active = false
+    end
+
+    if newObject then
+        newObject.Active = true
+    end
+
+    currentCode = newCode
+
     if has("AutoTabOn") then
         tabs = MAP_MAPPING[tostring(value)]
         for i, tab in ipairs(tabs) do
@@ -157,6 +173,6 @@ Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 
--- Code for auto tab switching.
+-- Code for auto tab switching and player tracking.
 Archipelago:AddSetReplyHandler("map_key", onMapChange)
 Archipelago:AddRetrievedHandler("map_key", onMapChange)
