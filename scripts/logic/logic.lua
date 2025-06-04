@@ -35,11 +35,11 @@ function pit()
 	end
 
 function sewerwest()
-	return (has("ContactLens") and has("PaperCurse")) or (has("UltraHammer") and has("PaperCurse")) or (has("UltraBoots") and (yoshi())) or (tube()) or (has("Bobbery"))
+	return (has("ContactLens") and has("PaperCurse")) or (has("UltraHammer") and has("PaperCurse")) or (tube()) or (has("Bobbery"))
 	end
 
 function sewerwestground()
-	return (has("ContactLens") and has("PaperCurse")) or (has("UltraHammer") and has("PaperCurse")) or (has("UltraBoots") and (yoshi())) or (tube()) or (has("Bobbery"))
+	return (has("ContactLens") and has("PaperCurse")) or has("UltraHammer") or (tube()) or (has("Bobbery"))
 	end
 
 function ttyd()
@@ -47,7 +47,7 @@ function ttyd()
 	end
 
 function twilight_town()
-	return ((silly()) and ((yoshi()) or has("UltraBoots")))
+	return ((sewerwestground()) and ((yoshi()) or has("UltraBoots")))
 	end
 
 function steeple()
@@ -76,10 +76,6 @@ function fahr_outpost()
 
 function pirates_grotto()
 	return has("Bobbery") and has("SkullGem") and (yoshi()) and has("SuperBoots")
-	end
-
-function silly()
-	return (has("ContactLens") and has("PaperCurse")) or has("Bobbery") or (tube()) or (has("UltraHammer") and has("PaperCurse"))
 	end
 
 function poshley_heights()
