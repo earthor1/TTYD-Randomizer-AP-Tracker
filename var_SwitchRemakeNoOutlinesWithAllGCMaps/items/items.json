@@ -852,15 +852,26 @@
     },
     {
         "name": "ZobeePlays on Discord!",
-        "initial_active_state": "true",
-        "type": "toggle",
+        "type": "static",
         "img": "images/items/Zobee.png",
         "codes": "Zobee"
     },
     {
+        "name": "earthor1 on Discord!",
+        "type": "static",
+        "img": "images/items/Earth.png",
+        "codes": "Earth"
+    },
+    {
+        "name": "PillarAngel on Discord!",
+        "type": "static",
+        "img": "images/items/Pillar.png",
+        "codes": "Pillar"
+    },
+    {
         "name": "https://discord.gg/zar9H8vfya",
         "initial_active_state": "true",
-        "type": "toggle",
+        "type": "static",
         "img": "images/items/Discord.png",
         "codes": "Discord"
     },
@@ -1008,5 +1019,18 @@
         "initial_active_state": "true",
         "img": "images/items/MagicalMapHD2.png",
         "codes": "AutoTabOn"
+    },
+    {
+        "name": "Player Tracking",
+        "type": "toggle",
+        "initial_active_state": "true",
+        "img": "images/items/Mario.png",
+        "codes": "PlayerTrackOn"
+    },
+    {
+        "name": "Seperator",
+        "type": "static",
+        "img": "images/items/Seperator.png",
+        "codes": "Seperate"
     }
 ]

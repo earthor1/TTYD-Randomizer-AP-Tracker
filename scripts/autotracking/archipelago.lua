@@ -154,11 +154,13 @@ function onMapChange(key, value, old)
         currentObject.Active = false
     end
 
-    if newObject then
-        newObject.Active = true
+    if has("PlayerTrackOn") then
+        if newObject then
+            newObject.Active = true
+        end
+        
+        currentCode = newCode
     end
-
-    currentCode = newCode
 
     if has("AutoTabOn") then
         tabs = MAP_MAPPING[tostring(value)]

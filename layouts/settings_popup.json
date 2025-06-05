@@ -23,7 +23,9 @@
                                 "palace_skip",
                                 "Chapter_Clears",
                                 "open_westside",
-                                "AutoTabOn"
+                                "Seperate",
+                                "AutoTabOn",
+                                "PlayerTrackOn"
                             ]
                         ]
                     }
@@ -73,7 +75,9 @@
                         "rows": [
                             [
                                 "Discord",
-                                "Zobee"
+                                "Zobee",
+                                "Earth",
+                                "Pillar"
                             ]
                         ]
                     }
