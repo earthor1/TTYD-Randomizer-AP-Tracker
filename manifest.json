@@ -33,7 +33,7 @@
             "display_name": "Map Tracker - OG Sprites",
             "flags": ["ap"]
     },
-        "var_SwitchRemakeNoOutlinesWithAllGCMaps": {
+        "var_SwitchRemakeNoOutlinesWithMap": {
             "display_name": "Map Tracker - Switch Remake No Outlines",
             "flags": ["ap"]
     }
