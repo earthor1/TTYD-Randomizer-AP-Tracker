@@ -840,15 +840,25 @@
     },
     {
         "name": "ZobeePlays on Discord!",
-        "initial_active_state": true,
-        "type": "toggle",
+        "type": "static",
         "img": "images/items/Zobee.png",
         "codes": "Zobee"
     },
     {
+        "name": "earthor1 on Discord!",
+        "type": "static",
+        "img": "images/items/Earth.png",
+        "codes": "Earth"
+    },
+    {
+        "name": "PillarAngel on Discord!",
+        "type": "static",
+        "img": "images/items/Pillar.png",
+        "codes": "Pillar"
+    },
+    {
         "name": "https://discord.gg/zar9H8vfya",
-        "initial_active_state": true,
-        "type": "toggle",
+        "type": "static",
         "img": "images/items/Discord.png",
         "codes": "Discord"
     },
