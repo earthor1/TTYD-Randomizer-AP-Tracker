@@ -132,11 +132,11 @@
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Star Piece 2"}],
-                "map_locations": [{"map": "Sewers", "x": 1173, "y": 933}]
+                "map_locations": [{"map": "Sewers", "x": 1062, "y": 1086}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Star Piece 3"}],
-                "map_locations": [{"map": "Sewers", "x": 1062, "y": 1086}]
+                "map_locations": [{"map": "Sewers", "x": 1173, "y": 933}]
             },
             {
                 "sections": [{"ref": "Magical Map/Rogueport Sewers West & Town/Rogueport Sewers Town - Star Piece 4"}],
