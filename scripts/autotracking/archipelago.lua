@@ -6,7 +6,7 @@ ScriptHost:LoadScript("scripts/autotracking/settings_mapping.lua")
 
 CUR_INDEX = -1
 
-if PopVersion > "0.31.0" then
+if Highlight then
     highlight_lvl = {
         [0] = Highlight.Unspecified,
         [10] = Highlight.NoPriority,
@@ -34,6 +34,7 @@ function onClear(slot_data)
                     else
                         location_obj.Active = false
                     end
+                    updateHintsClear(location)
                 end
             end
         end
@@ -65,7 +66,7 @@ function onClear(slot_data)
             end
         end
     end
-    
+
     -- Apply settings from SLOT_CODES
     for key, value in pairs(SLOT_CODES) do
         local setting_value = slot_data[key]
@@ -79,11 +80,16 @@ function onClear(slot_data)
 
     -- Map Datastorage
     if Archipelago.PlayerNumber > -1 then
-        print("SUCCESS?")
-        cur_room = "ttyd_room_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
-        HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
-        Archipelago:SetNotify({ cur_room, HINTS_ID })
-        Archipelago:Get({ cur_room, HINTS_ID })
+        if Highlight then
+            cur_room = "ttyd_room_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+            HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+            Archipelago:SetNotify({cur_room, HINTS_ID})
+            Archipelago:Get({cur_room, HINTS_ID})
+        else
+            cur_room = "ttyd_room_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+            Archipelago:SetNotify({cur_room})
+            Archipelago:Get({cur_room})
+        end
     end
 end
 
@@ -152,7 +158,7 @@ function onLocation(location_id, location_name)
     end
 end
 
--- Code for auto tab switching and player tracking.
+--Player Tracking and Autotabbing
 local currentCode
 
 function onMapChange(key, value, old)
@@ -167,7 +173,7 @@ function onMapChange(key, value, old)
         if currentObject and currentObject.Active then
             currentObject.Active = false
         end
-
+        
         if has("PlayerTrackOn") then
             if newObject then
                 newObject.Active = true
@@ -184,7 +190,8 @@ function onMapChange(key, value, old)
         end
     end
 
-    if value ~= old and key == HINTS_ID then
+    --Hint Tracking
+    if value ~= old and key == HINTS_ID and Highlight then
         Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
@@ -200,18 +207,38 @@ function onMapChange(key, value, old)
 end
 
 function updateHints(locationID, status)
-    if PopVersion > "0.31.0" then
-        print(locationID, status)
-        local location_table = LOCATION_MAPPING[locationID]
-        for _, location in ipairs(location_table) do
-            local obj = Tracker:FindObjectForCode(location)
-            if obj then
-                obj.Highlight = highlight_lvl[status]
-            else
-                print(string.format("No object found for code: %s", location))
-            end
+    if not Highlight then
+        return
+    end
+    print(locationID, status)
+    local location_table = LOCATION_MAPPING[locationID]
+    for _, location in ipairs(location_table) do
+        local obj = Tracker:FindObjectForCode(location)
+        if obj then
+            obj.Highlight = highlight_lvl[status]
+        else
+            print(string.format("No object found for code: %s", location))
         end
     end
+end
+
+function updateHintsClear(locationID)
+	if not Highlight then
+		return
+	end
+
+	if not LOCATION_MAPPING[locationID] then
+		return
+	end
+
+	local location_name = LOCATION_MAPPING[locationID][1][1]
+	local obj = Tracker:FindObjectForCode(location_name)
+
+	if obj then
+		obj.Highlight = Highlight.None
+	else
+		print(string.format("No object found for code: %s", location_name))
+	end
 end
 
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
@@ -219,6 +246,6 @@ Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 
--- Code for auto tab switching and player tracking.
+-- Tab, Player, and hint tracking.
 Archipelago:AddSetReplyHandler("map_key", onMapChange)
 Archipelago:AddRetrievedHandler("map_key", onMapChange)
