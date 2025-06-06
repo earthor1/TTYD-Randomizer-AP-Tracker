@@ -124,5 +124,17 @@
                 "location_size": 32,
                 "location_border_thickness": 2,
                 "img": "images/Chapter 8/pos_left.png"
+            },
+            {
+                "name": "Riddle Tower",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/Chapter 8/pos_riddletower.png"
+            },
+            {
+                "name": "Pos Right",
+                "location_size": 32,
+                "location_border_thickness": 2,
+                "img": "images/Chapter 8/pos_right.png"
             }
 ]
