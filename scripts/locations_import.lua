@@ -8,6 +8,8 @@ Tracker:AddLocations("locations/Boggly_Woods.json")
 Tracker:AddLocations("locations/Great_Tree.json")
 Tracker:AddLocations("locations/Glitz_Pit.json")
 Tracker:AddLocations("locations/Glitzville.json")
+Tracker:AddLocations("locations/Twilight_Trail.json")
+Tracker:AddLocations("locations/Creepy_Steeple.json")
 
 --Player Position Tracking
 Tracker:AddLocations("locations/Player_Positions.json")
