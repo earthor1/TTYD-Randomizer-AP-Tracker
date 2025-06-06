@@ -6,6 +6,16 @@ ScriptHost:LoadScript("scripts/autotracking/settings_mapping.lua")
 
 CUR_INDEX = -1
 
+if PopVersion > "0.31.0" then
+    highlight_lvl = {
+        [0] = Highlight.Unspecified,
+        [10] = Highlight.NoPriority,
+        [20] = Highlight.Avoid,
+        [30] = Highlight.Priority,
+        [40] = Highlight.None,
+    }
+end
+
 
 function onClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
@@ -32,9 +42,9 @@ function onClear(slot_data)
     -- reset items
     for _, item in pairs(ITEM_MAPPING) do
         for _, item_code in pairs(item) do
-          item_code = item[1]
-          item_type = item[2]
-          initial_state = item[3]
+            item_code = item[1]
+            item_type = item[2]
+            initial_state = item[3]
             item_obj = Tracker:FindObjectForCode(item_code)
             if item_obj then
                 if item_obj.Type == "toggle" then
@@ -55,6 +65,7 @@ function onClear(slot_data)
             end
         end
     end
+    
     -- Apply settings from SLOT_CODES
     for key, value in pairs(SLOT_CODES) do
         local setting_value = slot_data[key]
@@ -65,20 +76,18 @@ function onClear(slot_data)
             end
         end
     end
+
     -- Map Datastorage
     if Archipelago.PlayerNumber > -1 then
         print("SUCCESS?")
         cur_room = "ttyd_room_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
-        Archipelago:SetNotify({cur_room})
-        Archipelago:Get({cur_room})
+        HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+        Archipelago:SetNotify({ cur_room, HINTS_ID })
+        Archipelago:Get({ cur_room, HINTS_ID })
     end
 end
 
-
-
-
 function onItem(index, item_id, item_name, player_number)
-
     if index <= CUR_INDEX then
         return
     end
@@ -89,6 +98,7 @@ function onItem(index, item_id, item_name, player_number)
         --print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
+
     item_code = item[1]
     item_type = item[2]
     local item_obj = Tracker:FindObjectForCode(item_code)
@@ -148,24 +158,58 @@ local currentCode
 function onMapChange(key, value, old)
     local newCode = value
     local currentObject = currentCode and Tracker:FindObjectForCode(currentCode)
-    local newObject = Tracker:FindObjectForCode(newCode)
+    local newObject
 
-    if currentObject and currentObject.Active then
-        currentObject.Active = false
-    end
+    if key == cur_room then
+        newObject = Tracker:FindObjectForCode(newCode)
 
-    if has("PlayerTrackOn") then
-        if newObject then
-            newObject.Active = true
+
+        if currentObject and currentObject.Active then
+            currentObject.Active = false
         end
-        
-        currentCode = newCode
+
+        if has("PlayerTrackOn") then
+            if newObject then
+                newObject.Active = true
+            end
+
+            currentCode = newCode
+        end
+
+        if has("AutoTabOn") then
+            tabs = MAP_MAPPING[tostring(value)]
+            for i, tab in ipairs(tabs) do
+                Tracker:UiHint("ActivateTab", tab)
+            end
+        end
     end
 
-    if has("AutoTabOn") then
-        tabs = MAP_MAPPING[tostring(value)]
-        for i, tab in ipairs(tabs) do
-            Tracker:UiHint("ActivateTab", tab)
+    if value ~= old and key == HINTS_ID then
+        Tracker.BulkUpdate = true
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then
+                if not hint.found then
+                    updateHints(hint.location, hint.status)
+                elseif hint.found then
+                    updateHints(hint.location, hint.status)
+                end
+            end
+        end
+        Tracker.BulkUpdate = false
+    end
+end
+
+function updateHints(locationID, status)
+    if PopVersion > "0.31.0" then
+        print(locationID, status)
+        local location_table = LOCATION_MAPPING[locationID]
+        for _, location in ipairs(location_table) do
+            local obj = Tracker:FindObjectForCode(location)
+            if obj then
+                obj.Highlight = highlight_lvl[status]
+            else
+                print(string.format("No object found for code: %s", location))
+            end
         end
     end
 end
