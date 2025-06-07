@@ -40,11 +40,12 @@ local mapData = {
     -- Excess Express
     {"rsh", 0, 6, {"Chapter 6", "Excess Express"}},
     -- X-Naut Fortress
-    {"aji", 0, 19, {"Chapter 7", "X-Naut Fortress"}},
+    {"aji", 0, 18, {"Chapter 7", "X-Naut Fortress"}},
     -- Fahr Outpost
     {"bom", 0, 4, {"Chapter 7", "Fahr Outpost"}},
     -- The Moon
     {"moo", 0, 7, {"Chapter 7", "The Moon"}},
+    {"aji", 19, 19, {"Chapter 7", "X-Naut Fortress"}},
     -- The Thousand-Year Door
     -- Pos Left
     {"las", 0, 8, {"Chapter 8", "Palace of Shadow", "Left"}},
