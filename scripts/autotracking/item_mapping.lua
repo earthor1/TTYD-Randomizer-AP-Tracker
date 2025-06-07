@@ -170,7 +170,7 @@ ITEM_MAPPING = {
     [77772177] = {"starpiece", "toggle"},
 --single use items
     -- [77772035] = {"coin", "toggle"},
-    -- [77772036] = {"contactlens", "toggle"},
+    [77772036] = {"contactlens", "toggle"},
     -- [77772037] = {"cookbook", "toggle"},
     -- [77772038] = {"courageshell", "toggle"},
     -- [77772045] = {"dizzydial", "toggle"},
