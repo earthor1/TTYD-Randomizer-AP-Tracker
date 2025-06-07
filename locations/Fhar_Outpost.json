@@ -54,7 +54,32 @@
             {
                 "sections": [{"ref": "Magical Map/Fahr Outpost/Fahr Outpost East Enemy Room - Star Piece"}],
                 "map_locations": [{"map": "Fahr Outpost", "x": 3015, "y": 1816}]
-            }                 
+            },
+            {
+                "name": "Fahr Outpost - Northwinds Mart",
+                "sections": [
+                    {
+                        "name": "Shooting Star Purchase",
+                        "ref": "Magical Map/Fahr Outpost - Northwinds Mart/Shooting Star Purchase"
+                    },
+                    {   "name": "Ice Storm Purchase",
+                        "ref": "Magical Map/Fahr Outpost - Northwinds Mart/Ice Storm Purchase"
+                    },
+                    {   "name": "Ruin Powder Purchase",
+                        "ref": "Magical Map/Fahr Outpost - Northwinds Mart/Ruin Powder Purchase"
+                    },
+                    {   "name": "Stopwatch Purchase",
+                        "ref": "Magical Map/Fahr Outpost - Northwinds Mart/Stopwatch Purchase"
+                    },
+                    {   "name": "Maple Syrup Purchase",
+                        "ref": "Magical Map/Fahr Outpost - Northwinds Mart/Maple Syrup Purchase"
+                    },
+                    {   "name": "Super Shroom Purchase",
+                        "ref": "Magical Map/Fahr Outpost - Northwinds Mart/Super Shroom Purchase"
+                    }
+                ],
+                "map_locations": [{"map": "Fahr Outpost", "x": 2968, "y": 1685}]
+            }             
         ]
     }
 ]
