@@ -12,6 +12,7 @@ Tracker:AddLocations("locations/Twilight_Trail.json")
 Tracker:AddLocations("locations/Creepy_Steeple.json")
 Tracker:AddLocations("locations/Keelhaul_Key.json")
 Tracker:AddLocations("locations/Fhar_Outpost.json")
+Tracker:AddLocations("locations/The_Moon.json")
 Tracker:AddLocations("locations/Palace_of_Shadow.json")
 
 --Player Position Tracking
