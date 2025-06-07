@@ -10,6 +10,7 @@ Tracker:AddLocations("locations/Glitz_Pit.json")
 Tracker:AddLocations("locations/Glitzville.json")
 Tracker:AddLocations("locations/Twilight_Trail.json")
 Tracker:AddLocations("locations/Creepy_Steeple.json")
+Tracker:AddLocations("locations/Keelhaul_Key.json")
 Tracker:AddLocations("locations/Palace_of_Shadow.json")
 
 --Player Position Tracking
