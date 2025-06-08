@@ -1,6 +1,7 @@
 ENABLE_DEBUG_LOG = false
 -- Items
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/locationobjects.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")

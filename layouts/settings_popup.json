@@ -22,7 +22,10 @@
                                 "Pit_Items",
                                 "palace_skip",
                                 "Chapter_Clears",
-                                "open_westside"
+                                "open_westside",
+                                "Seperate",
+                                "AutoTabOn",
+                                "PlayerTrackOn"
                             ]
                         ]
                     }
@@ -72,7 +75,9 @@
                         "rows": [
                             [
                                 "Discord",
-                                "Zobee"
+                                "Zobee",
+                                "Earth",
+                                "Pillar"
                             ]
                         ]
                     }
