@@ -1,9 +1,10 @@
 {
     "name": "TTYD Key Item Tracker",
     "game_name": "TTYD",
-    "package_version": "0.11.1",
+    "package_version": "1.0.0",
     "package_uid": "ttyd_ap",
     "author": "ZobeePlays, earthor1, & PillarAngel",
+    "versions_url": "https://raw.githubusercontent.com/ZobeePlays/TTYD-Randomizer-AP-Tracker/refs/heads/main/manifest.json",
     "variants": {
         "var_Default": {
             "display_name": "Items Only - OG Sprites",
