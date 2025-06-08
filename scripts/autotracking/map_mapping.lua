@@ -30,8 +30,9 @@ local mapData = {
     {"jin", 0, 11, {"Chapter 4", "Creepy Steeple"}},
     -- Pirate's Grotto
     {"dou", 0, 13, {"Chapter 5", "Pirate's Grotto"}},
+    {"muj", 10, 12, {"Chapter 5", "Pirate's Grotto"}},
     -- Keelhaul Key
-    {"muj", 0, 12, {"Chapter 5", "Keelhaul Key"}},
+    {"muj", 0, 5, {"Chapter 5", "Keelhaul Key"}},
     -- Riverside Station
     {"hom", 0, 0, {"Chapter 6", "Riverside Station"}},
     {"eki", 0, 6, {"Chapter 6", "Riverside Station"}},

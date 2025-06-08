@@ -5,8 +5,8 @@
             {
                 "sections": [{"name": "Great Tree Entrance - Coin","ref": "Magical Map/Great Tree/Great Tree Entrance - Coin"},
                 {"name": "Great Tree Entrance - Puni Orb","ref": "Magical Map/Great Tree/Great Tree Entrance - Puni Orb"},
-                {"name": "Great Tree Entrance - Emerald Star","ref": "Magical Map/Great Tree/Great Tree Entrance - Emerald Star"},
-                {"name": "Great Tree Red Key Room - Mushroom","ref": "Magical Map/Great Tree/Great Tree Red Key Room - Mushroom"}],
+                {"name": "Great Tree Entrance - Emerald Star","ref": "Magical Map/Great Tree/Great Tree Entrance - Emerald Star"}],
+                
                 "map_locations": [{"map": "The Great Tree", "x": 1581, "y": 645}]
             },
             {
@@ -24,7 +24,8 @@
             {
                 "sections": [{"name": "Great Tree Red Key Room - Coin","ref": "Magical Map/Great Tree/Great Tree Red Key Room - Coin"},
                 {"name": "Great Tree Red Key Room - Red Key","ref": "Magical Map/Great Tree/Great Tree Red Key Room - Red Key"},
-                {"name": "Great Tree Red Key Room - Ultra Shroom","ref": "Magical Map/Great Tree/Great Tree Red Key Room - Ultra Shroom"}],
+                {"name": "Great Tree Red Key Room - Ultra Shroom","ref": "Magical Map/Great Tree/Great Tree Red Key Room - Ultra Shroom"},
+                {"name": "Great Tree Red Key Room - Mushroom","ref": "Magical Map/Great Tree/Great Tree Red Key Room - Mushroom"}],
                 "map_locations": [{"map": "The Great Tree", "x": 1470, "y": 195}]
             },
             {

@@ -7,15 +7,15 @@
                 "map_locations": [{"map": "Twilight Trail", "x": 1269, "y": 1941}]
             },
             {
-                "sections": [{"ref": "Magical Map/Twilight Town Leftside - Peachy Peach"}],
+                "sections": [{"ref": "Magical Map/Twilight Town/Twilight Town Leftside - Peachy Peach"}],
                 "map_locations": [{"map": "Twilight Trail", "x": 1095, "y": 1869}]
             },
             {
-                "sections": [{"ref": "Magical Map/Twilight Town/Twilight Town Leftside - Star Piece 1"}],
+                "sections": [{"ref": "Magical Map/Twilight Town/Twilight Town Leftside - Star Piece 2"}],
                 "map_locations": [{"map": "Twilight Trail", "x": 1002, "y": 1965}]
             },
             {
-                "sections": [{"ref": "Magical Map/Twilight Town/Twilight Town Leftside - Star Piece 2"}],
+                "sections": [{"ref": "Magical Map/Twilight Town/Twilight Town Leftside - Star Piece 1"}],
                 "map_locations": [{"map": "Twilight Trail", "x": 1239, "y": 2037}]
             },
             {

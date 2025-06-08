@@ -4,7 +4,7 @@
         "children": [            
             {
                 "sections": [{"ref": "Magical Map/Keelhaul Key/Keelhaul Key Landing Site - Star Piece"}],
-                "map_locations": [{"map": "Keelhaul Key", "x": 597, "y": 1773}]
+                "map_locations": [{"map": "Keelhaul Key", "x": 855, "y": 1773}]
             },
             {
                 "sections": [{"ref": "Magical Map/Keelhaul Key/Keelhaul Key Landing Site - Whacka Bumps"}],
@@ -15,11 +15,11 @@
                 "map_locations": [{"map": "Keelhaul Key", "x": 1305, "y": 1683}]
             },
             {
-                "sections": [{"ref": "Magical Map/Keelhaul Key/Keelhaul Key Town - Star Piece 1"}],
+                "sections": [{"ref": "Magical Map/Keelhaul Key/Keelhaul Key Town - Star Piece 2"}],
                 "map_locations": [{"map": "Keelhaul Key", "x": 1374, "y": 1836}]
             },
             {
-                "sections": [{"ref": "Magical Map/Keelhaul Key/Keelhaul Key Town - Star Piece 2"}],
+                "sections": [{"ref": "Magical Map/Keelhaul Key/Keelhaul Key Town - Star Piece 1"}],
                 "map_locations": [{"map": "Keelhaul Key", "x": 1455, "y": 1554}]
             },
             {

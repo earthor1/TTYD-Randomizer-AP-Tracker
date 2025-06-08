@@ -19,10 +19,6 @@
                 "map_locations": [{"map": "Shhwonk Fortress", "x": 1866, "y": 1133}]
             },
             {
-                "sections": [{"ref": "Magical Map/Petal Meadows Right/Petal Meadows Second Fort Exterior - Coin 2"}],
-                "map_locations": [{"map": "Shhwonk Fortress", "x": 1245, "y": 705}]
-            },
-            {
                 "sections": [{"name": "Petal Meadows Second Fort Exterior - POW Block", "ref": "Magical Map/Petal Meadows Right/Petal Meadows Second Fort Exterior - POW Block"},
                             {"name": "Petal Meadows Second Fort Exterior - Coin 2", "ref": "Magical Map/Petal Meadows Right/Petal Meadows Second Fort Exterior - Coin 2"}],
                 "map_locations": [{"map": "Shhwonk Fortress", "x": 1950, "y": 1200}]
