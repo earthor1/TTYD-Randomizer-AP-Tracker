@@ -1725,19 +1725,19 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,UltraBoots"],
+                        "access_rules": ["$sewerwestground,UltraBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers West Enemy Hall - Gradual Syrup",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest"],
+                        "access_rules": ["$sewerwestground"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers West Enemy Hall - Slow Shroom",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest"],
+                        "access_rules": ["$sewerwestground"],
                         "item_count": 1
                     },
                     {
@@ -1745,7 +1745,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest"],
+                        "access_rules": ["$sewerwestground"],
                         "item_count": 1
                     },
                     {
@@ -1753,7 +1753,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,$yoshi"],
+                        "access_rules": ["$twilight_town"],
                         "item_count": 1
                     },
                     {
@@ -1761,7 +1761,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,$yoshi"],
+                        "access_rules": ["$twilight_town"],
                         "item_count": 1
                     },
                     {
@@ -1785,7 +1785,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest"],
+                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
                         "item_count": 1
                     },
                     {
@@ -1801,7 +1801,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest"],
+                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
                         "item_count": 1
                     },
                     {
@@ -1817,7 +1817,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest"],
+                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
                         "item_count": 1
                     }
 		],
@@ -1842,7 +1842,7 @@
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$sewerwest"
+                    "$sewerwest","$sewerwestground,UltraBoots,$yoshi"
                 ],
                 "sections": [
                     {
