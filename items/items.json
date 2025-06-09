@@ -983,12 +983,6 @@
         "img": "images/items/Mario.png",
         "codes": "PlayerTrackOn"
     },
-    {
-        "name": "Seperator",
-        "type": "static",
-        "img": "images/items/Seperator.png",
-        "codes": "Seperate"
-    },
         {
         "name": "PowerJump",
         "type": "consumable",
