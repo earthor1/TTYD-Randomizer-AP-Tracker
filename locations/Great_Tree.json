@@ -5,8 +5,8 @@
             {
                 "sections": [{"name": "Great Tree Entrance - Coin","ref": "Magical Map/Great Tree/Great Tree Entrance - Coin"},
                 {"name": "Great Tree Entrance - Puni Orb","ref": "Magical Map/Great Tree/Great Tree Entrance - Puni Orb"},
-                {"name": "Great Tree Entrance - Emerald Star","ref": "Magical Map/Great Tree/Great Tree Entrance - Emerald Star"}],
-                
+                {"name": "Great Tree Entrance - Emerald Star","ref": "Magical Map/Great Tree/Great Tree Entrance - Emerald Star"},
+                {"name": "Great Tree Entrance - Mystic Egg","ref": "Magical Map/Great Tree/Great Tree Entrance - Mystic Egg"}],
                 "map_locations": [{"map": "The Great Tree", "x": 1581, "y": 645}]
             },
             {
