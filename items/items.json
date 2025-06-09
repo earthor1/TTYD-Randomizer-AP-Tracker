@@ -969,6 +969,26 @@
             }
         ]
     },
+    {
+        "name": "Auto Tab Switching",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "images/items/MagicalMapHD2.png",
+        "codes": "AutoTabOn"
+    },
+    {
+        "name": "Player Tracking",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "images/items/Mario.png",
+        "codes": "PlayerTrackOn"
+    },
+    {
+        "name": "Seperator",
+        "type": "static",
+        "img": "images/items/Seperator.png",
+        "codes": "Seperate"
+    },
         {
         "name": "PowerJump",
         "type": "consumable",
