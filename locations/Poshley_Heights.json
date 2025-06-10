@@ -47,6 +47,10 @@
             {
                 "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown - Star Piece"}],
                 "map_locations": [{"map": "Poshley Heights", "x": 1503, "y": 1770}]
+            },
+            {
+                "sections": [{"ref": "Magical Map/Excess Express/Excess Express Front Passenger Car - 30 Coins"}],
+                "map_locations": [{"map": "Poshley Heights", "x": 1254, "y": 1686}]
             }
         ]
     }

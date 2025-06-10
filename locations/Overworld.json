@@ -3408,7 +3408,7 @@
                     {
                         "name": "Keelhaul Key Town - Chuckola Cola",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,Coconut,OldLetter,$tube"],
+                        "access_rules": ["$yoshi,Coconut"],
                         "item_count": 1
                     },
                     {
@@ -3574,7 +3574,7 @@
                     {
                         "name": "Keelhaul Key Grotto Entrance - Wedding Ring",
                         "visibility_rules": [""],
-                        "access_rules": ["SapphireStar"],
+                        "access_rules": ["$yoshi"],
                         "item_count": 1
                     }
 		],
