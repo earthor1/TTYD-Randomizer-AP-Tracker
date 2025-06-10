@@ -239,5 +239,37 @@
                 "map_locations": [{"map": "Sewers", "x": 1494, "y": 832}]
             }
         ]
+    },
+    {
+        "name": "Pit of 100 Trials",
+        "children": [
+            {
+                "sections": [{"name": "Pit of 100 Trials Floor 10 - Sleepy Stomp", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 10 - Sleepy Stomp"},
+                             {"name": "Pit of 100 Trials Floor 20 - Fire Drive", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 20 - Fire Drive"},
+                             {"name": "Pit of 100 Trials Floor 30 - Zap Tap", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 30 - Zap Tap"},
+                             {"name": "Pit of 100 Trials Floor 40 - Pity Flower", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 40 - Pity Flower"},
+                             {"name": "Pit of 100 Trials Floor 50 - Strange Sack", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 50 - Strange Sack"},
+                             {"name": "Pit of 100 Trials Floor 60 - Double Dip", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 60 - Double Dip"},
+                             {"name": "Pit of 100 Trials Floor 70 - Double Dip P", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 70 - Double Dip P"},
+                             {"name": "Pit of 100 Trials Floor 80 - Bump Attack", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 80 - Bump Attack"},
+                             {"name": "Pit of 100 Trials Floor 90 - Lucky Day", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 90 - Lucky Day"},
+                             {"name": "Pit of 100 Trials Floor 100 - Return Postage", "ref": "Magical Map/Pit of 100 Trials/Pit of 100 Trials Floor 100 - Return Postage"}],
+                "map_locations": [{"map": "Sewers", "x": 1533, "y": 1989}]
+            }
+        ]
+    },
+    {
+        "name": "Pit of 100 Trials Charlieton",
+        "children": [
+            {
+                "sections": [{"name": "Pit of 100 Trials Charlieton - Fire Flower", "ref": "Magical Map/Pit of 100 Trials Charlieton/Pit of 100 Trials Charlieton - Fire Flower"},
+                             {"name": "Pit of 100 Trials Charlieton - Honey Syrup", "ref": "Magical Map/Pit of 100 Trials Charlieton/Pit of 100 Trials Charlieton - Honey Syrup"},
+                             {"name": "Pit of 100 Trials Charlieton - Maple Syrup", "ref": "Magical Map/Pit of 100 Trials Charlieton/Pit of 100 Trials Charlieton - Maple Syrup"},
+                             {"name": "Pit of 100 Trials Charlieton - Mushroom", "ref": "Magical Map/Pit of 100 Trials Charlieton/Pit of 100 Trials Charlieton - Mushroom"},
+                             {"name": "Pit of 100 Trials Charlieton - Super Shroom", "ref": "Magical Map/Pit of 100 Trials Charlieton/Pit of 100 Trials Charlieton - Super Shroom"},
+                             {"name": "Pit of 100 Trials Charlieton - Thunder Rage", "ref": "Magical Map/Pit of 100 Trials Charlieton/Pit of 100 Trials Charlieton - Thunder Rage"}],
+                "map_locations": [{"map": "Sewers", "x": 1533, "y": 1854}]
+            }
+        ]
     }
 ]

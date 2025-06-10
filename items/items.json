@@ -842,9 +842,22 @@
     },
     {
         "name": "Is The Pit of 100 Trials Included?",
-        "type": "toggle",
-        "img": "images/items/BigChest.png",
-        "codes": "Pit_Items"
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "No Pit Included",
+                "img": "images/items/BigChestDim.png",
+                "inherit_codes": false,
+                "codes": "NoPit, Pit_Items"
+            },
+            {
+                "name": "Pit is Included",
+                "img": "images/items/BigChest.png",
+                "inherit_codes": false,
+                "codes": "YesPit, Pit_Items"
+            }
+        ]
     },
     {
         "name": "ZobeePlays on Discord!",
