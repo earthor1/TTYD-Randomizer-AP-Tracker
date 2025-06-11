@@ -47,7 +47,7 @@ function ttyd()
 	end
 
 function twilight_town()
-	return ((sewerwestground()) and ((yoshi()) or has("UltraBoots")))
+	return ((sewerwest()) and ((yoshi()) or has("UltraBoots")))
 	end
 
 function steeple()
@@ -108,4 +108,12 @@ function tenpunis()
 
 function hundredpunis()
 	return has("PuniOrb") and has("RedKey") and has("BlueKey")
+	end
+
+function HRGlvl1()
+	return has("GlitchedLogic")
+	end
+
+function HRGlvl2()
+	return (has("SuperBoots") and has("GlitchedLogic"))
 	end
