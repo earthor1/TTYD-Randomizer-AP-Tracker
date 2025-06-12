@@ -756,7 +756,7 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
-                "access_rules": ["[$westside],$HRGlvl1"],
+                "access_rules": ["$westside","[$westside],$HRGlvl1"],
                 "sections": [
                     {
                         "name": "Rogueport Westside - Blimp Ticket",
@@ -847,7 +847,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["HiddenOn"],
                 "access_rules": [
-                    "[$westside],$HRGlvl1"
+                    "$westside","[$westside],$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -992,7 +992,7 @@
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "[$westside],$HRGlvl1"
+                    "$westside","[$westside],$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -1054,7 +1054,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch2"],
                 "access_rules": [
-                    "[$bogglywoods], $HRGlvl2"
+                    "$bogglywoods","[$bogglywoods],$HRGlvl2"
                 ],
                 "sections": [
                     {
@@ -1725,19 +1725,19 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["[$sewerwestground],UltraBoots,$HRGlvl1"],
+                        "access_rules": ["$sewerwestground,UltraBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers West Enemy Hall - Gradual Syrup",
                         "visibility_rules": [""],
-                        "access_rules": ["[$sewerwestground],$HRGlvl1"],
+                        "access_rules": ["$sewerwestground","[$sewerwestground],$HRGlvl1"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers West Enemy Hall - Slow Shroom",
                         "visibility_rules": [""],
-                        "access_rules": ["[$sewerwestground],$HRGlvl1"],
+                        "access_rules": ["$sewerwestground","[$sewerwestground],$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -1745,7 +1745,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["[$sewerwestground],$HRGlvl1"],
+                        "access_rules": ["$sewerwestground","[$sewerwestground],$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -1769,7 +1769,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["[UltraHammer],$HRGlvl1"],
+                        "access_rules": ["UltraHammer","[UltraHammer],$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -2020,7 +2020,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "[$westside],BlimpTicket,$HRGlvl1"
+                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
                 ],
                 "sections": [
                     {
@@ -2126,7 +2126,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "[$westside],BlimpTicket,$HRGlvl1"
+                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
                 ],
                 "sections": [
                     {
@@ -2200,7 +2200,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "[$westside],BlimpTicket,$HRGlvl1"
+                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
                 ],
                 "sections": [
                     {
@@ -3388,7 +3388,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch5"],
                 "access_rules": [
-                    "[$keelhaul_key],$HRGlvl2"
+                    "$keelhaul_key","[$keelhaul_key],$HRGlvl2"
                 ],
                 "sections": [
                     {
@@ -3600,7 +3600,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch5"],
                 "access_rules": [
-                    "[$keelhaul_key],$HRGlvl2"
+                    "$keelhaul_key","[$keelhaul_key],$HRGlvl2"
                 ],
                 "sections": [
                     {
@@ -3662,7 +3662,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch5"],
                 "access_rules": [
-                    "[$keelhaul_key],$pirates_grotto,$HRGlvl2"
+                    "$keelhaul_key,$pirates_grotto","[$keelhaul_key],$pirates_grotto,$HRGlvl2"
                 ],
                 "sections": [
                     {
@@ -3826,7 +3826,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch6"],
                 "access_rules": [
-                    "[$poshley_heights],$HRGlvl2"
+                    "$poshley_heights","[$poshley_heights],$HRGlvl2"
                 ],
                 "sections": [
                     {
@@ -3950,7 +3950,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch6"],
                 "access_rules": [
-                    "[$westside],TrainTicket,$riverside,$HRGlvl1"
+                    "$westside,TrainTicket,$riverside","[TrainTicket],$riverside,$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -4030,7 +4030,7 @@
                     {
                         "name": "Riverside Station Ultra Boots Room - Elevator Key",
                         "visibility_rules": [""],
-                        "access_rules": ["Flurrie,StationKey1,StationKey2,$tube"],
+                        "access_rules": ["UltraBoots,Flurrie,StationKey1,StationKey2,$tube"],
                         "item_count": 1
                     }
 		],
@@ -4056,7 +4056,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch6"],
                 "access_rules": [
-                    "[$westside],TrainTicket,$HRGlvl1"
+                    "$westside,TrainTicket","[TrainTicket],$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -4204,7 +4204,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch6"],
                 "access_rules": [
-                    "[$westside],TrainTicket,$HRGlvl1"
+                    "$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {

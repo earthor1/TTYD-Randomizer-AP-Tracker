@@ -1007,11 +1007,13 @@
     {
         "name": "Glitched Logic",
         "type": "progressive",
+        "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
             {
                 "name": "Hazard Respawn Glitch Off",
                 "img": "images/items/BluePipeDim.png",
+                "codes": "noGlitchedLogic",
                 "inherit_codes": false
             },
             {
