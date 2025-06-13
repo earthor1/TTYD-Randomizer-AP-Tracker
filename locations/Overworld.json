@@ -597,7 +597,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["PaperCurse,[$yoshi]"],
+                        "access_rules": ["[PaperCurse],$yoshi","PaperCurse,[$yoshi]"],
                         "item_count": 1
                     },
                     {
