@@ -3756,7 +3756,7 @@
                     {
                         "name": "Pirate's Grotto Chest Boat - Black Key 4",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,GrottoKey,$tube"],
+                        "access_rules": ["$yoshi,GrottoKey,$tube","$yoshi,GrottoKey,Vivian"],
                         "item_count": 1
                     },
                     {
