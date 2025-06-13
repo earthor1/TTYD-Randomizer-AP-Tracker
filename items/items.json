@@ -1004,6 +1004,26 @@
         "img": "images/items/Mario.png",
         "codes": "PlayerTrackOn"
     },
+    {
+        "name": "Glitched Logic",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "name": "Hazard Respawn Glitch Off",
+                "img": "images/items/BluePipeDim.png",
+                "codes": "noGlitchedLogic",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hazard Respawn Glitch On",
+                "img": "images/items/BluePipe.png",
+                "inherit_codes": false,
+                "codes": "GlitchedLogic"
+            }
+        ]
+    },
         {
         "name": "PowerJump",
         "type": "consumable",
