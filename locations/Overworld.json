@@ -3470,7 +3470,7 @@
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - Coin 1",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
@@ -4030,7 +4030,7 @@
                     {
                         "name": "Riverside Station Ultra Boots Room - Elevator Key",
                         "visibility_rules": [""],
-                        "access_rules": ["UltraBoots,Flurrie,StationKey1,StationKey2,$tube"],
+                        "access_rules": ["UltraBoots,Flurrie,StationKey1,StationKey2,$tube","Flurrie,StationKey1,StationKey2,$tube,{}"],
                         "item_count": 1
                     }
 		],

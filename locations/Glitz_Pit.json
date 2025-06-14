@@ -43,6 +43,10 @@
                 "map_locations": [{"map": "The Glitz Pit", "x": 417, "y": 531}]
             },
             {
+                "sections": [{"ref": "Magical Map/Glitzpit/Glitzville Minor-League Room - Yoshi"}],
+                "map_locations": [{"map": "The Glitz Pit", "x": 834, "y": 759}]
+            },
+            {
                 "sections": [{"ref": "Magical Map/Glitzpit/Glitzville Major-League Room - Champ's Belt"}],
                 "map_locations": [{"map": "The Glitz Pit", "x": 1419, "y": 372}]
             },
