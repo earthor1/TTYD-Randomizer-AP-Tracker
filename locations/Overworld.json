@@ -2020,7 +2020,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
+                    "$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -2126,7 +2126,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
+                    "$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -2200,7 +2200,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
+                    "$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -4056,7 +4056,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch6"],
                 "access_rules": [
-                    "$westside,TrainTicket","[TrainTicket],$HRGlvl1"
+                    "$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {
