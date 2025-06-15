@@ -597,7 +597,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["PaperCurse,[$yoshi]"],
+                        "access_rules": ["[PaperCurse],$yoshi","PaperCurse,[$yoshi]"],
                         "item_count": 1
                     },
                     {
@@ -2020,7 +2020,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
+                    "$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -2126,7 +2126,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
+                    "$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -2200,7 +2200,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch3"],
                 "access_rules": [
-                    "$westside,BlimpTicket","$HRGlvl1,[BlimpTicket]"
+                    "$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {
@@ -2830,7 +2830,7 @@
                     {
                         "name": "Hooktail's Castle Life Shroom Room - Life Shroom",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,Koops,CastleKey2","$htcastle,CastleKey2,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,Koops,CastleKey2","$htcastle,CastleKey2,[Koops],$yoshi,Bobbery"],
                         "item_count": 1
                     },
                     {
@@ -2838,7 +2838,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,Koops,CastleKey3,PaperCurse","$htcastle,PaperCurse,CastleKey3,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,PaperCurse,Koops,CastleKey3","$htcastle,PaperCurse,CastleKey3,[Koops],$yoshi,Bobbery","$htcastle,Koops,CastleKey3,{}","$htcastle,CastleKey3,[Koops],$yoshi,Bobbery,{}"],
                         "item_count": 1
                     },
                     {
@@ -3470,7 +3470,7 @@
                     {
                         "name": "Keelhaul Key Jungle Winding Climb - Coin 1",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
@@ -3756,7 +3756,7 @@
                     {
                         "name": "Pirate's Grotto Chest Boat - Black Key 4",
                         "visibility_rules": [""],
-                        "access_rules": ["$yoshi,GrottoKey,$tube"],
+                        "access_rules": ["$yoshi,GrottoKey,$tube","$yoshi,GrottoKey,Vivian"],
                         "item_count": 1
                     },
                     {
@@ -4030,7 +4030,7 @@
                     {
                         "name": "Riverside Station Ultra Boots Room - Elevator Key",
                         "visibility_rules": [""],
-                        "access_rules": ["UltraBoots,Flurrie,StationKey1,StationKey2,$tube"],
+                        "access_rules": ["UltraBoots,Flurrie,StationKey1,StationKey2,$tube","Flurrie,StationKey1,StationKey2,$tube,{}"],
                         "item_count": 1
                     }
 		],
@@ -4056,7 +4056,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch6"],
                 "access_rules": [
-                    "$westside,TrainTicket","[TrainTicket],$HRGlvl1"
+                    "$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"
                 ],
                 "sections": [
                     {
