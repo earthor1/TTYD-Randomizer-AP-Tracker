@@ -43,11 +43,8 @@
                 "map_locations": [{"map": "Keelhaul Key", "x": 1551, "y": 1506}]
             },
             {
-                "sections": [{"ref": "Magical Map/Keelhaul Key/Keelhaul Key Jungle Winding Climb - 10 Coins"}],
-                "map_locations": [{"map": "Keelhaul Key", "x": 1551, "y": 1506}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Keelhaul Key/Keelhaul Key Jungle Winding Climb - Coin 1"}],
+                "sections": [{"name":"Keelhaul Key Jungle Winding Climb - Coin 1","ref": "Magical Map/Keelhaul Key/Keelhaul Key Jungle Winding Climb - Coin 1"},
+                {"name":"Keelhaul Key Jungle Winding Climb - 10 Coins","ref": "Magical Map/Keelhaul Key/Keelhaul Key Jungle Winding Climb - 10 Coins"}],
                 "map_locations": [{"map": "Keelhaul Key", "x": 2160, "y": 1005}]
             },
             {
