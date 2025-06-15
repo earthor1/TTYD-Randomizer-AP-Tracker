@@ -2830,7 +2830,7 @@
                     {
                         "name": "Hooktail's Castle Life Shroom Room - Life Shroom",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,PaperCurse,Koops,CastleKey2","$htcastle,CastleKey2,[Koops],$yoshi,Bobbery"],
+                        "access_rules": ["$htcastle,Koops,CastleKey2","$htcastle,CastleKey2,[Koops],$yoshi,Bobbery"],
                         "item_count": 1
                     },
                     {
