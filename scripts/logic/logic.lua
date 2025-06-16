@@ -35,7 +35,7 @@ function pit()
 	end
 
 function sewerwest()
-	return (has("ContactLens") and has("PaperCurse")) or (has("UltraHammer") and ((has("PaperCurse")) or has("UltraBoots"))) or (tube()) or (has("Bobbery"))
+	return (has("ContactLens") and has("PaperCurse")) or (has("UltraHammer") and (has("PaperCurse"))) or (tube()) or (has("Bobbery"))
 	end
 
 function sewerwestground()
@@ -47,7 +47,7 @@ function ttyd()
 	end
 
 function twilight_town()
-	return ((sewerwest()) and ((yoshi()) or has("UltraBoots")))
+	return (sewerwest() and yoshi()) or (has("UltraBoots") and sewerwestground())
 	end
 
 function steeple()
