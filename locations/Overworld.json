@@ -4178,7 +4178,7 @@
                     {
                         "name": "Excess Express Storage Car - Ragged Diary",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph,Vivian,PaperCurse","Autograph,Vivian,UltraBoots"],
+                        "access_rules": ["PaperCurse","UltraBoots","{}"],
                         "item_count": 1
                     }
 		],
