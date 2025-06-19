@@ -34,7 +34,6 @@ function onClear(slot_data)
                     else
                         location_obj.Active = false
                     end
-                    updateHintsClear(location)
                 end
             end
         end
