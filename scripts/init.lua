@@ -8,15 +8,7 @@ ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Maps
-if Tracker.ActiveVariantUID == "maps-u" then
-Tracker:AddMaps("maps/maps-u.json")
-else
 Tracker:AddMaps("maps/maps.json")
-end
-
-if PopVersion and PopVersion >= "0.23.0" then
-    Tracker:AddLocations("locations/dungeons.json")
-end
 
 -- Layout
 ScriptHost:LoadScript("scripts/layouts_import.lua")

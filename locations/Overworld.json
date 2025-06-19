@@ -2394,7 +2394,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch1"],
                 "access_rules": [
-                    "[PlaneCurse],$HRGlvl2","SuperBoots,SuperHammer"
+                    "PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"
                 ],
                 "sections": [
                     {
@@ -2548,7 +2548,7 @@
                     {
                         "name": "Petal Meadows Bridge Room - Koops",
                         "visibility_rules": [""],
-                        "access_rules": ["[PlaneCurse],$HRGlvl2","SuperBoots,SuperHammer"],
+                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"],
                         "item_count": 1
                     },
                     {
@@ -2574,13 +2574,13 @@
                     {
                         "name": "Petal Meadows Bridge Room - Fire Flower",
                         "visibility_rules": [""],
-                        "access_rules": ["[PlaneCurse],$HRGlvl2","SuperBoots,SuperHammer"],
+                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"],
                         "item_count": 1
                     },
                     {
                         "name": "Petal Meadows Bridge Room - Mystery",
                         "visibility_rules": [""],
-                        "access_rules": ["[PlaneCurse],$HRGlvl2","SuperBoots,SuperHammer"],
+                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"],
                         "item_count": 1
                     }
 		],
@@ -2606,7 +2606,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch1"],
                 "access_rules": [
-                    "[PlaneCurse],$HRGlvl2","SuperBoots,SuperHammer"
+                    "PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"
                 ],
                 "sections": [
                     {
@@ -4178,7 +4178,7 @@
                     {
                         "name": "Excess Express Storage Car - Ragged Diary",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph,Vivian,PaperCurse","Autograph,Vivian,UltraBoots"],
+                        "access_rules": ["PaperCurse","UltraBoots","{}"],
                         "item_count": 1
                     }
 		],
