@@ -206,7 +206,7 @@ function onMapChange(key, value, old)
     end
 end
 
-function updateHints(locationID, status)
+--[[function updateHints(locationID, status)
     if not Highlight then
         return
     end
@@ -240,7 +240,7 @@ function updateHintsClear(locationID)
 		print(string.format("No object found for code: %s", location_name))
 	end
 end
-
+--]]
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
