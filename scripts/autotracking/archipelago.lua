@@ -206,7 +206,7 @@ function onMapChange(key, value, old)
     end
 end
 
---[[function updateHints(locationID, status)
+function updateHints(locationID, status)
     if not Highlight then
         return
     end
@@ -222,25 +222,6 @@ end
     end
 end
 
-function updateHintsClear(locationID)
-	if not Highlight then
-		return
-	end
-
-	if not LOCATION_MAPPING[locationID] then
-		return
-	end
-
-	local location_name = LOCATION_MAPPING[locationID][1][1]
-	local obj = Tracker:FindObjectForCode(location_name)
-
-	if obj then
-		obj.Highlight = Highlight.None
-	else
-		print(string.format("No object found for code: %s", location_name))
-	end
-end
---]]
 -- ScriptHost:AddWatchForCode("settings autofill handler", "autofill_settings", autoFill)
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
