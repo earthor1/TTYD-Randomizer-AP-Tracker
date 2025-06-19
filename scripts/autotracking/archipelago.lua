@@ -209,6 +209,9 @@ function updateHints(locationID, status)
     if not Highlight then
         return
     end
+    if not LOCATION_MAPPING[locationID] then
+        return
+    end
     print(locationID, status)
     local location_table = LOCATION_MAPPING[locationID]
     for _, location in ipairs(location_table) do
