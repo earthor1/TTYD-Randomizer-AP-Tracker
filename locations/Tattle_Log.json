@@ -24,51 +24,51 @@
                 "map_locations": [{"map": "Tattle Log", "x": 83, "y": 261}]
             },
             {
-                "sections": [{"name": "Hyper Spiky Goomba"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Hyper Spiky Goomba"}], "chest_unopened_img": "/images/tattles/H. S. Goomba.png",
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 261}]
             },
             {
-                "sections": [{"name": "Gloomba"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Gloomba"}], "chest_unopened_img": "/images/tattles/Gloomba.png",
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 261}]
             },
             {
-                "sections": [{"name": "Paragloomba"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Paragloomba"}], "chest_unopened_img": "/images/tattles/Paragloomba.png",
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 261}]
             },
             {
-                "sections": [{"name": "Spiky Gloomba"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Spiky Gloomba"}], "chest_unopened_img": "/images/tattles/Spiky Gloomba.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Koopa Troopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Koopa Troopa"}], "chest_unopened_img": "/images/tattles/Koopa Troopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Paratroopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Paratroopa"}], "chest_unopened_img": "/images/tattles/Paratroopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "KP Koopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "KP Koopa"}], "chest_unopened_img": "/images/tattles/KP Koopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "KP Paratroopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "KP Paratroopa"}], "chest_unopened_img": "/images/tattles/KP Paratroopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Shady Koopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Shady Koopa"}], "chest_unopened_img": "/images/tattles/Shady Koopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Shady Paratroopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Shady Paratroopa"}], "chest_unopened_img": "/images/tattles/S. Paratroopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Dark Koopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Dark Koopa"}], "chest_unopened_img": "/images/tattles/Dark Koopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Dark Parakoopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Dark Parakoopa"}], "chest_unopened_img": "/images/tattles/D. Parakoopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
