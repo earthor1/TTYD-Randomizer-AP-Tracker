@@ -767,7 +767,7 @@
                     {
                         "name": "Rogueport Westside - Train Ticket",
                         "visibility_rules": [""],
-                        "access_rules": ["SapphireStar,WeddingRing"],
+                        "access_rules": ["WeddingRing"],
                         "item_count": 1
                     },
                     {
@@ -3554,7 +3554,7 @@
                     {
                         "name": "Keelhaul Key Grotto Entrance - Skull Gem",
                         "visibility_rules": [""],
-                        "access_rules": ["Coconut,$yoshi,ChuckolaCola"],
+                        "access_rules": ["Coconut,$yoshi"],
                         "item_count": 1
                     },
                     {
