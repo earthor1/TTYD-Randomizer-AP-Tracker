@@ -35,11 +35,11 @@ function pit()
 	end
 
 function sewerwest()
-	return (has("ContactLens") and has("PaperCurse")) or (has("UltraHammer") and (has("PaperCurse"))) or (tube()) or (has("Bobbery"))
+	return ((has("ContactLens") or has("west_open")) and has("PaperCurse")) or (has("UltraHammer") and has("PaperCurse")) or (tube()) or (has("Bobbery"))
 	end
 
 function sewerwestground()
-	return (has("ContactLens") and has("PaperCurse")) or has("UltraHammer") or (tube()) or (has("Bobbery"))
+	return ((has("ContactLens") or has("west_open")) and has("PaperCurse")) or has("UltraHammer") or (tube()) or (has("Bobbery"))
 	end
 
 function ttyd()
