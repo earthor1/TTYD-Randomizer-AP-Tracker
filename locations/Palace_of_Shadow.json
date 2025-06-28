@@ -105,10 +105,6 @@
                 "map_locations": [{"map": "Pos Right", "x": 1101, "y": 554}]
             },
             {
-                "sections": [{"ref": "Magical Map/Palace of Shadow Right/Palace of Shadow Far Backroom 3 - Coin"}],
-                "map_locations": [{"map": "Pos Right", "x": 1432, "y": 774}]
-            },
-            {
                 "sections": [{"name": "Palace of Shadow Far Backroom 3 - Coin","ref": "Magical Map/Palace of Shadow Right/Palace of Shadow Far Backroom 3 - Coin"},
                              {"name": "Palace of Shadow Far Backroom 3 - Point Swap","ref": "Magical Map/Palace of Shadow Right/Palace of Shadow Far Backroom 3 - Point Swap"}],
                 "map_locations": [{"map": "Pos Right", "x": 1432, "y": 774}]
@@ -128,10 +124,6 @@
             {
                 "sections": [{"ref": "Magical Map/Palace of Shadow Right/Palace of Shadow Final Staircase - Ultra Shroom"}],
                 "map_locations": [{"map": "Pos Right", "x": 2376, "y": 1478}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Palace of Shadow Right/Palace of Shadow Final Staircase - Jammin' Jelly"}],
-                "map_locations": [{"map": "Pos Right", "x": 2837, "y": 1927}]
             },
             {
                 "sections": [{"ref": "Magical Map/Palace of Shadow Right/Palace of Shadow Final Staircase - Jammin' Jelly"}],
