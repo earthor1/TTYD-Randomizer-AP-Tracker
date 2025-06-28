@@ -72,95 +72,95 @@
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Koopatrol"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Koopatrol"}], "chest_unopened_img": "/images/tattles/Koopatrol.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Dark Koopapatrol"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Dark Koopapatrol"}], "chest_unopened_img": "/images/tattles/D. Koopatrol.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Dull Bones"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Dull Bones"}], "chest_unopened_img": "/images/tattles/Dull Bones.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Red Bones"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Red Bones"}], "chest_unopened_img": "/images/tattles/Red Bones.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Dry Bones"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Dry Bones"}], "chest_unopened_img": "/images/tattles/Dry Bones.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Dark Bones"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Dark Bones"}], "chest_unopened_img": "/images/tattles/Dark Bones.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Hammer Bro"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Hammer Bro"}], "chest_unopened_img": "/images/tattles/Hammer Bro.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Boomerang Bro"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Boomerang Bro"}], "chest_unopened_img": "/images/tattles/Boomerang Bro.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Fire Bro"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Fire Bro"}], "chest_unopened_img": "/images/tattles/Fire Bro.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Lakitu"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Lakitu"}], "chest_unopened_img": "/images/tattles/Lakitu.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Dark Lakitu"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Dark Lakitu"}], "chest_unopened_img": "/images/tattles/Dark Lakitu.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Spiny"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Spiny"}], "chest_unopened_img": "/images/tattles/Spiny.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Sky-Blue Spiny"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Sky-Blue Spiny"}], "chest_unopened_img": "/images/tattles/Sky-Blue Spiny.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Buzzy Beetle"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Buzzy Beetle"}], "chest_unopened_img": "/images/tattles/Buzzy Beetle.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Spike Top"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Spike Top"}], "chest_unopened_img": "/images/tattles/Spike Top.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Parabuzzy"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Parabuzzy"}], "chest_unopened_img": "/images/tattles/Parabuzzy.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Spiky Parabuzzy"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Spiky Parabuzzy"}], "chest_unopened_img": "/images/tattles/Spiky Parabuzzy.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Red Spike Top"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Red Spike Top"}], "chest_unopened_img": "/images/tattles/Red Spike Top.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Magikoopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Magikoopa"}], "chest_unopened_img": "/images/tattles/Magikoopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Red Magikoopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Red Magikoopa"}], "chest_unopened_img": "/images/tattles/Red Magikoopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "White Magikoopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "White Magikoopa"}], "chest_unopened_img": "/images/tattles/White Magikoopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Green Magikoopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Green Magikoopa"}], "chest_unopened_img": "/images/tattles/Green Magikoopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
-                "sections": [{"name": "Kammy Koopa"}], "chest_unopened_img": "/images/tattles/1. Goomba.png",
+                "sections": [{"name": "Kammy Koopa"}], "chest_unopened_img": "/images/tattles/Kammy Koopa.png",
                 "map_locations": [{"map": "Tattle Log", "x": 123, "y": 123}]
             },
             {
