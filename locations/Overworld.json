@@ -4028,7 +4028,7 @@
                     {
                         "name": "Riverside Station Ultra Boots Room - Elevator Key",
                         "visibility_rules": [""],
-                        "access_rules": ["UltraBoots,Flurrie,StationKey1,StationKey2,$tube","Flurrie,StationKey1,StationKey2,$tube,{}"],
+                        "access_rules": ["UltraBoots,Flurrie,StationKey1,StationKey2,$tube,$yoshi","Flurrie,StationKey1,StationKey2,$tube,{}"],
                         "item_count": 1
                     }
 		],
