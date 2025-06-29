@@ -5,92 +5,109 @@
         "access_rules":["Goombella"],
         "children": [
             {
-                "sections": [{"name": "Goomba"}], "chest_unopened_img": "/images/tattles/Goomba.png","chest_opened_img": "/images/tattles/Goomba_Dim.png",
+                "name": "Goomba",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Goomba.png","chest_opened_img": "/images/tattles/Goomba_Dim.png",
                 "access_rules":[],
                 "map_locations": [{"map": "Tattle Log", "x": 85, "y": 123}]
             },
             {
-                "sections": [{"name": "Paragoomba"}], "chest_unopened_img": "/images/tattles/Paragoomba.png","chest_opened_img": "/images/tattles/Paragoomba_Dim.png",
+                "name": "Paragoomba",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Paragoomba.png","chest_opened_img": "/images/tattles/Paragoomba_Dim.png",
                 "access_rules":[],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 123}]
             },
             {
-                "sections": [{"name": "Spiky Goomba"}], "chest_unopened_img": "/images/tattles/Spiky Goomba.png","chest_opened_img": "/images/tattles/Spiky Goomba_Dim.png",
+                "name": "Spiky Goomba",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Spiky Goomba.png","chest_opened_img": "/images/tattles/Spiky Goomba_Dim.png",
                 "access_rules":[],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 123}]
             },
             {
-                "sections": [{"name": "Hyper Goomba"}], "chest_unopened_img": "/images/tattles/Hyper Goomba.png","chest_opened_img": "/images/tattles/Hyper Goomba_Dim.png",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Hyper Goomba.png","chest_opened_img": "/images/tattles/Hyper Goomba_Dim.png",
                 "access_rules":["$twilight_town"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 123}]
             },
             {
-                "sections": [{"name": "Hyper Paragoomba"}], "chest_unopened_img": "/images/tattles/H. Paragoomba.png","chest_opened_img": "/images/tattles/H. Paragoomba_Dim.png",
+                "name": "Hyper Goomba",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/H. Paragoomba.png","chest_opened_img": "/images/tattles/H. Paragoomba_Dim.png",
                 "access_rules":["$twilight_town"],
                 "map_locations": [{"map": "Tattle Log", "x": 85, "y": 261}]
             },
             {
-                "sections": [{"name": "Hyper Spiky Goomba"}], "chest_unopened_img": "/images/tattles/H. S. Goomba.png","chest_opened_img": "/images/tattles/H. S. Goomba_Dim.png",
+                "name": "Hyper Spiky Goomba",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/H. S. Goomba.png","chest_opened_img": "/images/tattles/H. S. Goomba_Dim.png",
                 "access_rules":["$twilight_town"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 261}]
             },
             {
-                "sections": [{"name": "Gloomba"}], "chest_unopened_img": "/images/tattles/Gloomba.png","chest_opened_img": "/images/tattles/Gloomba_Dim.png",
+                "name": "Gloomba",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Gloomba.png","chest_opened_img": "/images/tattles/Gloomba_Dim.png",
                 "access_rules":["$pit,[$stars|1]"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 261}]
             },
             {
-                "sections": [{"name": "Paragloomba"}], "chest_unopened_img": "/images/tattles/Paragloomba.png","chest_opened_img": "/images/tattles/Paragloomba_Dim.png",
+                "name": "Paragloomba",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Paragloomba.png","chest_opened_img": "/images/tattles/Paragloomba_Dim.png",
                 "access_rules":["$pit,[$stars|2]"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 261}]
             },
             {
-                "sections": [{"name": "Spiky Gloomba"}], "chest_unopened_img": "/images/tattles/Spiky Gloomba.png","chest_opened_img": "/images/tattles/Spiky Gloomba_Dim.png",
+                "name": "Spiky Gloomba",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Spiky Gloomba.png","chest_opened_img": "/images/tattles/Spiky Gloomba_Dim.png",
                 "access_rules":["$pit,[$stars|2]"],
                 "map_locations": [{"map": "Tattle Log", "x": 85, "y": 378}]
             },
             {
-                "sections": [{"name": "Koopa Troopa"}], "chest_unopened_img": "/images/tattles/Koopa Troopa.png","chest_opened_img": "/images/tattles/Koopa Troopa_Dim.png",
+                "name": "Koopa Troopa",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Koopa Troopa.png","chest_opened_img": "/images/tattles/Koopa Troopa_Dim.png",
                 "access_rules":["PlaneCurse","SuperHammer,SuperBoots","PlaneCurse,SunStone,MoonStone,Koops"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 378}]
             },
             {
-                "sections": [{"name": "Paratroopa"}], "chest_unopened_img": "/images/tattles/Paratroopa.png","chest_opened_img": "/images/tattles/Paratroopa_Dim.png",
+                "name": "Paratroopa",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Paratroopa.png","chest_opened_img": "/images/tattles/Paratroopa_Dim.png",
                 "access_rules":["PlaneCurse","SuperHammer,SuperBoots","PlaneCurse,SunStone,MoonStone,Koops"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 378}]
             },
             {
-                "sections": [{"name": "KP Koopa"}], "chest_unopened_img": "/images/tattles/KP Koopa.png","chest_opened_img": "/images/tattles/KP Koopa_Dim.png",
+                "name": "KP Koopa",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/KP Koopa.png","chest_opened_img": "/images/tattles/KP Koopa_Dim.png",
                 "access_rules":["$westside,BlimpTicket"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 378}]
             },
             {
-                "sections": [{"name": "KP Paratroopa"}], "chest_unopened_img": "/images/tattles/KP Paratroopa.png","chest_opened_img": "/images/tattles/KP Paratroopa_Dim.png",
+                "name": "KP Paratroopa",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/KP Paratroopa.png","chest_opened_img": "/images/tattles/KP Paratroopa_Dim.png",
                 "access_rules":["$westside,BlimpTicket"],
                 "map_locations": [{"map": "Tattle Log", "x": 85, "y": 492}]
             },
             {
-                "sections": [{"name": "Shady Koopa"}], "chest_unopened_img": "/images/tattles/Shady Koopa.png","chest_opened_img": "/images/tattles/Shady Koopa_Dim.png",
+                "name": "Shady Koopa",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Shady Koopa.png","chest_opened_img": "/images/tattles/Shady Koopa_Dim.png",
                 "access_rules":["$westside,BlimpTicket"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 492}]
             },
             {
-                "sections": [{"name": "Shady Paratroopa"}], "chest_unopened_img": "/images/tattles/S. Paratroopa.png","chest_opened_img": "/images/tattles/S. Paratroopa_Dim.png",
+                "name": "Shady Paratroopa",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/S. Paratroopa.png","chest_opened_img": "/images/tattles/S. Paratroopa_Dim.png",
                 "access_rules":["$westside,BlimpTicket"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 492}]
             },
             {
-                "sections": [{"name": "Dark Koopa"}], "chest_unopened_img": "/images/tattles/Dark Koopa.png","chest_opened_img": "/images/tattles/Dark Koopa_Dim.png",
+                "name": "Dark Koopa",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Koopa.png","chest_opened_img": "/images/tattles/Dark Koopa_Dim.png",
                 "access_rules":["$pit,[$stars|2]"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 492}]
             },
             {
-                "sections": [{"name": "Dark Paratroopa"}], "chest_unopened_img": "/images/tattles/D. Parakoopa.png","chest_opened_img": "/images/tattles/D. Parakoopa_Dim.png",
+                "name": "Dark Paratroopa",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/D. Parakoopa.png","chest_opened_img": "/images/tattles/D. Parakoopa_Dim.png",
                 "access_rules":["$pit,[$stars|3]"],
                 "map_locations": [{"map": "Tattle Log", "x": 85, "y": 612}]
             },
             {
-                "sections": [{"name": "Koopatrol"}], "chest_unopened_img": "/images/tattles/Koopatrol.png","chest_opened_img": "/images/tattles/Koopatrol_Dim.png",
+                "name": "Koopatrol",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Koopatrol.png","chest_opened_img": "/images/tattles/Koopatrol_Dim.png",
                 "access_rules":["SapphireStar"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 612}]
             },
@@ -210,7 +227,8 @@
                 "map_locations": [{"map": "Tattle Log", "x": 85, "y": 1359}]
             },
             {
-                "sections": [{"name": "Gus"}], "chest_unopened_img": "/images/tattles/Gus.png","chest_opened_img": "/images/tattles/Gus_Dim.png",
+                "name": "Gus",
+                "sections": [{}], "chest_unopened_img": "/images/tattles/Gus.png","chest_opened_img": "/images/tattles/Gus_Dim.png",
                 "access_rules":[],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1359}]
             },
@@ -391,7 +409,7 @@
             },
             {
                 "sections": [{"name": "Hyper Bald Cleft"}], "chest_unopened_img": "/images/tattles/Hyper Bald Cleft.png","chest_opened_img": "/images/tattles/Hyper Bald Cleft_Dim.png",
-                "access_rules":["$Westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket"],
                 "map_locations": [{"map": "Tattle Log", "x": 2214, "y": 612}]
             },
             {
@@ -401,12 +419,12 @@
             },
             {
                 "sections": [{"name": "Iron Clefts"}], "chest_unopened_img": "/images/tattles/Iron Clefts.png","chest_opened_img": "/images/tattles/Iron Clefts_Dim.png",
-                "access_rules":["$Westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket"],
                 "map_locations": [{"map": "Tattle Log", "x": 2964, "y": 612}]
             },
             {
                 "sections": [{"name": "Hyper Cleft"}], "chest_unopened_img": "/images/tattles/Hyper Cleft.png","chest_opened_img": "/images/tattles/Hyper Cleft_Dim.png",
-                "access_rules":["$Twilight_Town"],
+                "access_rules":["$twilight_town"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 738}]
             },
             {
@@ -416,7 +434,7 @@
             },
             {
                 "sections": [{"name": "Bristle"}], "chest_unopened_img": "/images/tattles/Bristle.png","chest_opened_img": "/images/tattles/Bristle_Dim.png",
-                "access_rules":["PlaneCurse","SuperHammer,SuperBoots","$Westside,BlimpTicket"],
+                "access_rules":["PlaneCurse","SuperHammer,SuperBoots","$westside,BlimpTicket"],
                 "map_locations": [{"map": "Tattle Log", "x": 2568, "y": 738}]
             },
             {
@@ -522,7 +540,7 @@
             },
             {
                 "sections": [{"name": "Cortez"}], "chest_unopened_img": "/images/tattles/Cortez.png","chest_opened_img": "/images/tattles/Cortez_Dim.png",
-                "access_rules":["$Keelhaul_Key,$Pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
+                "access_rules":["$keelhaul_key,$Pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 2964, "y": 1359}]
             },
             {
@@ -592,7 +610,7 @@
             },
             {
                 "sections": [{"name": "Lord Crump"}], "chest_unopened_img": "/images/tattles/Lord Crump.png","chest_opened_img": "/images/tattles/Lord Crump_Dim.png",
-                "access_rules":["$Keelhaul_Key,$Pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
+                "access_rules":["$keelhaul_key,$Pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 2214, "y": 1863}]
             },
             {
