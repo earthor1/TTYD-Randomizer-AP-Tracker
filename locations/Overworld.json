@@ -1558,7 +1558,7 @@
                     {
                         "name": "Rogueport Sewers Spania Room - Defend Plus",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,Flurrie,BoatCurse,$yoshi","$sewerwest,Flurrie,BoatCurse,UltraBoots,Koops"],
+                        "access_rules": ["$sewerwestground,Flurrie,BoatCurse,$yoshi","$sewerwestground,Flurrie,BoatCurse,UltraBoots,Koops"],
                         "item_count": 1
                     },
                     {
@@ -1566,7 +1566,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,BoatCurse,Flurrie"],
+                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie"],
                         "item_count": 1
                     },
                     {
@@ -1574,7 +1574,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,BoatCurse,Flurrie,UltraBoots"],
+                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie,UltraBoots"],
                         "item_count": 1
                     },
                     {
@@ -1582,7 +1582,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,BoatCurse,Flurrie"],
+                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie"],
                         "item_count": 1
                     },
                     {
