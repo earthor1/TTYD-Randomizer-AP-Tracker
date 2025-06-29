@@ -57,13 +57,13 @@ SLOT_CODES =
     code = "yoshi",
     mapping =
     {
-      [0] = "0", -- Green
-      [1] = "1", -- Red
-      [2] = "2", -- Blue
-      [3] = "3", -- Orange
-      [4] = "4", -- Pink
-      [5] = "5", -- Black
-      [6] = "6", -- White
+      [1] = "1", -- Green
+      [2] = "2", -- Red
+      [3] = "3", -- Blue
+      [4] = "4", -- Orange
+      [5] = "5", -- Pink
+      [6] = "6", -- Black
+      [7] = "7", -- White
     }
   },
   westside =
