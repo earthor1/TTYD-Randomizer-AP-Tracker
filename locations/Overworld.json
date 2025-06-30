@@ -2274,7 +2274,7 @@
                     {
                         "name": "Glitzville Minor-League Room - Yoshi",
                         "visibility_rules": [""],
-                        "access_rules": ["SuperBoots,PlaneCurse"],
+                        "access_rules": ["SuperBoots,PlaneCurse","$yoshi,[SuperBoots],[PlaneCurse]"],
                         "item_count": 1
                     },
                     {
