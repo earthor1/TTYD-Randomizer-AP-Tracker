@@ -1692,6 +1692,26 @@
                         "visibility_rules": [""],
                         "access_rules": ["$pit"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Tattle: Goomba",
+                        "ref": "Tattle Log/Goomba/"
+                    },
+                    {
+                        "name": "Tattle: Paaragoomba",
+                        "ref": "Tattle Log/Paragoomba/"
+                    },
+                    {
+                        "name": "Tattle: Spiky Goomba",
+                        "ref": "Tattle Log/Spiky Goomba/"
+                    },
+                    {
+                        "name": "Tattle: Blooper",
+                        "ref": "Tattle Log/Blooper/"
+                    },
+                    {
+                        "name": "Tattle: Spinia",
+                        "ref": "Tattle Log/Spinia/"
                     }
                 ],
                 "map_locations": [
@@ -1817,6 +1837,14 @@
                         "visibility_rules": [""],
                         "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Tattle: Spania",
+                        "ref": "Tattle Log/Spania/"
+                    },
+                    {
+                        "name": "Tattle: Spunia",
+                        "ref": "Tattle Log/Spunia/"
                     }
 		],
                 "map_locations": [
