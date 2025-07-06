@@ -935,7 +935,7 @@
     {
         "name": "Chapter 8",
         "type": "progressive",
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
