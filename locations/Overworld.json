@@ -765,7 +765,7 @@
                     {
                         "name": "Rogueport Westside - Train Ticket",
                         "visibility_rules": [""],
-                        "access_rules": ["WeddingRing"],
+                        "access_rules": ["WeddingRing,$keelhaul_key"],
                         "item_count": 1
                     },
                     {
