@@ -78,7 +78,7 @@
                 "name": "Paratroopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Paratroopa.png","chest_opened_img": "/images/tattles/Paratroopa_Dim.png",
                 "visibility_rules":["Ch1"],
-                "access_rules":["PlaneCurse","SuperHammer,SuperBoots","PlaneCurse,SunStone,MoonStone,Koops"],
+                "access_rules":["PlaneCurse,SunStone,MoonStone,Koops"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 327}]
             },
             {
