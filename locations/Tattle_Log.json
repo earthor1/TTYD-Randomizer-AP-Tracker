@@ -99,14 +99,14 @@
                 "name": "Shady Koopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Shady Koopa.png","chest_opened_img": "/images/tattles/Shady Koopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket","$pit,[$stars|2],YesPit"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","$pit,[$stars|2],YesPit","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 440}]
             },
             {
                 "name": "Shady Paratroopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/S. Paratroopa.png","chest_opened_img": "/images/tattles/S. Paratroopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 440}]
             },
             {
@@ -134,7 +134,7 @@
                 "name": "Dark Koopatrol",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/D. Koopatrol.png","chest_opened_img": "/images/tattles/D. Koopatrol_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket","$pit,[$stars|4],YesPit"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","$pit,[$stars|4],YesPit","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 558}]
             },
             {
@@ -169,21 +169,21 @@
                 "name": "Hammer Bro",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Hammer Bro.png","chest_opened_img": "/images/tattles/Hammer Bro_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 690}]
             },
             {
                 "name": "Boomerang Bro",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Boomerang Bro.png","chest_opened_img": "/images/tattles/Boomerang Bro_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 819}]
             },
             {
                 "name": "Fire Bro",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Fire Bro.png","chest_opened_img": "/images/tattles/Fire Bro_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 819}]
             },
             {
@@ -246,7 +246,7 @@
                 "name": "Red Spike Top",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Red Spike Top.png","chest_opened_img": "/images/tattles/Red Spike Top_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket"],
+                "access_rules":["$westside,Blimpticket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1074}]
             },
             {
@@ -260,21 +260,21 @@
                 "name": "Red Magikoopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Red Magikoopa.png","chest_opened_img": "/images/tattles/Red Magikoopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket"],
+                "access_rules":["$westside,Blimpticket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1200}]
             },
             {
                 "name": "White Magikoopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/White Magikoopa.png","chest_opened_img": "/images/tattles/White Magikoopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket"],
+                "access_rules":["$westside,Blimpticket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1200}]
             },
             {
                 "name": "Green Magikoopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Green Magikoopa.png","chest_opened_img": "/images/tattles/Green Magikoopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket"],
+                "access_rules":["$westside,Blimpticket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1200}]
             },
             {
@@ -288,7 +288,7 @@
                 "name": "Bowser",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bowser.png","chest_opened_img": "/images/tattles/Bowser_Dim.png",
                 "visibility_rules":["Ch3","NoPalaceSkip"],
-                "access_rules":["$westside,Blimpticket","$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse"],
+                "access_rules":["$westside,Blimpticket,$yoshi","$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1320}]
             },
             {
@@ -302,7 +302,7 @@
                 "name": "Dark Craw",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Craw.png","chest_opened_img": "/images/tattles/Dark Craw_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,Blimpticket","$pit,[$stars|4],YesPit"],
+                "access_rules":["$westside,Blimpticket,$yoshi","$pit,[$stars|4],YesPit","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1320}]
             },
             {
@@ -365,14 +365,14 @@
                 "name": "Green Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Green Fuzzy.png","chest_opened_img": "/images/tattles/Green Fuzzy_Dim.png",
                 "visibility_rules":["Ch3","Ch5"],
-                "access_rules":["$westside,Blimpticket","$keelhaul_key"],
+                "access_rules":["$westside,Blimpticket,$yoshi","$keelhaul_key","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1572}]
             },
             {
                 "name": "Flower Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Flower Fuzzy.png","chest_opened_img": "/images/tattles/Flower Fuzzy_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket","$pit,[$stars|2],YesPit"],
+                "access_rules":["$westside,Blimpticket,$yoshi","$pit,[$stars|2],YesPit","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1713}]
             },
             {
@@ -428,7 +428,7 @@
                 "name": "Amazy Dayzee",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Amazy Dayzee.png","chest_opened_img": "/images/tattles/Amazy Dayzee_Dim.png",
                 "visibility_rules":["YesPit","Ch4"],
-                "access_rules":["$pit,[$stars|5],YesPit","$twilight_town,$tube,Flurrie"],
+                "access_rules":["$pit,[$stars|5],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 294, "y": 1940}]
             },
             {
@@ -558,17 +558,14 @@
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 558}]
             },
             {
-                "name": "Iron Cleft Red",
+                "name": "Iron Clefts",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Iron Clefts.png","chest_opened_img": "/images/tattles/Iron Clefts_Dim.png",
                 "visibility_rules":["Ch3"],
                 "access_rules":["$westside,BlimpTicket"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 558}]
             },
             {
-                "name": "Iron Cleft Green",
-                "sections": [{}], "chest_unopened_img": "/images/tattles/Iron Clefts2.png","chest_opened_img": "/images/tattles/Iron Clefts_Dim.png",
-                "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "sections": [{"ref": "Tattle Log/Iron Clefts/"}],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 558}]
             },
             {
@@ -631,7 +628,7 @@
                 "name": "Red Chomp",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Red Chomp.png","chest_opened_img": "/images/tattles/Red Chomp_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket","$pit,[$stars|3],YesPit"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","$pit,[$stars|3],YesPit","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 819}]
             },
             {
@@ -716,7 +713,7 @@
                 "name": "Rawk Hawk",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Rawk Hawk.png","chest_opened_img": "/images/tattles/Rawk Hawk_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,Flurrie,$yoshi"],
+                "access_rules":["$westside,BlimpTicket,Flurrie,$yoshi","$westside,BlimpTicket,[$yoshi]"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1200}]
             },
             {

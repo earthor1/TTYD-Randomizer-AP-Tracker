@@ -2308,7 +2308,7 @@
                     {
                         "name": "Glitzville Major-League Room - Champ's Belt",
                         "visibility_rules": [""],
-                        "access_rules": ["Flurrie,$yoshi"],
+                        "access_rules": ["Flurrie,$yoshi","Flurrie,[$yoshi]"],
                         "item_count": 1
                     },
                     {
