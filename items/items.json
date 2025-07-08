@@ -935,7 +935,7 @@
     {
         "name": "Chapter 8",
         "type": "progressive",
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 1,
         "allow_disabled": false,
         "stages": [
             {
@@ -994,7 +994,7 @@
         "name": "Auto Tab Switching",
         "type": "toggle",
         "initial_active_state": true,
-        "img": "images/items/MagicalMapHD2.png",
+        "img": "images/items/MagicalMap.png",
         "codes": "AutoTabOn"
     },
     {
