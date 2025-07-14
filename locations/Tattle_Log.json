@@ -734,14 +734,14 @@
                 "name": "Cortez",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Cortez.png","chest_opened_img": "/images/tattles/Cortez_Dim.png",
                 "visibility_rules":["Ch5"],
-                "access_rules":["$keelhaul_key,$Pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
+                "access_rules":["$keelhaul_key,$pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 1320}]
             },
             {
                 "name": "Smorg",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Smorg.png","chest_opened_img": "/images/tattles/Smorg_Dim.png",
                 "visibility_rules":["Ch6"],
-                "access_rules":["$westside,TrainTicket,$riverside,PaperCurse,UltraBoots"],
+                "access_rules":["$westside,TrainTicket,$riverside,PaperCurse,UltraBoots,ElevatorKey"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1320}]
             },
             {
@@ -832,7 +832,7 @@
                 "name": "Lord Crump",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Lord Crump.png","chest_opened_img": "/images/tattles/Lord Crump_Dim.png",
                 "visibility_rules":["Ch5"],
-                "access_rules":["$keelhaul_key,$Pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
+                "access_rules":["$keelhaul_key,$pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 1836}]
             },
             {
