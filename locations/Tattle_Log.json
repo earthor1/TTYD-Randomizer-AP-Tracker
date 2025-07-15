@@ -477,7 +477,7 @@
                 "name": "Ruff Puff",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Ruff Puff.png","chest_opened_img": "/images/tattles/Ruff Puff_Dim.png",
                 "visibility_rules":["Ch6"],
-                "access_rules":["TrainTicket,$riverside,StationKey1,StationKey2"],
+                "access_rules":["TrainTicket,$riverside,StationKey1"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 204}]
             },
             {
