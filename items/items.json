@@ -58,6 +58,11 @@
                 "name": "Yoshi",
                 "img": "images/items/WYoshi.png",
                 "codes": "WYoshi, Yoshi"
+            },
+            {
+                "name": "Yoshi",
+                "img": "images/items/WYoshi.png",
+                "codes": "WYoshi, Yoshi"
             }
         ]
     },
