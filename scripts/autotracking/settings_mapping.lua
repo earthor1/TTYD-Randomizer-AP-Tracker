@@ -64,6 +64,7 @@ SLOT_CODES =
       [4] = "4", -- Pink
       [5] = "5", -- Black
       [6] = "6", -- White
+      [7] = "7" -- White but bugged in 0.4.0
     }
   },
   westside =
