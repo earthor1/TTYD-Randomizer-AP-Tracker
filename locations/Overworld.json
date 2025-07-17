@@ -3956,7 +3956,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch6"],
                 "access_rules": [
-                    "$westside,TrainTicket,$riverside","[TrainTicket],$riverside,$HRGlvl1"
+                    "$riverside","[$westside],TrainTicket,Vivian,Autograph,RaggedDiary,Blanket,VitalPaper,$HRGlvl1"
                 ],
                 "sections": [
                     {

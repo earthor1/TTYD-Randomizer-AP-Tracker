@@ -67,7 +67,7 @@ function moon()
 	end
 
 function riverside()
-	return has("Vivian") and has("Autograph") and has("RaggedDiary") and has("Blanket") and has("VitalPaper")
+	return has("Vivian") and has("Autograph") and has("RaggedDiary") and has("Blanket") and has("VitalPaper") and has ("TrainTicket") and westside()
 	end
 
 function fahr_outpost()
