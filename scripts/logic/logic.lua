@@ -87,7 +87,7 @@ function poshleysanctum()  -- Access to the Sanctum is gated by the chapter 6 st
 	end
 
 function htcastle()
-	return (has("PlaneCurse")) or (yoshi())
+	return ((has("PlaneCurse")) or (yoshi())) and has("SunStone") and has("MoonStone")
 	end
 
 function riddle_tower()
