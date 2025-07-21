@@ -3838,7 +3838,7 @@
                     {
                         "name": "Poshley Heights Station - Goldbob Guide",
                         "visibility_rules": [""],
-                        "access_rules": ["$fahr_outpost,Bobbery"],
+                        "access_rules": ["$fahr_outpost"],
                         "item_count": 1
                     },
                     {
