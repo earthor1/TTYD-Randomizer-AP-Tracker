@@ -232,7 +232,7 @@
                 "name": "Parabuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Parabuzzy.png","chest_opened_img": "/images/tattles/Parabuzzy_Dim.png",
                 "visibility_rules":["YesPit","Ch5"],
-                "access_rules":["$pit,[$stars|2],YesPit","$pirates_grotto"],
+                "access_rules":["$pit,[$stars|2],YesPit","$pirates_grotto,$keelhaul_key"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1074}]
             },
             {
@@ -526,7 +526,7 @@
                 "name": "Lava Bubble",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Lava Bubble.png","chest_opened_img": "/images/tattles/Lava Bubble_Dim.png",
                 "visibility_rules":["YesPit","Ch5"],
-                "access_rules":["$pirates_grotto","$pit,[$stars|3],YesPit"],
+                "access_rules":["$pirates_grotto,$keelhaul_key","$pit,[$stars|3],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 440}]
             },
             {
@@ -607,7 +607,7 @@
                 "name": "Bulky Bob-omb",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bulky Bob-omb.png","chest_opened_img": "/images/tattles/Bulky Bob-omb_Dim.png",
                 "visibility_rules":["YesPit","Ch5"],
-                "access_rules":["$pirates_grotto","$pit,[$stars|3],YesPit"],
+                "access_rules":["$pirates_grotto,$keelhaul_key","$pit,[$stars|3],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 819}]
             },
             {
@@ -635,14 +635,14 @@
                 "name": "Bill Blaster",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bill Blaster.png","chest_opened_img": "/images/tattles/Bill Blaster_Dim.png",
                 "visibility_rules":["Ch5"],
-                "access_rules":["$pirates_grotto"],
+                "access_rules":["$pirates_grotto,$keelhaul_key"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 951}]
             },
             {
                 "name": "Bullet Bill",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bullet Bill.png","chest_opened_img": "/images/tattles/Bullet Bill_Dim.png",
                 "visibility_rules":["Ch5"],
-                "access_rules":["$pirates_grotto"],
+                "access_rules":["$pirates_grotto,$keelhaul_key"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 951}]
             },
             {
