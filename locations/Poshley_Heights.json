@@ -1,63 +1,35 @@
 [
     {
-        "name": "Poshley Heights",
-        "children": [            
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - Goldbob Guide"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1101, "y": 1968}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - HP Drain P"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1005, "y": 1824}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - Star Piece 1"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1362, "y": 1656}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - Star Piece 2"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1014, "y": 1974}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - Star Piece 3"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1191, "y": 1833}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Sanctum Exterior - Shine Sprite"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 2610, "y": 1830}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Sanctum Altar - Garnet Star"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 2574, "y": 189}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Sanctum Altar - Shine Sprite"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 2310, "y": 801}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Sanctum Altar - L Emblem"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 2391, "y": 99}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown Pasta Stand - Fresh Pasta Purchase"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1668, "y": 2004}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown - Inn Coupon"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1659, "y": 1941}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown - Omelette Meal"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1851, "y": 1794}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown - Star Piece"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1503, "y": 1770}]
-            },
-            {
-                "sections": [{"ref": "Magical Map/Excess Express/Excess Express Front Passenger Car - 30 Coins"}],
-                "map_locations": [{"map": "Poshley Heights", "x": 1254, "y": 1686}]
-            }
-        ]
+    "name":  "Poshley Heights",
+    "children": [
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - Goldbob Guide"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 550, "y": 984}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - HP Drain P"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 502, "y": 912}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - Star Piece 1"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 681, "y": 828}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - Star Piece 2"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 507, "y": 987}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Station - Star Piece 3"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 596, "y": 916}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Sanctum Exterior - Shine Sprite"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 1305, "y": 915}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Sanctum Altar - Garnet Star"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 1287, "y": 94}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Sanctum Altar - Shine Sprite"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 1155, "y": 400}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Sanctum Altar - L Emblem"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 1196, "y": 50}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown Pasta Stand - Fresh Pasta Purchase"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 834, "y": 1002}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown - Inn Coupon"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 830, "y": 970}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown - Omelette Meal"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 926, "y": 897}]},
+        {"sections": [{"ref": "Magical Map/Poshley Heights/Poshley Heights Downtown - Star Piece"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 752, "y": 885}]},
+        {"sections": [{"ref": "Magical Map/Excess Express/Excess Express Front Passenger Car - 30 Coins"}],
+            "map_locations": [{"map": "Poshley Heights", "x": 627, "y": 843}]}
+    ]
     }
 ]

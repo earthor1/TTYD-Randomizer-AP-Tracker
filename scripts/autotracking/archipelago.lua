@@ -166,6 +166,7 @@ function onMapChange(key, value, old)
     local newObject
 
     if key == cur_room then
+    if key ~= nil then
         newObject = Tracker:FindObjectForCode(newCode)
 
 
@@ -185,6 +186,7 @@ function onMapChange(key, value, old)
             tabs = MAP_MAPPING[tostring(value)]
             for i, tab in ipairs(tabs) do
                 Tracker:UiHint("ActivateTab", tab)
+                end
             end
         end
     end

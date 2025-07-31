@@ -1,7 +1,9 @@
 ENABLE_DEBUG_LOG = false
 -- Items
 Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/badges.json")
 Tracker:AddItems("items/locationobjects.json")
+Tracker:AddItems("items/settings.json")
 
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
@@ -17,6 +19,4 @@ ScriptHost:LoadScript("scripts/layouts_import.lua")
 ScriptHost:LoadScript("scripts/locations_import.lua")
 
 -- AutoTracking for Poptracker
-if PopVersion and PopVersion >= "0.18.0" then
-    ScriptHost:LoadScript("scripts/autotracking.lua")
-end
+ScriptHost:LoadScript("scripts/autotracking.lua")

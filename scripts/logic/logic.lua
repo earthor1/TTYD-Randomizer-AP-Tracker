@@ -67,7 +67,7 @@ function moon()
 	end
 
 function riverside()
-	return has("Vivian") and has("Autograph") and has("RaggedDiary") and has("Blanket") and has("VitalPaper")
+	return has("Vivian") and has("Autograph") and has("RaggedDiary") and has("Blanket") and has("VitalPaper") and has ("TrainTicket") and westside()
 	end
 
 function fahr_outpost()
@@ -87,7 +87,7 @@ function poshleysanctum()  -- Access to the Sanctum is gated by the chapter 6 st
 	end
 
 function htcastle()
-	return (has("PlaneCurse")) or (yoshi())
+	return ((has("PlaneCurse")) or (yoshi())) and has("SunStone") and has("MoonStone")
 	end
 
 function riddle_tower()
