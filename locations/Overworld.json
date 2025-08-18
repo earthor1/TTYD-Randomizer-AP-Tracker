@@ -4054,13 +4054,13 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch6"],
                 "access_rules": [
-                    "$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"
+
                 ],
                 "sections": [
                     {
                         "name": "Excess Express Locomotive - Autograph",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -4068,55 +4068,55 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["SuperBoots"],
+                        "access_rules": ["$westside,TrainTicket,SuperBoots","[$westside],TrainTicket,$HRGlvl1,SuperBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Front Passenger Car - Vital Paper",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph,Vivian,RaggedDiary,Blanket"],
+                        "access_rules": ["$westside,TrainTicket,Autograph,Vivian,RaggedDiary,Blanket","[$westside],TrainTicket,$HRGlvl1,Autograph,Vivian,RaggedDiary,Blanket"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Front Passenger Car - 30 Coins",
                         "visibility_rules": [""],
-                        "access_rules": ["GoldRing"],
+                        "access_rules": ["$westside,TrainTicket,GoldRing","[$westside],TrainTicket,$HRGlvl1,GoldRing","$poshley_heights,GoldRing","[$poshley_heights],$HRGlvl2,GoldRing"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Middle Passenger Car - Blanket",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph,Vivian,RaggedDiary"],
+                        "access_rules": ["$westside,TrainTicket,Autograph,Vivian,RaggedDiary","[$westside],TrainTicket,$HRGlvl1,Autograph,Vivian,RaggedDiary"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Middle Passenger Car - Briefcase",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph,Vivian,RaggedDiary,Blanket,VitalPaper"],
+                        "access_rules": ["$westside,TrainTicket,Autograph,Vivian,RaggedDiary,Blanket,VitalPaper","[$westside],TrainTicket,$HRGlvl1,Autograph,Vivian,RaggedDiary,Blanket,VitalPaper"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Middle Passenger Car - Dried Shroom",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Middle Passenger Car - Galley Pot",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Middle Passenger Car - Gold Ring",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph,Vivian,RaggedDiary,Blanket,VitalPaper"],
+                        "access_rules": ["$westside,TrainTicket,Autograph,Vivian,RaggedDiary,Blanket,VitalPaper","[$westside],TrainTicket,$HRGlvl1,Autograph,Vivian,RaggedDiary,Blanket,VitalPaper"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Middle Passenger Car - Shell Earrings",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph,Vivian,RaggedDiary,Blanket,VitalPaper"],
+                        "access_rules": ["$westside,TrainTicket,Autograph,Vivian,RaggedDiary,Blanket,VitalPaper","[$westside],TrainTicket,$HRGlvl1,Autograph,Vivian,RaggedDiary,Blanket,VitalPaper"],
                         "item_count": 1
                     },
                     {
@@ -4124,7 +4124,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -4132,7 +4132,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["SuperBoots"],
+                        "access_rules": ["$westside,TrainTicket,SuperBoots","[$westside],TrainTicket,$HRGlvl1,SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -4140,7 +4140,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["GalleyPot"],
+                        "access_rules": ["$westside,TrainTicket,GalleyPot","[$westside],TrainTicket,$HRGlvl1,GalleyPot"],
                         "item_count": 1
                     },
                     {
@@ -4148,13 +4148,13 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["ShellEarrings"],
+                        "access_rules": ["$westside,TrainTicket,ShellEarrings","[$westside],TrainTicket,$HRGlvl1,ShellEarrings"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Back Passenger Car - Mushroom",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph,Vivian,RaggedDiary,Blanket"],
+                        "access_rules": ["$westside,TrainTicket,Autograph,Vivian,RaggedDiary,Blanket","[$westside],TrainTicket,$HRGlvl1,Autograph,Vivian,RaggedDiary,Blanket"],
                         "item_count": 1
                     },
                     {
@@ -4162,7 +4162,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["Autograph"],
+                        "access_rules": ["$westside,TrainTicket,Autograph","[$westside],TrainTicket,$HRGlvl1,Autograph"],
                         "item_count": 1
                     },
                     {
@@ -4170,13 +4170,13 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": [""],
+                        "access_rules": ["$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Storage Car - Ragged Diary",
                         "visibility_rules": [""],
-                        "access_rules": ["PaperCurse","UltraBoots","{}"],
+                        "access_rules": ["$westside,TrainTicket,PaperCurse","[$westside],TrainTicket,$HRGlvl1,PaperCurse","$westside,TrainTicket,UltraBoots","[$westside],TrainTicket,$HRGlvl1,UltraBoots","{}"],
                         "item_count": 1
                     }
 		],
@@ -4590,7 +4590,7 @@
                         "chest_unopened_img": "/images/items/CrystalStar.png",
                         "chest_opened_img": "/images/items/ClosedStar.png",
                         "visibility_rules": [""],
-                        "access_rules": ["ElevatorKey1,ElevatorKey2,CardKey1,CardKey2,CardKey3,CardKey4,PaperCurse,Vivian,PlaneCurse"],
+                        "access_rules": ["ElevatorKey1,ElevatorKey2,CardKey1,CardKey2,CardKey3,CardKey4,PaperCurse,Vivian"],
                         "item_count": 1
                     }
 		],
@@ -4934,8 +4934,8 @@
                 "map_locations": [
                     {
                         "map": "HD Map",
-                        "x": 330,
-                        "y": 1800,
+                        "x": 82,
+                        "y": 450,
                         "size": 9
                     },
                     {

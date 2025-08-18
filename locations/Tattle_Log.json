@@ -71,7 +71,7 @@
                 "name": "Koopa Troopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Koopa Troopa.png","chest_opened_img": "/images/tattles/Koopa Troopa_Dim.png",
                 "visibility_rules":["Ch1"],
-                "access_rules":["PlaneCurse","SuperHammer,SuperBoots","PlaneCurse,SunStone,MoonStone,Koops"],
+                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2","SuperHammer,SuperBoots","PlaneCurse,SunStone,MoonStone,Koops","[PlaneCurse],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 327}]
             },
             {
@@ -85,28 +85,28 @@
                 "name": "KP Koopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/KP Koopa.png","chest_opened_img": "/images/tattles/KP Koopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 327}]
             },
             {
                 "name": "KP Paratroopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/KP Paratroopa.png","chest_opened_img": "/images/tattles/KP Paratroopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 440}]
             },
             {
                 "name": "Shady Koopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Shady Koopa.png","chest_opened_img": "/images/tattles/Shady Koopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","$pit,[$stars|2],YesPit","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$pit,[$stars|2],YesPit","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 440}]
             },
             {
                 "name": "Shady Paratroopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/S. Paratroopa.png","chest_opened_img": "/images/tattles/S. Paratroopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 440}]
             },
             {
@@ -134,14 +134,14 @@
                 "name": "Dark Koopatrol",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/D. Koopatrol.png","chest_opened_img": "/images/tattles/D. Koopatrol_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","$pit,[$stars|4],YesPit","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$pit,[$stars|4],YesPit","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 558}]
             },
             {
                 "name": "Dull Bones",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dull Bones.png","chest_opened_img": "/images/tattles/Dull Bones_Dim.png",
                 "visibility_rules":["YesPit","Ch1","Ch3"],
-                "access_rules":["PlaneCurse,SunStone,MoonStone,Koops","$pit,[$stars|1],YesPit","$westside,BlimpTicket"],
+                "access_rules":["PlaneCurse,SunStone,MoonStone,Koops","$pit,[$stars|1],YesPit","$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 558}]
             },
             {
@@ -169,28 +169,28 @@
                 "name": "Hammer Bro",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Hammer Bro.png","chest_opened_img": "/images/tattles/Hammer Bro_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 690}]
             },
             {
                 "name": "Boomerang Bro",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Boomerang Bro.png","chest_opened_img": "/images/tattles/Boomerang Bro_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 819}]
             },
             {
                 "name": "Fire Bro",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Fire Bro.png","chest_opened_img": "/images/tattles/Fire Bro_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 819}]
             },
             {
                 "name": "Lakitu",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Lakitu.png","chest_opened_img": "/images/tattles/Lakitu_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket","$pit,[$stars|2],YesPit"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1","$pit,[$stars|2],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 819}]
             },
             {
@@ -204,7 +204,7 @@
                 "name": "Spiny",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spiny.png","chest_opened_img": "/images/tattles/Spiny_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket","$pit,[$stars|2],YesPit"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1","$pit,[$stars|2],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 951}]
             },
             {
@@ -246,7 +246,7 @@
                 "name": "Red Spike Top",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Red Spike Top.png","chest_opened_img": "/images/tattles/Red Spike Top_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1074}]
             },
             {
@@ -260,21 +260,21 @@
                 "name": "Red Magikoopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Red Magikoopa.png","chest_opened_img": "/images/tattles/Red Magikoopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1200}]
             },
             {
                 "name": "White Magikoopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/White Magikoopa.png","chest_opened_img": "/images/tattles/White Magikoopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1200}]
             },
             {
                 "name": "Green Magikoopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Green Magikoopa.png","chest_opened_img": "/images/tattles/Green Magikoopa_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1200}]
             },
             {
@@ -288,7 +288,7 @@
                 "name": "Bowser",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bowser.png","chest_opened_img": "/images/tattles/Bowser_Dim.png",
                 "visibility_rules":["Ch3","NoPalaceSkip"],
-                "access_rules":["$westside,Blimpticket,$yoshi","$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1320}]
             },
             {
@@ -302,21 +302,21 @@
                 "name": "Dark Craw",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Craw.png","chest_opened_img": "/images/tattles/Dark Craw_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,Blimpticket,$yoshi","$pit,[$stars|4],YesPit","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$pit,[$stars|4],YesPit","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1320}]
             },
             {
                 "name": "Bandit",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bandit.png","chest_opened_img": "/images/tattles/Bandit_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket","$pit,[$stars|2],YesPit"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1","$pit,[$stars|2],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1320}]
             },
             {
                 "name": "Big Bandit",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Big Bandit.png","chest_opened_img": "/images/tattles/Big Bandit_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1446}]
             },
             {
@@ -337,7 +337,7 @@
                 "name": "Spania",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spania.png","chest_opened_img": "/images/tattles/Spania_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["$sewerwestground","$pit,[$stars|1]"],
+                "access_rules":["$sewerwestground","[$sewerwestground],$HRGlvl1","$pit,[$stars|1]"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1446}]
             },
             {
@@ -351,35 +351,35 @@
                 "name": "Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Fuzzy.png","chest_opened_img": "/images/tattles/Fuzzy_Dim.png",
                 "visibility_rules":["YesPit","Ch1"],
-                "access_rules":["$pit,[$stars|3],YesPit","PlaneCurse","SuperHammer,SuperBoots"],
+                "access_rules":["$pit,[$stars|3],YesPit","PlaneCurse","[PlaneCurse],$HRGlvl2","SuperHammer,SuperBoots"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1572}]
             },
             {
                 "name": "Gold Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Gold Fuzzy.png","chest_opened_img": "/images/tattles/Gold Fuzzy_Dim.png",
                 "visibility_rules":["Ch1"],
-                "access_rules":["PlaneCurse","SuperHammer,SuperBoots"],
+                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2","SuperHammer,SuperBoots","[PlaneCurse],$HRGlvl2"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 1572}]
             },
             {
                 "name": "Green Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Green Fuzzy.png","chest_opened_img": "/images/tattles/Green Fuzzy_Dim.png",
                 "visibility_rules":["Ch3","Ch5"],
-                "access_rules":["$westside,Blimpticket,$yoshi","$keelhaul_key","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$keelhaul_key","[$keelhaul_key],$HRGlvl2","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1572}]
             },
             {
                 "name": "Flower Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Flower Fuzzy.png","chest_opened_img": "/images/tattles/Flower Fuzzy_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,Blimpticket,$yoshi","$pit,[$stars|2],YesPit","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$pit,[$stars|2],YesPit","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1713}]
             },
             {
                 "name": "Pokey",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Pokey.png","chest_opened_img": "/images/tattles/Pokey_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,Blimpticket","$pit,[$stars|1],YesPit"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1","$pit,[$stars|1],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 1713}]
             },
             {
@@ -393,14 +393,14 @@
                 "name": "Pale Piranha",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Pale Piranha.png","chest_opened_img": "/images/tattles/Pale Piranha_Dim.png",
                 "visibility_rules":["Ch2"],
-                "access_rules":["$bogglywoods","Flurrie,$bogglywoods"],
+                "access_rules":["$bogglywoods","[$bogglywoods],$HRGlvl2","Flurrie,$bogglywoods","[$bogglywoods],$HRGlvl2"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1713}]
             },
             {
                 "name": "Putrid Piranha",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Putrid Piranha.png","chest_opened_img": "/images/tattles/Putrid Piranha_Dim.png",
                 "visibility_rules":["Ch5"],
-                "access_rules":["$keelhaul_key"],
+                "access_rules":["$keelhaul_key","[$keelhaul_key],$HRGlvl2"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1836}]
             },
             {
@@ -449,7 +449,7 @@
                 "name": "Swooper",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Swooper.png","chest_opened_img": "/images/tattles/Swooper_Dim.png",
                 "visibility_rules":["Ch3","Ch4"],
-                "access_rules":["$steeple","$westside,BlimpTicket"],
+                "access_rules":["$steeple","$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 90}]
             },
             {
@@ -470,7 +470,7 @@
                 "name": "Dark Puff",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Puff.png","chest_opened_img": "/images/tattles/Dark Puff_Dim.png",
                 "visibility_rules":["YesPit","Ch2"],
-                "access_rules":["$bogglywoods","$pit,[$stars|1],YesPit"],
+                "access_rules":["$bogglywoods","[$bogglywoods],$HRGlvl2","$pit,[$stars|1],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 204}]
             },
             {
@@ -540,28 +540,28 @@
                 "name": "Bald Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bald Cleft.png","chest_opened_img": "/images/tattles/Bald Cleft_Dim.png",
                 "visibility_rules":["Ch1"],
-                "access_rules":["PlaneCurse","SuperHammer,SuperBoots"],
+                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2","SuperHammer,SuperBoots"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 440}]
             },
             {
                 "name": "Hyper Bald Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Hyper Bald Cleft.png","chest_opened_img": "/images/tattles/Hyper Bald Cleft_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 440}]
             },
             {
                 "name": "Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Cleft.png","chest_opened_img": "/images/tattles/Cleft_Dim.png",
                 "visibility_rules":["YesPit","Ch1","Ch2"],
-                "access_rules":["PlaneCurse","SuperHammer,SuperBoots","$bogglywoods","$pit,[$stars|1],YesPit"],
+                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2","SuperHammer,SuperBoots","$bogglywoods","[$bogglywoods],$HRGlvl2","$pit,[$stars|1],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 558}]
             },
             {
                 "name": "Iron Clefts",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Iron Clefts.png","chest_opened_img": "/images/tattles/Iron Clefts_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 558}]
             },
             {
@@ -586,7 +586,7 @@
                 "name": "Bristle",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bristle.png","chest_opened_img": "/images/tattles/Bristle_Dim.png",
                 "visibility_rules":["Ch1","Ch3"],
-                "access_rules":["PlaneCurse","SuperHammer,SuperBoots","$westside,BlimpTicket"],
+                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2","SuperHammer,SuperBoots","$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 690}]
             },
             {
@@ -600,7 +600,7 @@
                 "name": "Bob-omb",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bob-omb.png","chest_opened_img": "/images/tattles/Bob-omb_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket","$pit,[$stars|2],YesPit"],
+                "access_rules":["$westside,BlimpTicket","[$westside],BlimpTicket,$HRGlvl1","$pit,[$stars|2],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 690}]
             },
             {
@@ -628,7 +628,7 @@
                 "name": "Red Chomp",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Red Chomp.png","chest_opened_img": "/images/tattles/Red Chomp_Dim.png",
                 "visibility_rules":["YesPit","Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","$pit,[$stars|3],YesPit","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$pit,[$stars|3],YesPit","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 819}]
             },
             {
@@ -685,7 +685,7 @@
                 "name": "Blooper",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Blooper.png","chest_opened_img": "/images/tattles/Blooper_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["PlaneCurse"],
+                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1074}]
             },
             {
@@ -713,14 +713,14 @@
                 "name": "Rawk Hawk",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Rawk Hawk.png","chest_opened_img": "/images/tattles/Rawk Hawk_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,Flurrie,$yoshi","$westside,BlimpTicket,[$yoshi]"],
+                "access_rules":["$westside,BlimpTicket,Flurrie,$yoshi","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1200}]
             },
             {
                 "name": "Macho Grubba",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Macho Grubba.png","chest_opened_img": "/images/tattles/Macho Grubba_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi,Flurrie,SuperHammer"],
+                "access_rules":["$westside,BlimpTicket,$yoshi,Flurrie,SuperHammer","[$westside],BlimpTicket,$yoshi,Flurrie,SuperHammer,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 1320}]
             },
             {
