@@ -4176,7 +4176,7 @@
                     {
                         "name": "Excess Express Storage Car - Ragged Diary",
                         "visibility_rules": [""],
-                        "access_rules": ["$westside,TrainTicket,PaperCurse","[$westside],TrainTicket,$HRGlvl1,PaperCurse","$westside,TrainTicket,UltraBoots","[$westside],TrainTicket,$HRGlvl1,UltraBoots","{}"],
+                        "access_rules": ["$westside,TrainTicket,PaperCurse","[$westside],TrainTicket,$HRGlvl1,PaperCurse","$westside,TrainTicket,UltraBoots","[$westside],TrainTicket,$HRGlvl1,UltraBoots","$westside,TrainTicket,{}"],
                         "item_count": 1
                     }
 		],
