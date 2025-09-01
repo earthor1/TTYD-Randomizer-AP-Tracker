@@ -713,7 +713,7 @@
                 "name": "Rawk Hawk",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Rawk Hawk.png","chest_opened_img": "/images/tattles/Rawk Hawk_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,Flurrie,$yoshi","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
+                "access_rules":["$westside,BlimpTicket,Flurrie,$yoshi","[$westside],BlimpTicket,Flurrie,$yoshi,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1200}]
             },
             {
