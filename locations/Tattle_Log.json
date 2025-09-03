@@ -148,7 +148,7 @@
                 "name": "Red Bones",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Red Bones.png","chest_opened_img": "/images/tattles/Red Bones_Dim.png",
                 "visibility_rules":["Ch1","NoPalaceSkip"],
-                "access_rules":["PlaneCurse,SunStone,MoonStone,Koops","$palace"],
+                "access_rules":["PlaneCurse,SunStone,MoonStone,Koops"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 690}]
             },
             {
