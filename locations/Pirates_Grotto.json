@@ -19,7 +19,7 @@
         {"sections": [{"ref": "Magical Map/Pirate's Grotto/Pirate's Grotto Storeroom - Star Piece"}],
             "map_locations": [{"map": "Pirate's Grotto", "x": 662, "y": 338}]},
         {"sections": [{"name": "Pirate's Grotto Staircase - Coin","ref": "Magical Map/Pirate's Grotto/Pirate's Grotto Staircase - Coin"},
-                {"name": "Rogueport Eastside - Star Piece 2","ref": "Magical Map/Pirate's Grotto/Pirate's Grotto Staircase - Shine Sprite"}],
+                {"name": "Pirate's Grotto Staircase - Shine Sprite","ref": "Magical Map/Pirate's Grotto/Pirate's Grotto Staircase - Shine Sprite"}],
             "map_locations": [{"map": "Pirate's Grotto", "x": 944, "y": 538}]},
         {"sections": [{"ref": "Magical Map/Pirate's Grotto/Pirate's Grotto Staircase - Defend Plus P"}],
             "map_locations": [{"map": "Pirate's Grotto","x": 1113,"y": 530}]},
