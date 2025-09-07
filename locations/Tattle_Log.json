@@ -818,7 +818,7 @@
                 "name": "Magnus von Grapple",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Magnus von Grapple.png","chest_opened_img": "/images/tattles/Magnus von Grapple_Dim.png",
                 "visibility_rules":["Ch2"],
-                "access_rules":["Flurrie,$bogglywoods,$hundredpunis"],
+                "access_rules":["Flurrie,$bogglywoods,$hundredpunis,Koops","Flurrie,$bogglywoods,$hundredpunis,$yoshi,[Koops]"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 1713}]
             },
             {
