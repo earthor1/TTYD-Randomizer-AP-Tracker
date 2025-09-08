@@ -831,7 +831,7 @@
             {
                 "name": "Lord Crump",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Lord Crump.png","chest_opened_img": "/images/tattles/Lord Crump_Dim.png",
-                "visibility_rules":["Ch5"],
+                "visibility_rules":["disableIntermissionOff"],
                 "access_rules":["$keelhaul_key,$pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 1836}]
             },
