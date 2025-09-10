@@ -162,7 +162,7 @@
                 "name": "Dark Bones",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Dark Bones.png","chest_opened_img": "/images/tattles/Dark Bones_Dim.png",
                 "visibility_rules":["NoPalaceSkip"],
-                "access_rules":["$palace"],
+                "access_rules":["$palace,PalaceKey1,$tube","$palace,PalaceKey1,Vivian"],
                 "map_locations": [{"map": "Tattle Log", "x": 864, "y": 690}]
             },
             {
