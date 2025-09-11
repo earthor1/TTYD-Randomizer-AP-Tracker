@@ -270,5 +270,21 @@
                 "inherit_codes": false
             }
         ]
-    }
+    },
+    {
+          "name": "Disable Intermission",
+          "type": "progressive",
+          "stages":[
+              {
+                  "name": "Disable Intermission off",
+                  "codes": "disableIntermissionOff, disable_intermissions",
+                  "inherit_codes": false
+              },
+              {
+                  "name": "Disable Intermission on",
+                  "codes": "disableIntermissionOn, disable_intermissions",
+                  "inherit_codes": false
+              }
+          ]
+      }
 ]

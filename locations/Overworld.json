@@ -769,7 +769,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Rogueport Westside - Mushroom",
+                        "name": "Rogueport Westside - Lottery",
                         "visibility_rules": [""],
                         "access_rules": [""],
                         "item_count": 1
@@ -1308,7 +1308,7 @@
                     {
                         "name": "Great Tree Pool Room - Dizzy Dial",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops"],
+                        "access_rules": ["$hundredpunis,Koops","$hundredpunis,$yoshi,[Koops]"],
                         "item_count": 1
                     },
                     {
@@ -1316,7 +1316,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops","$hundredpunis,UltraBoots"],
+                        "access_rules": ["$hundredpunis,Koops","$hundredpunis,UltraBoots","$hundredpunis,$yoshi,[Koops]"],
                         "item_count": 1
                     },
                     {
@@ -1324,13 +1324,13 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops"],
+                        "access_rules": ["$hundredpunis,Koops","$hundredpunis,$yoshi,[Koops]"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Elevator Pedestal - Mushroom",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops"],
+                        "access_rules": ["$hundredpunis,Koops","$hundredpunis,$yoshi,[Koops]"],
                         "item_count": 1
                     },
                     {
@@ -2280,7 +2280,7 @@
                     {
                         "name": "Glitzville Major-League Room - Champ's Belt",
                         "visibility_rules": [""],
-                        "access_rules": ["Flurrie,$yoshi","Flurrie,[$yoshi]"],
+                        "access_rules": ["Flurrie,$yoshi"],
                         "item_count": 1
                     },
                     {
@@ -2800,7 +2800,7 @@
                         "chest_unopened_img": "/images/items/BlackChest.png",
                         "chest_opened_img": "/images/items/BlackChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,CastleKey1,Koops,BlackKey2","$htcastle,CastleKey1,[Koops],Bobbery,BlackKey2"],
+                        "access_rules": ["$htcastle,CastleKey1,Koops,BlackKey2","$htcastle,CastleKey1,[Koops],Bobbery,BlackKey2","$htcastle,CastleKey1,PaperCurse"],
                         "item_count": 1
                     },
                     {
@@ -2822,7 +2822,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$htcastle,CastleKey1,[Koops],Bobbery"],
+                        "access_rules": ["$htcastle,CastleKey1,[Koops],Bobbery","$htcastle,CastleKey1,PaperCurse"],
                         "item_count": 1
                     },
                     {
@@ -3830,7 +3830,7 @@
                     {
                         "name": "Poshley Heights Station - Goldbob Guide",
                         "visibility_rules": [""],
-                        "access_rules": ["$fahr_outpost"],
+                        "access_rules": ["$fahr_outpost,Bobbery"],
                         "item_count": 1
                     },
                     {
@@ -4176,7 +4176,7 @@
                     {
                         "name": "Excess Express Storage Car - Ragged Diary",
                         "visibility_rules": [""],
-                        "access_rules": ["$westside,TrainTicket,PaperCurse","[$westside],TrainTicket,$HRGlvl1,PaperCurse","$westside,TrainTicket,UltraBoots","[$westside],TrainTicket,$HRGlvl1,UltraBoots","{}"],
+                        "access_rules": ["$westside,TrainTicket,PaperCurse","[$westside],TrainTicket,$HRGlvl1,PaperCurse","$westside,TrainTicket,UltraBoots","[$westside],TrainTicket,$HRGlvl1,UltraBoots","$westside,TrainTicket,{}"],
                         "item_count": 1
                     }
 		],

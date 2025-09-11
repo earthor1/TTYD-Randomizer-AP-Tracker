@@ -193,7 +193,6 @@ function onMapChange(key, value, old)
 
     --Hint Tracking
     if value ~= old and key == HINTS_ID and Highlight then
-        Tracker.BulkUpdate = true
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
                 if not hint.found then
@@ -203,7 +202,6 @@ function onMapChange(key, value, old)
                 end
             end
         end
-        Tracker.BulkUpdate = false
     end
 end
 

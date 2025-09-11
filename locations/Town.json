@@ -118,7 +118,7 @@
                          {"sections":  [{"name":  "Rogueport Westside - Blimp Ticket","ref":  "Magical Map/Rogueport Westside/Rogueport Westside - Blimp Ticket"},
                                         {"name":  "Rogueport Westside - Train Ticket","ref":  "Magical Map/Rogueport Westside/Rogueport Westside - Train Ticket"}],
                              "map_locations":  [{"map":  "Town","x":609,"y":314}]},
-                         {"sections":  [{"ref":  "Magical Map/Rogueport Westside/Rogueport Westside - Mushroom"}],
+                         {"sections":  [{"ref":  "Magical Map/Rogueport Westside/Rogueport Westside - Lottery"}],
                              "map_locations":  [{"map":  "Town","x":564,"y":504}]},
                          {"sections":  [{"ref":  "Magical Map/Rogueport Westside/Rogueport Westside - Shine Sprite 1"}],
                              "map_locations":  [{"map":  "Town","x":564,"y":324}]},

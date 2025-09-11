@@ -82,7 +82,8 @@ ITEM_MAPPING = {
     [77772198] = {"tornadojump", "toggle"},
     [77772205] = {"unsimplifier", "toggle"},
     [77772210] = {"wemblem", "toggle"},
-    [77772214] = {"zaptap", "toggle"},
+    [77772214] = { "zaptap", "toggle" },
+    [77772219] = { "sleepystomp", "toggle" },
 --Keys
     [77772008] = {"BlackKey1", "toggle"},
     [77772009] = {"BlackKey2", "toggle"},
