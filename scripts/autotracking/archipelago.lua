@@ -29,6 +29,16 @@ function onClear(slot_data)
             if location then
                 local location_obj = Tracker:FindObjectForCode(location)
                 if location_obj then
+                    for _, hint in ipairs(LOCATION_MAPPING) do
+                        updateHints(hint.location, hint.None)
+                            if hint.finding_player == Archipelago.PlayerNumber then
+                                if not hint.found then
+                                    updateHints(hint.location, hint.status)
+                                elseif hint.found then
+                                    updateHints(hint.location, hint.status)
+                                    end
+                                end
+                            end
                     if location:sub(1, 1) == "@" then
                         location_obj.AvailableChestCount = location_obj.ChestCount
                     else
