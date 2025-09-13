@@ -281,14 +281,14 @@
                 "name": "Kammy Koopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Kammy Koopa.png","chest_opened_img": "/images/tattles/Kammy Koopa_Dim.png",
                 "visibility_rules":["NoPalaceSkip"],
-                "access_rules":["$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse"],
+                "access_rules":["$palace,$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1200}]
             },
             {
                 "name": "Bowser",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Bowser.png","chest_opened_img": "/images/tattles/Bowser_Dim.png",
                 "visibility_rules":["Ch3","NoPalaceSkip"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$palace,$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1320}]
             },
             {
