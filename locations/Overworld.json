@@ -4916,18 +4916,24 @@
                 ]
             },
             {
-                "name": "Shadow Queen",
+                "name": "We Believe in You Mario!",
                 "chest_unopened_img": "/images/items/StarKey.png",
                 "chest_opened_img": "/images/items/ClosedStar.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$palace,$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","YesPalaceSkip"
+                    ""
                 ],
                 "sections": [
                     {
-                        "name": "We Believe in You Mario!",
-                        "visibility_rules": [""],
-                        "access_rules": ["$palace"],
+                        "name": "Goal: Defeat Shadow Queen",
+                        "visibility_rules": ["defeat_shadow_queen"],
+                        "access_rules": ["$palace,$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","YesPalaceSkip"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Goal: Bonetail",
+                        "visibility_rules": ["defeat_bonetail"],
+                        "access_rules": ["$pit,$stars|5"],
                         "item_count": 1
                     }
 		],
