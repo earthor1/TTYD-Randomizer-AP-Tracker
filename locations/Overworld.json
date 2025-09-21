@@ -4542,7 +4542,7 @@
                     {
                         "name": "X-Naut Fortress Teleporter Room - Cog",
                         "visibility_rules": [""],
-                        "access_rules": ["ElevatorKey1,UltraBoots,PaperCurse","ElevatorKey1,{}"],
+                        "access_rules": ["ElevatorKey1,UltraBoots,PaperCurse,Koops","ElevatorKey1,UltraBoots,PaperCurse,$yoshi","ElevatorKey1,{}"],
                         "item_count": 1
                     },
                     {
