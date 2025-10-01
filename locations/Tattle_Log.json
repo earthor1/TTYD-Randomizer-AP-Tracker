@@ -755,7 +755,7 @@
                 "name": "X-Naut PhD",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/X-Naut PhD.png","chest_opened_img": "/images/tattles/X-Naut PhD_Dim.png",
                 "visibility_rules":["Ch7"],
-                "access_rules":["$moon"],
+                "access_rules":["$moon,ElevatorKey1"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 1446}]
             },
             {
