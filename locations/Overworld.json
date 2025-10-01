@@ -2334,13 +2334,13 @@
                     {
                         "name": "Moon Landing Site - Stopwatch",
                         "visibility_rules": [""],
-                        "access_rules": ["Bobbery"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
                         "name": "Moon Fortress View - Power Punch",
                         "visibility_rules": [""],
-                        "access_rules": ["Bobbery"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
@@ -2354,19 +2354,19 @@
                     {
                         "name": "Moon East Room 1 - Volt Shroom",
                         "visibility_rules": [""],
-                        "access_rules": ["Bobbery"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
                         "name": "Moon West Room 1 - Courage Shell",
                         "visibility_rules": [""],
-                        "access_rules": ["Bobbery"],
+                        "access_rules": [""],
                         "item_count": 1
                     },
                     {
                         "name": "Moon West Room 2 - Ruin Powder",
                         "visibility_rules": [""],
-                        "access_rules": ["Bobbery"],
+                        "access_rules": [""],
                         "item_count": 1
                     }
 		],
@@ -4444,9 +4444,9 @@
                 "chest_unopened_img": "/images/items/YBlock.png",
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
-		"visibility_rules": ["Ch7"],
+                "visibility_rules": ["Ch7"],
                 "access_rules": [
-                    "$moon,Bobbery"
+                    "$moon"
                 ],
                 "sections": [
                     {
