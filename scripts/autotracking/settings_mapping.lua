@@ -15,6 +15,21 @@ SLOT_CODES =
         [7] = 8, --  7 Chapters
         }
     },
+    palace_stars =
+    {
+        code = "Palace_Stars",
+        mapping =
+        {
+        [0] = 1, --  0 Chapters
+        [1] = 2, --  1 Chapters
+        [2] = 3, --  2 Chapters
+        [3] = 4, --  3 Chapters
+        [4] = 5, --  4 Chapters
+        [5] = 6, --  5 Chapters
+        [6] = 7, --  6 Chapters
+        [7] = 8, --  7 Chapters
+        }
+    },
   pit_items =
     {
         code = "Pit_Items",
