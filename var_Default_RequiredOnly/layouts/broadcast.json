@@ -6,8 +6,8 @@
             {
         "type": "itemgrid",
         "h_alignment": "left",
-        "item_margin": "4,4",
-        "item_size": "50,50",
+        "item_margin": "1,1",
+        "item_size": "40,40",
         "rows":[
                             [
                                 "DiamondStar",
