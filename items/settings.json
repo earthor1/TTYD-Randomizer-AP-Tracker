@@ -319,16 +319,19 @@
           "stages":[
               {
                   "name": "Vanilla: No Star Pieces Randomized",
+                  "img": "/images/items/StarPieceOpen.png",
                   "codes": "piecesanity, piecesanity_vanilla",
                   "inherit_codes": false
               },
               {
                   "name": "Non-Panel: Non-Panel Pieces Randomized",
+                  "img": "/images/items/StarPieceClosed.png",
                   "codes": "piecesanity, piecesanity_no_panel",
                   "inherit_codes": false
               },
               {
                   "name": "All: All Star Pieces Randomized",
+                  "img": "/images/items/StarPiecePanel.png",
                   "codes": "piecesanity, piecesanity_full, piecesanity_no_panel",
                   "inherit_codes": false
               }
