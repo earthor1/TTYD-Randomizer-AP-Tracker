@@ -25,6 +25,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -32,6 +33,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -39,6 +41,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -46,6 +49,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -53,6 +57,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -610,40 +615,40 @@
                         "name": "Rogueport Eastside - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Eastside - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Eastside - Star Piece 3",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$yoshi","{PaperCurse}"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Eastside - Star Piece 4",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$yoshi","PaperCurse"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Eastside - Star Piece 5",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["[$yoshi],SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     }
                 ],
@@ -676,6 +681,7 @@
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -690,6 +696,7 @@
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
                         "access_rules": ["BoatCurse"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     }
                 ],
@@ -721,16 +728,16 @@
                         "name": "Rogueport Blimp Room - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["BlimpTicket"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Blimp Room - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     }
                 ],
@@ -794,32 +801,32 @@
                         "name": "Rogueport Westside - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Westside - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Westside - Star Piece 3",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Westside - Star Piece 4",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     }
                 ],
@@ -1113,8 +1120,8 @@
                         "name": "Boggly Woods Plane Panel Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1159,8 +1166,8 @@
                         "name": "Great Tree 10-Puni Pedestal - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -1173,8 +1180,8 @@
                         "name": "Great Tree Red & Blue Cages - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["BlueKey,SuperBoots","PaperCurse,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -1243,8 +1250,8 @@
                         "name": "Great Tree Zigzag Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$tenpunis"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1281,8 +1288,8 @@
                         "name": "Great Tree Fake Pedestal - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$hundredpunis"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1295,8 +1302,8 @@
                         "name": "Great Tree 100-Puni Pedestal - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$hundredpunis"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1337,8 +1344,8 @@
                         "name": "Great Tree Escape Ambush Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$hundredpunis,Koops"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1453,16 +1460,16 @@
                         "name": "Boggly Woods Outside Flurrie's House - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Boggly Woods Outside Flurrie's House - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["PaperCurse"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1481,8 +1488,8 @@
                         "name": "Boggly Woods Flurrie's House Backroom - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["PaperCurse,Necklace,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -1523,8 +1530,8 @@
                         "name": "Rogueport Sewers East Entrance - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -1619,8 +1626,8 @@
                         "name": "Rogueport Sewers Black Key Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1633,8 +1640,8 @@
                         "name": "Rogueport Sewers Boggly Woods Pipe - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["PaperCurse,SuperBoots","SuperBoots,SuperHammer"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -1649,8 +1656,8 @@
                         "name": "Rogueport Sewers Black Chest Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -1681,16 +1688,16 @@
                         "name": "Rogueport Sewers Thousand Year Door - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$ttyd,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers Pit Entrance - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$pit"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     }
                 ],
@@ -1742,8 +1749,8 @@
                         "name": "Rogueport Sewers West Entrance - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$sewerwestground","[$sewerwestground],$HRGlvl1"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1758,8 +1765,8 @@
                         "name": "Rogueport Sewers West Entrance - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$twilight_town","{$sewerwestground}"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -1790,32 +1797,32 @@
                         "name": "Rogueport Sewers Town - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers Town - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers Town - Star Piece 3",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$sewerwest,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers Town - Star Piece 4",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     }
 		],
@@ -2047,40 +2054,40 @@
                         "name": "Glitzville Main Square - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Glitzville Main Square - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Glitzville Main Square - Star Piece 3",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Glitzville Main Square - Star Piece 4",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
                         "name": "Glitzville Main Square - Star Piece 5",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots,Koops","SuperBoots,$tube","SuperBoots,{}"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2205,8 +2212,8 @@
                         "name": "Glitzville Lobby - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -2225,16 +2232,16 @@
                         "name": "Glitzville Promoter's Office - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Glitzville Promoter's Office - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2261,8 +2268,8 @@
                         "name": "Glitzville Storage Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots,StorageKey1"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -2293,8 +2300,8 @@
                         "name": "Glitzville Storage Back Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["Flurrie,Storagekey1,StorageKey2,$yoshi,SuperHammer"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2347,8 +2354,8 @@
                         "name": "Moon Fortress View - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2447,8 +2454,8 @@
                         "name": "Petalburg Westside - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -2461,8 +2468,8 @@
                         "name": "Petalburg Eastside - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -2513,8 +2520,8 @@
                         "name": "Petal Meadows Entrance - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["PlaneCurse"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2559,8 +2566,8 @@
                         "name": "Petal Meadows Bridge Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["PlaneCurse","{SuperBoots,SuperHammer}"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2611,8 +2618,8 @@
                         "name": "Petal Meadows First Fort Exterior - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2733,8 +2740,8 @@
                         "name": "Hooktail's Castle Red Bones Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$htcastle,PaperCurse,SuperBoots","$htcastle,SuperBoots,{}"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -2755,16 +2762,16 @@
                         "name": "Hooktail's Castle Stair Switch Room - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$htcastle,Koops"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Hooktail's Castle Stair Switch Room - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$htcastle,PaperCurse,Koops,CastleKey2","$htcastle,[Koops],$yoshi,Bobbery,CastleKey2"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2791,8 +2798,8 @@
                         "name": "Hooktail's Castle Stair Central Staircase - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$htcastle,Koops","$htcastle,[Koops],Bobbery"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2835,8 +2842,8 @@
                         "name": "Hooktail's Castle Plane Rafters Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$htcastle,PaperCurse,Koops,CastleKey3","$htcastle,PaperCurse,CastleKey3,[Koops],$yoshi,Bobbery","$htcastle,Koops,CastleKey3,{}","$htcastle,CastleKey3,[Koops],$yoshi,Bobbery,{}"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2923,16 +2930,16 @@
                         "name": "Twilight Town Leftside - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Twilight Town Leftside - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -2951,8 +2958,8 @@
                         "name": "Twilight Town Rightside - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3123,16 +3130,16 @@
                         "name": "Twilight Trail Fallen Tree - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$tube"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Twilight Trail Fallen Tree - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$tube,Flurrie"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3205,8 +3212,8 @@
                         "name": "Twilight Trail Steeple Exterior - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$steeple"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3255,8 +3262,8 @@
                         "name": "Creepy Steeple Cookbook Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3271,8 +3278,8 @@
                         "name": "Creepy Steeple Boo Chest Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["Vivian"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3303,8 +3310,8 @@
                         "name": "Creepy Steeple Parrot Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["Vivian,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -3351,8 +3358,8 @@
                         "name": "Creepy Steeple Back Stairs - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -3393,8 +3400,8 @@
                         "name": "Keelhaul Key Landing Site - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -3413,16 +3420,16 @@
                         "name": "Keelhaul Key Town - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Keelhaul Key Town - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3455,8 +3462,8 @@
                         "name": "Keelhaul Key Jungle Entrance - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3495,8 +3502,8 @@
                         "name": "Keelhaul Key Jungle Winding Climb - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3565,8 +3572,8 @@
                         "name": "Keelhaul Key Grotto Entrance - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$yoshi"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3687,16 +3694,16 @@
                         "name": "Pirate's Grotto Gate Handle Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Pirate's Grotto Sluice Gate - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$yoshi,Bobbery,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -3717,8 +3724,8 @@
                         "name": "Pirate's Grotto Storeroom - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$yoshi,Bobbery"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -3747,8 +3754,8 @@
                         "name": "Pirate's Grotto Parabuzzy Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$yoshi,GrottoKey,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -3845,24 +3852,24 @@
                         "name": "Poshley Heights Station - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Poshley Heights Station - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Poshley Heights Station - Star Piece 3",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -3921,8 +3928,8 @@
                         "name": "Poshley Heights Downtown - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     }
 		],
@@ -3967,8 +3974,8 @@
                         "name": "Riverside Station Clockwork Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["StationKey1,$tube"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -4067,8 +4074,8 @@
                         "name": "Excess Express Locomotive - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$westside,TrainTicket,SuperBoots","[$westside],TrainTicket,$HRGlvl1,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -4131,24 +4138,24 @@
                         "name": "Excess Express Middle Passenger Car - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$westside,TrainTicket,SuperBoots","[$westside],TrainTicket,$HRGlvl1,SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Dining Car - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$westside,TrainTicket,GalleyPot","[$westside],TrainTicket,$HRGlvl1,GalleyPot"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Excess Express Dining Car - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$westside,TrainTicket,ShellEarrings","[$westside],TrainTicket,$HRGlvl1,ShellEarrings"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -4169,8 +4176,8 @@
                         "name": "Excess Express Back Passenger Car - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["$westside,TrainTicket","[$westside],TrainTicket,$HRGlvl1"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -4279,8 +4286,8 @@
                         "name": "Fahr Outpost Entrance - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
@@ -4295,8 +4302,8 @@
                         "name": "Fahr Outpost West Enemy Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -4311,16 +4318,16 @@
                         "name": "Fahr Outpost East Enemy Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Fahr Outpost Town Outskirts - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -4349,16 +4356,16 @@
                         "name": "Fahr Outpost Town - Star Piece 1",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["SuperBoots"],
+                        "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
                     {
                         "name": "Fahr Outpost Town - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     }
 		],
@@ -4515,8 +4522,8 @@
                         "name": "X-Naut Fortress Crane Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["ElevatorKey1,Cog"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
@@ -4549,8 +4556,8 @@
                         "name": "X-Naut Fortress Ceiling Grate Room - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
                         "access_rules": ["ElevatorKey1,UltraBoots"],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {

@@ -311,5 +311,27 @@
                   "inherit_codes": false
               }
           ]
+      },
+      {
+          "name": "Piecesanity",
+          "type": "progressive",
+          "allow_disabled": false,
+          "stages":[
+              {
+                  "name": "Vanilla: No Star Pieces Randomized",
+                  "codes": "piecesanity, piecesanity_vanilla",
+                  "inherit_codes": false
+              },
+              {
+                  "name": "Non-Panel: Non-Panel Pieces Randomized",
+                  "codes": "piecesanity, piecesanity_no_panel",
+                  "inherit_codes": false
+              },
+              {
+                  "name": "All: All Star Pieces Randomized",
+                  "codes": "piecesanity, piecesanity_full, piecesanity_no_panel",
+                  "inherit_codes": false
+              }
+          ]
       }
 ]

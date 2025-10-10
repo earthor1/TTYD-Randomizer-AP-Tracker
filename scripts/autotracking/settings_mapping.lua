@@ -118,5 +118,15 @@ SLOT_CODES =
         [1] = "1", -- Crystal Star Hunt
         [2] = "2" -- Defeat Bonetail
         }
+    },
+  piecesanity =
+    {
+        code = "piecesanity",
+        mapping =
+        {
+        [0] = "0", -- Vanilla
+        [1] = "1", -- Only Star Pieces not in star piece panels are randomized
+        [2] = "2", -- All are randomized
+        }
     }
 }
