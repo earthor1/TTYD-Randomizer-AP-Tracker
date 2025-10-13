@@ -1357,13 +1357,13 @@
                     {
                         "name": "Great Tree Entrance - Mystic Egg",
                         "visibility_rules": [""],
-                        "access_rules": ["EmeraldStar"],
+                        "access_rules": ["$hundredpunis,Koops,EmeraldStar","$hundredpunis,$yoshi,[Koops]EmeraldStar"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Red Key Room - Mushroom",
                         "visibility_rules": [""],
-                        "access_rules": ["EmeraldStar"],
+                        "access_rules": ["$hundredpunis,Koops,EmeraldStar","$hundredpunis,$yoshi,[Koops]EmeraldStar"],
                         "item_count": 1
                     }
                 ],

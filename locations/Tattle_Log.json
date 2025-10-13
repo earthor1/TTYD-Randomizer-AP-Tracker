@@ -825,7 +825,7 @@
                 "name": "Magnus von Grapple 2.0",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Magnus von Grapple 2.0.png","chest_opened_img": "/images/tattles/Magnus von Grapple 2.0_Dim.png",
                 "visibility_rules":["Ch7"],
-                "access_rules":["ElevatorKey1,ElevatorKey2,CardKey1,CardKey2,CardKey3,CardKey4,PaperCurse,Vivian,PlaneCurse"],
+                "access_rules":["$moon,ElevatorKey1,ElevatorKey2,CardKey1,CardKey2,CardKey3,CardKey4,PaperCurse,Vivian,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1713}]
             },
             {
