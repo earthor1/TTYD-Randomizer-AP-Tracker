@@ -31,7 +31,7 @@ function bogglywoods()
 	end
 
 function pit()
-	return (has("PaperCurse") and has("PlaneCurse")) or (has("ContactLens") and has("PaperCurse") and has("Flurrie")) or(has("Bobbery") and has("Flurrie")) or ((tube())and has("Flurrie")) or (has("UltraHammer") and has("Flurrie"))
+	return (has("PaperCurse") and has("PlaneCurse")) or (has("ContactLens") and has("PaperCurse") and has("Flurrie")) or(has("Bobbery") and has("Flurrie")) or ((tube())and has("Flurrie")) or (has("UltraHammer") and has("Flurrie")) or (sewerwestground() and has "Flurrie")
 	end
 
 function sewerwest()

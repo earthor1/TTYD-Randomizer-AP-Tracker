@@ -127,7 +127,7 @@
                 "name": "Koopatrol",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Koopatrol.png","chest_opened_img": "/images/tattles/Koopatrol_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["SapphireStar"],
+                "access_rules":["$keelhaul_key,$pirates_grotto,BoatCurse,GateHandle,PlaneCurse,SapphireStar"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 558}]
             },
             {
@@ -253,7 +253,7 @@
                 "name": "Magikoopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Magikoopa.png","chest_opened_img": "/images/tattles/Magikoopa_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["SapphireStar"],
+                "access_rules":["$keelhaul_key,$pirates_grotto,BoatCurse,GateHandle,PlaneCurse,SapphireStar"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1074}]
             },
             {
@@ -769,14 +769,14 @@
                 "name": "Yux",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Yux.png","chest_opened_img": "/images/tattles/Yux_Dim.png",
                 "visibility_rules":["Ch2","Ch7"],
-                "access_rules":["Flurrie,$bogglywoods","$moon"],
+                "access_rules":["Flurrie,$bogglywoods"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1446}]
             },
             {
                 "name": "Mini-Yux",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Mini-Yux.png","chest_opened_img": "/images/tattles/Mini-Yux_Dim.png",
                 "visibility_rules":["Ch2","Ch7"],
-                "access_rules":["Flurrie,$bogglywoods","$moon"],
+                "access_rules":["Flurrie,$bogglywoods"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 1572}]
             },
             {

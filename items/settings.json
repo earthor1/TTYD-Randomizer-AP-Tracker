@@ -274,6 +274,7 @@
     {
           "name": "Disable Intermission",
           "type": "progressive",
+          "allow_disabled": false,
           "stages":[
               {
                   "name": "Disable Intermission off",
