@@ -4932,7 +4932,7 @@
                     {
                         "name": "Goal: Defeat Shadow Queen",
                         "visibility_rules": ["defeat_shadow_queen"],
-                        "access_rules": ["$palace,$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","YesPalaceSkip"],
+                        "access_rules": ["$palace,$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","YesPalaceSkip,$palace"],
                         "item_count": 1
                     },
                     {
