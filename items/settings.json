@@ -337,5 +337,31 @@
                   "inherit_codes": false
               }
           ]
+      },
+      {
+        "name": "Dazzle Rewards",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 3,
+        "stages": [
+          {
+              "name": "Dazzle Rewards Vanilla",
+              "img": "/images/items/Dazzle_Vanilla.png",
+              "codes": "dazzle_vanilla, dazzle_rewards",
+              "inherit_codes": false
+          },
+          {
+              "name": "Dazzle Rewards Filler",
+              "img": "/images/items/Dazzle_Filler.png",
+              "codes": "dazzle_filler, dazzle_rewards",
+              "inherit_codes": false
+          },
+          {
+              "name": "Dazzle Rewards All Random",
+              "img": "/images/items/Dazzle.png",
+              "codes": "dazzle_all, dazzle_rewards",
+              "inherit_codes": false
+          }
+        ]
       }
 ]

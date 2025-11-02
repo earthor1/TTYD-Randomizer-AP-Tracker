@@ -128,5 +128,15 @@ SLOT_CODES =
         [1] = "1", -- Only Star Pieces not in star piece panels are randomized
         [2] = "2", -- All are randomized
         }
+    },
+  dazzle_rewards =
+    {
+        code = "dazzle_rewards",
+        mapping =
+        {
+        [0] = "0", -- vanilla
+        [1] = "1", -- filler
+        [2] = "2" -- all
+        }
     }
 }
