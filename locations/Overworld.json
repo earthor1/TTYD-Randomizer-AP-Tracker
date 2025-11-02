@@ -1638,7 +1638,7 @@
                         "name": "Rogueport Sewers Boggly Woods Pipe - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["PaperCurse,SuperBoots","SuperBoots,SuperHammer"],
+                        "access_rules": ["PaperCurse,SuperBoots","SuperBoots,SuperHammer","[PaperCurse],$HRGlvl2"],
                         "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
