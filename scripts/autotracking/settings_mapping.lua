@@ -114,9 +114,9 @@ SLOT_CODES =
         code = "goal",
         mapping =
         {
-        [0] = "0", -- Defeat Shadow Queen
-        [1] = "1", -- Crystal Star Hunt
-        [2] = "2" -- Defeat Bonetail
+        [1] = "0", -- Defeat Shadow Queen
+        [2] = "1", -- Crystal Star Hunt
+        [3] = "2", -- Defeat Bonetail
         }
     },
   piecesanity =
