@@ -134,9 +134,9 @@ SLOT_CODES =
         code = "dazzle_rewards",
         mapping =
         {
-        [0] = "0", -- vanilla
-        [1] = "1", -- filler
-        [2] = "2" -- all
+        [1] = "0", -- vanilla
+        [2] = "1", -- filler
+        [3] = "2" -- all
         }
     }
 }
