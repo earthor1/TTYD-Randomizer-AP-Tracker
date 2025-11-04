@@ -553,8 +553,8 @@
             {
                 "name": "Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Cleft.png","chest_opened_img": "/images/tattles/Cleft_Dim.png",
-                "visibility_rules":["YesPit","Ch1","Ch2"],
-                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2","SuperHammer,SuperBoots","$bogglywoods","[$bogglywoods],$HRGlvl2","$pit,[$stars|1],YesPit"],
+                "visibility_rules":["YesPit","Ch2"],
+                "access_rules":["SuperHammer,SuperBoots","$bogglywoods","[$bogglywoods],$HRGlvl2","$pit,[$stars|1],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 558}]
             },
             {
