@@ -278,11 +278,13 @@
           "stages":[
               {
                   "name": "Disable Intermission off",
+                  "img": "images/items/DisableIntermissionOff.png",
                   "codes": "disableIntermissionOff, disable_intermissions",
                   "inherit_codes": false
               },
               {
                   "name": "Disable Intermission on",
+                  "img": "images/items/DisableIntermissionOn.png",
                   "codes": "disableIntermissionOn, disable_intermissions",
                   "inherit_codes": false
               }

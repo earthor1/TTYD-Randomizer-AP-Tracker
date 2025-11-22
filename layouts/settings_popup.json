@@ -29,6 +29,7 @@
                             ],
                             [
                                 "piecesanity",
+                                "disable_intermissions",
                                 "dazzle_rewards",
                                 "AutoTabOn",
                                 "PlayerTrackOn"

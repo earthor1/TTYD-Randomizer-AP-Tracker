@@ -138,5 +138,19 @@ SLOT_CODES =
         [2] = "1", -- filler
         [3] = "2" -- all
         }
+    },
+    goal_stars =
+    {
+        code = "goal_stars",
+        mapping =
+        {
+        [1] = 1, --  1 Chapter
+        [2] = 2, --  2 Chapters
+        [3] = 3, --  3 Chapters
+        [4] = 4, --  4 Chapters
+        [5] = 5, --  5 Chapters
+        [6] = 6, --  6 Chapters
+        [7] = 7, --  7 Chapters
+        }
     }
 }
