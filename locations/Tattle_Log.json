@@ -127,7 +127,7 @@
                 "name": "Koopatrol",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Koopatrol.png","chest_opened_img": "/images/tattles/Koopatrol_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["SapphireStar"],
+                "access_rules":["$keelhaul_key,$pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 558}]
             },
             {
@@ -253,7 +253,7 @@
                 "name": "Magikoopa",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Magikoopa.png","chest_opened_img": "/images/tattles/Magikoopa_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["SapphireStar"],
+                "access_rules":["$keelhaul_key,$pirates_grotto,BoatCurse,GateHandle,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1074}]
             },
             {
@@ -553,8 +553,8 @@
             {
                 "name": "Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Cleft.png","chest_opened_img": "/images/tattles/Cleft_Dim.png",
-                "visibility_rules":["YesPit","Ch1","Ch2"],
-                "access_rules":["PlaneCurse","[PlaneCurse],$HRGlvl2","SuperHammer,SuperBoots","$bogglywoods","[$bogglywoods],$HRGlvl2","$pit,[$stars|1],YesPit"],
+                "visibility_rules":["YesPit","Ch2"],
+                "access_rules":["SuperHammer,SuperBoots","$bogglywoods","[$bogglywoods],$HRGlvl2","$pit,[$stars|1],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 558}]
             },
             {
@@ -727,7 +727,7 @@
                 "name": "Doopliss",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Doopliss.png","chest_opened_img": "/images/tattles/Doopliss_Dim.png",
                 "visibility_rules":["Ch4","NoPalaceSkip"],
-                "access_rules":["$steeple,SteepleKey1,TheLetterP","$palace,PalaceKey1,$tube","$palace,PalaceKey1,Vivian"],
+                "access_rules":["$steeple,SteepleKey1,TheLetterP","$palace,$palaceright"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 1320}]
             },
             {
@@ -769,14 +769,14 @@
                 "name": "Yux",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Yux.png","chest_opened_img": "/images/tattles/Yux_Dim.png",
                 "visibility_rules":["Ch2","Ch7"],
-                "access_rules":["Flurrie,$bogglywoods","$moon"],
+                "access_rules":["Flurrie,$bogglywoods"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1446}]
             },
             {
                 "name": "Mini-Yux",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Mini-Yux.png","chest_opened_img": "/images/tattles/Mini-Yux_Dim.png",
                 "visibility_rules":["Ch2","Ch7"],
-                "access_rules":["Flurrie,$bogglywoods","$moon"],
+                "access_rules":["Flurrie,$bogglywoods"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 1572}]
             },
             {
@@ -825,7 +825,7 @@
                 "name": "Magnus von Grapple 2.0",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Magnus von Grapple 2.0.png","chest_opened_img": "/images/tattles/Magnus von Grapple 2.0_Dim.png",
                 "visibility_rules":["Ch7"],
-                "access_rules":["ElevatorKey1,ElevatorKey2,CardKey1,CardKey2,CardKey3,CardKey4,PaperCurse,Vivian,PlaneCurse"],
+                "access_rules":["$moon,ElevatorKey1,ElevatorKey2,CardKey1,CardKey2,CardKey3,CardKey4,PaperCurse,Vivian,PlaneCurse"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1713}]
             },
             {
@@ -846,14 +846,14 @@
                 "name": "Beldam",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Beldan.png","chest_opened_img": "/images/tattles/Beldan_Dim.png",
                 "visibility_rules":["Ch2","NoPalaceSkip"],
-                "access_rules":["$bogglywoods,PaperCurse,PlaneCurse","$palace,PalaceKey1,$tube","$palace,PalaceKey1,Vivian"],
+                "access_rules":["$bogglywoods,PaperCurse,PlaneCurse","$palace,$palaceright"],
                 "map_locations": [{"map": "Tattle Log", "x": 2646, "y": 1836}]
             },
             {
                 "name": "Marilyn",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Marilyn.png","chest_opened_img": "/images/tattles/Marilyn_Dim.png",
                 "visibility_rules":["Ch2","NoPalaceSkip"],
-                "access_rules":["$bogglywoods,PaperCurse,PlaneCurse","$palace,PalaceKey1,$tube","$palace,PalaceKey1,Vivian"],
+                "access_rules":["$bogglywoods,PaperCurse,PlaneCurse","$palace,$palaceright"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 1836}]
             },
             {

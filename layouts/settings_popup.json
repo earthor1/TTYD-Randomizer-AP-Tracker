@@ -18,14 +18,22 @@
                         "item_width": 36,
                         "rows": [
                             [
-                                "HiddenOn",
+                                "piecesanity",
+                                "dazzle_rewards",
                                 "Pit_Items",
-                                "palace_skip",
-                                "DoorReq",
-                                "open_westside",
-                                "GlitchedLogic",
                                 "Tattlesanity",
-                                "Goal",
+                                "DoorReq",
+                                "palace_skip",
+                                "open_westside",
+                                "Goal"
+                            ],
+                            [
+                                "",
+                                "",
+                                "",
+                                "",
+                                "HiddenOn",
+                                "GlitchedLogic",
                                 "AutoTabOn",
                                 "PlayerTrackOn"
                             ]
@@ -76,6 +84,8 @@
                         "item_width": 36,
                         "rows": [
                             [
+                                "",
+                                "",
                                 "Discord",
                                 "Zobee",
                                 "Earth",

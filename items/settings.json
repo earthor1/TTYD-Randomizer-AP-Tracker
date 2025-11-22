@@ -274,14 +274,17 @@
     {
           "name": "Disable Intermission",
           "type": "progressive",
+          "allow_disabled": false,
           "stages":[
               {
                   "name": "Disable Intermission off",
+                  "img": "images/items/DisableIntermissionOff.png",
                   "codes": "disableIntermissionOff, disable_intermissions",
                   "inherit_codes": false
               },
               {
                   "name": "Disable Intermission on",
+                  "img": "images/items/DisableIntermissionOn.png",
                   "codes": "disableIntermissionOn, disable_intermissions",
                   "inherit_codes": false
               }
@@ -311,5 +314,56 @@
                   "inherit_codes": false
               }
           ]
+      },
+      {
+          "name": "Piecesanity",
+          "type": "progressive",
+          "allow_disabled": false,
+          "stages":[
+              {
+                  "name": "Vanilla: No Star Pieces Randomized",
+                  "img": "/images/items/StarPieceOpen.png",
+                  "codes": "piecesanity, piecesanity_vanilla",
+                  "inherit_codes": false
+              },
+              {
+                  "name": "Non-Panel: Non-Panel Pieces Randomized",
+                  "img": "/images/items/StarPieceClosed.png",
+                  "codes": "piecesanity, piecesanity_no_panel",
+                  "inherit_codes": false
+              },
+              {
+                  "name": "All: All Star Pieces Randomized",
+                  "img": "/images/items/StarPiecePanel.png",
+                  "codes": "piecesanity, piecesanity_full, piecesanity_no_panel",
+                  "inherit_codes": false
+              }
+          ]
+      },
+      {
+        "name": "Dazzle Rewards",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 3,
+        "stages": [
+          {
+              "name": "Dazzle Rewards Vanilla",
+              "img": "/images/items/Dazzle_Vanilla.png",
+              "codes": "dazzle_vanilla, dazzle_rewards",
+              "inherit_codes": false
+          },
+          {
+              "name": "Dazzle Rewards Filler",
+              "img": "/images/items/Dazzle_Filler.png",
+              "codes": "dazzle_filler, dazzle_rewards",
+              "inherit_codes": false
+          },
+          {
+              "name": "Dazzle Rewards All Random",
+              "img": "/images/items/Dazzle.png",
+              "codes": "dazzle_all, dazzle_rewards",
+              "inherit_codes": false
+          }
+        ]
       }
 ]

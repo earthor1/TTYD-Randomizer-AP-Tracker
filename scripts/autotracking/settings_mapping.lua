@@ -114,9 +114,43 @@ SLOT_CODES =
         code = "goal",
         mapping =
         {
-        [0] = "0", -- Defeat Shadow Queen
-        [1] = "1", -- Crystal Star Hunt
-        [2] = "2" -- Defeat Bonetail
+        [1] = "0", -- Defeat Shadow Queen
+        [2] = "1", -- Crystal Star Hunt
+        [3] = "2", -- Defeat Bonetail
+        }
+    },
+  piecesanity =
+    {
+        code = "piecesanity",
+        mapping =
+        {
+        [0] = "0", -- Vanilla
+        [1] = "1", -- Only Star Pieces not in star piece panels are randomized
+        [2] = "2", -- All are randomized
+        }
+    },
+  dazzle_rewards =
+    {
+        code = "dazzle_rewards",
+        mapping =
+        {
+        [1] = "0", -- vanilla
+        [2] = "1", -- filler
+        [3] = "2" -- all
+        }
+    },
+    goal_stars =
+    {
+        code = "goal_stars",
+        mapping =
+        {
+        [1] = 1, --  1 Chapter
+        [2] = 2, --  2 Chapters
+        [3] = 3, --  3 Chapters
+        [4] = 4, --  4 Chapters
+        [5] = 5, --  5 Chapters
+        [6] = 6, --  6 Chapters
+        [7] = 7, --  7 Chapters
         }
     }
 }
