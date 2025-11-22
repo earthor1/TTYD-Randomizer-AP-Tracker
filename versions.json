@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.1.3",
+            "download_url": "https://github.com/ZobeePlays/TTYD-Randomizer-AP-Tracker/releases/download/1.1.3/TTYD-AP-1.1.3.zip",
+            "sha256": "6cd755e85e6c7d16fd6ddef055deb44b86ac08e247cd208d18ae09261ec1a8d8",
+            "changelog": [
+                "Logic Fixes",
+                "Adding additional settings to settings popup"
+            ]
+        },
+        {
             "package_version": "1.1.2",
             "download_url": "https://github.com/ZobeePlays/TTYD-Randomizer-AP-Tracker/releases/download/1.1.2/TTYD-AP-1.1.2.zip",
             "sha256": "e7580831d6f1e6364f2c639bcd78c4826cfa942bb82bca7a04f78e2125dde07a",
