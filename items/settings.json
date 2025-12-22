@@ -319,6 +319,7 @@
           "name": "Piecesanity",
           "type": "progressive",
           "allow_disabled": false,
+          "initial_stage_idx": 2,
           "stages":[
               {
                   "name": "Vanilla: No Star Pieces Randomized",
