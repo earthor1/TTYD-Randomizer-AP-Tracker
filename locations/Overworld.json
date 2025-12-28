@@ -1780,7 +1780,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,UltraBoots"],
+                        "access_rules": ["$twilight_town,UltraBoots"],
                         "item_count": 1
                     },
                     {
@@ -1811,7 +1811,7 @@
                         "name": "Rogueport Sewers Town - Star Piece 3",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$sewerwest,SuperBoots"],
+                        "access_rules": ["$twilight_town,SuperBoots"],
                         "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
