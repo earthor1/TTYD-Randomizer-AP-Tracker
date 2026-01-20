@@ -1788,7 +1788,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi","[$sewerwestground],$yoshi,$HRGlvl3"],
+                        "access_rules": ["$sewerwest","[$sewerwestground],$yoshi,$HRGlvl3"],
                         "item_count": 1
                     },
                     {
@@ -1803,7 +1803,7 @@
                         "name": "Rogueport Sewers Town - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi","[$sewerwestground],$yoshi,$HRGlvl3"],
+                        "access_rules": ["$sewerwest","[$sewerwestground],$yoshi,$HRGlvl3"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
@@ -1811,7 +1811,7 @@
                         "name": "Rogueport Sewers Town - Star Piece 3",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$sewerwest,SuperBoots","$sewerwestground,UltraBoots,$yoshi","[$sewerwestground],$yoshi,$HRGlvl3"],
+                        "access_rules": ["$sewerwest,SuperBoots","[$sewerwestground],$yoshi,$HRGlvl3"],
                         "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
@@ -1819,7 +1819,7 @@
                         "name": "Rogueport Sewers Town - Star Piece 4",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi","[$sewerwestground],$yoshi,$HRGlvl3"],
+                        "access_rules": ["$sewerwest","[$sewerwestground],$yoshi,$HRGlvl3"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     }
@@ -1845,7 +1845,7 @@
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$sewerwest","$sewerwestground,UltraBoots,$yoshi","[$sewerwestground],$yoshi,$HRGlvl3"
+                    "$sewerwest","[$sewerwestground],$yoshi,$HRGlvl3"
                 ],
                 "sections": [
                     {
