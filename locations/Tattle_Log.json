@@ -428,7 +428,7 @@
                 "name": "Amazy Dayzee",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Amazy Dayzee.png","chest_opened_img": "/images/tattles/Amazy Dayzee_Dim.png",
                 "visibility_rules":["YesPit","Ch4"],
-                "access_rules":["$pit,[$stars|5],YesPit"],
+                "access_rules":["$pit,[$stars|5],YesPit","$twilight_town,$tube,Flurrie"],
                 "map_locations": [{"map": "Tattle Log", "x": 294, "y": 1940}]
             },
             {
