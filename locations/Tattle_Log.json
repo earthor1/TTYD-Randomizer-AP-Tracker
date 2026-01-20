@@ -29,21 +29,21 @@
                 "name": "Hyper Goomba",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Hyper Goomba.png","chest_opened_img": "/images/tattles/Hyper Goomba_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$twilight_town"],
+                "access_rules":["$twilight_town","[$twilight_town],$HRGlvl3"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 75}]
             },
             {
                 "name": "Hyper Paragoomba",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/H. Paragoomba.png","chest_opened_img": "/images/tattles/H. Paragoomba_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$twilight_town"],
+                "access_rules":["$twilight_town","[$twilight_town],$HRGlvl3"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 204}]
             },
             {
                 "name": "Hyper Spiky Goomba",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/H. S. Goomba.png","chest_opened_img": "/images/tattles/H. S. Goomba_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$twilight_town"],
+                "access_rules":["$twilight_town","[$twilight_town],$HRGlvl3"],
                 "map_locations": [{"map": "Tattle Log", "x": 504, "y": 204}]
             },
             {
@@ -344,7 +344,7 @@
                 "name": "Spunia",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Spunia.png","chest_opened_img": "/images/tattles/Spunia_Dim.png",
                 "visibility_rules":[],
-                "access_rules":["$sewerwestground,BoatCurse,Flurrie","$pit,[$stars|5],YesPit"],
+                "access_rules":["$sewerwestground,BoatCurse,Flurrie","$pit,[$stars|5],YesPit","[$sewerwestground],BoatCurse,Flurrie,$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1572}]
             },
             {
