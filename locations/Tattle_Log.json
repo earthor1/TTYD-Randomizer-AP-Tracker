@@ -421,7 +421,7 @@
                 "name": "Crazee Dayzee",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Crazee Dayzee.png","chest_opened_img": "/images/tattles/Crazee Dayzee_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$twilight_town,[Flurrie],[$tube]","[$twilight_town],$HRG_twilight_town,[Flurrie],[$tube]"],
+                "access_rules":["$twilight_town,Flurrie,$tube"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1836}]
             },
             {
@@ -498,7 +498,7 @@
                 "name": "Boo",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Boo.png","chest_opened_img": "/images/tattles/Boo_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$steeple,[SuperHammer]","$pit,[$stars|2],YesPit"],
+                "access_rules":["$steeple,SuperHammer","$pit,[$stars|2],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 327}]
             },
             {
