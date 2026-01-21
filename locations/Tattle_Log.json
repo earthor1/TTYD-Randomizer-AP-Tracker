@@ -372,7 +372,7 @@
                 "name": "Flower Fuzzy",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Flower Fuzzy.png","chest_opened_img": "/images/tattles/Flower Fuzzy_Dim.png",
                 "visibility_rules":["Ch3"],
-                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$pit,[$stars|2],YesPit","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
+                "access_rules":["$westside,BlimpTicket,$yoshi","[$westside],BlimpTicket,$yoshi,$HRGlvl1","$keelhaul_key,[$yoshi]","[$keelhaul_key],$HRGlvl2,[$yoshi]","$pit,[$stars|2],YesPit","$westside,BlimpTicket,[$yoshi]","[$westside],BlimpTicket,[$yoshi],$HRGlvl1"],
                 "map_locations": [{"map": "Tattle Log", "x": 100, "y": 1713}]
             },
             {
@@ -421,7 +421,7 @@
                 "name": "Crazee Dayzee",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Crazee Dayzee.png","chest_opened_img": "/images/tattles/Crazee Dayzee_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$twilight_town","[$twilight_town],$HRG_twilight_town"],
+                "access_rules":["$twilight_town,[Flurrie],[$tube]","[$twilight_town],$HRG_twilight_town,[Flurrie],[$tube]"],
                 "map_locations": [{"map": "Tattle Log", "x": 1251, "y": 1836}]
             },
             {
@@ -498,7 +498,7 @@
                 "name": "Boo",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Boo.png","chest_opened_img": "/images/tattles/Boo_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$steeple","$pit,[$stars|2],YesPit"],
+                "access_rules":["$steeple,[SuperHammer]","$pit,[$stars|2],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 327}]
             },
             {
@@ -572,7 +572,7 @@
                 "name": "Hyper Cleft",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Hyper Cleft.png","chest_opened_img": "/images/tattles/Hyper Cleft_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$twilight_town,$tube,Flurrie","$pit,[$stars|2],YesPit"],
+                "access_rules":["[$steeple],$twilight_town,$tube,Flurrie","$pit,[$stars|2],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 3030, "y": 558}]
             },
             {
