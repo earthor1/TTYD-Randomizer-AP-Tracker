@@ -126,4 +126,9 @@ function HRG_sewerwest()
 	return ((has("PaperCurse") or (has("UltraBoots") and yoshi())) and has("GlitchedLogic"))
 	end
 
+function HRG_palace()
+	return (has("Flurrie") and has("GlitchedLogic")) and (((stars(0)) and has("Chapter0")) or ((stars(1)) and has("Chapter1")) or ((stars(2)) and has("Chapter2")) or ((stars(3)) and has("Chapter3")) or ((stars(4)) and has("Chapter4")) or ((stars(5)) and has("Chapter5")) or ((stars(6)) and has("Chapter6")) or ((stars(7)) and has("Chapter7")))
+	end
+
+
 
