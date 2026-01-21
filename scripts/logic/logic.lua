@@ -118,7 +118,12 @@ function HRGlvl2()
 	return (has("SuperBoots") and has("GlitchedLogic"))
 	end
 
-function HRGlvl3()
-	return (has("UltraBoots") and has("GlitchedLogic"))
+function HRG_twilight_town()
+	return ((has("UltraBoots") or (has("PaperCurse") and yoshi())) and has("GlitchedLogic"))
 	end
+
+function HRG_sewerwest()
+	return ((has("PaperCurse") or (has("UltraBoots") and yoshi())) and has("GlitchedLogic"))
+	end
+
 
