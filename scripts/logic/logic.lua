@@ -106,6 +106,10 @@ function tenpunis()
 	return has("PuniOrb") and (has("RedKey") or has("BlueKey"))
 	end
 
+function ninetypunis()
+	return has("PuniOrb") and has("BlueKey")
+	end
+
 function hundredpunis()
 	return has("PuniOrb") and has("RedKey") and has("BlueKey")
 	end
@@ -129,6 +133,7 @@ function HRG_sewerwest()
 function HRG_palace()
 	return (has("Flurrie") and has("GlitchedLogic")) and (((stars(0)) and has("Chapter0")) or ((stars(1)) and has("Chapter1")) or ((stars(2)) and has("Chapter2")) or ((stars(3)) and has("Chapter3")) or ((stars(4)) and has("Chapter4")) or ((stars(5)) and has("Chapter5")) or ((stars(6)) and has("Chapter6")) or ((stars(7)) and has("Chapter7")))
 	end
+
 
 
 
