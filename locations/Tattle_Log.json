@@ -498,14 +498,14 @@
                 "name": "Boo",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Boo.png","chest_opened_img": "/images/tattles/Boo_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$steeple,Vivian","$pit,[$stars|2],YesPit"],
+                "access_rules":["$steeple","$pit,[$stars|2],YesPit"],
                 "map_locations": [{"map": "Tattle Log", "x": 1797, "y": 327}]
             },
             {
                 "name": "Atomic Boo",
                 "sections": [{}], "chest_unopened_img": "/images/tattles/Atomic Boo.png","chest_opened_img": "/images/tattles/Atomic Boo_Dim.png",
                 "visibility_rules":["Ch4"],
-                "access_rules":["$steeple,Vivian,SuperHammer"],
+                "access_rules":["$steeple,SuperHammer"],
                 "map_locations": [{"map": "Tattle Log", "x": 2196, "y": 327}]
             },
             {
