@@ -1286,34 +1286,34 @@
                         "name": "Great Tree Fake Pedestal - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$hundredpunis"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree 100-Puni Pedestal - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree 100-Puni Pedestal - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$hundredpunis"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Lower Duplex - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,SuperBoots"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis,SuperBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Pool Room - Dizzy Dial",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops,SuperBoots","$hundredpunis,$yoshi,[Koops],SuperBoots"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis,Koops,SuperBoots","[$hundredpunis],$ninetypunis,$yoshi,[Koops],SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -1321,7 +1321,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops,SuperBoots","$hundredpunis,$yoshi,[Koops],SuperBoots","$hundredpunis,UltraBoots"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis,Koops,SuperBoots","[$hundredpunis],$ninetypunis,$yoshi,[Koops],SuperBoots","[$hundredpunis],$ninetypunis,UltraBoots"],
                         "item_count": 1
                     },
                     {
@@ -1329,7 +1329,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops,SuperBoots","$hundredpunis,$yoshi,[Koops],SuperBoots"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis,Koops,SuperBoots","[$hundredpunis],$ninetypunis,$yoshi,[Koops],SuperBoots"],
                         "item_count": 1
                     },
                     {
