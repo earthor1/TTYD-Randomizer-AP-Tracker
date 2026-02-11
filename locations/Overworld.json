@@ -485,7 +485,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["YesPit"],
                 "access_rules": [
-                    "$pit"
+                    "$pit","[$pit],$HRGlvl1,Flurrie"
                 ],
                 "sections": [
                     {
@@ -1286,34 +1286,34 @@
                         "name": "Great Tree Fake Pedestal - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$hundredpunis"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree 100-Puni Pedestal - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree 100-Puni Pedestal - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$hundredpunis"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Lower Duplex - Coin",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,SuperBoots"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis,SuperBoots"],
                         "item_count": 1
                     },
                     {
                         "name": "Great Tree Pool Room - Dizzy Dial",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops,SuperBoots","$hundredpunis,$yoshi,[Koops],SuperBoots"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis,Koops,SuperBoots","[$hundredpunis],$ninetypunis,$yoshi,[Koops],SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -1321,7 +1321,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops,SuperBoots","$hundredpunis,$yoshi,[Koops],SuperBoots","$hundredpunis,UltraBoots"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis,Koops,SuperBoots","[$hundredpunis],$ninetypunis,$yoshi,[Koops],SuperBoots","[$hundredpunis],$ninetypunis,UltraBoots"],
                         "item_count": 1
                     },
                     {
@@ -1329,7 +1329,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$hundredpunis,Koops,SuperBoots","$hundredpunis,$yoshi,[Koops],SuperBoots"],
+                        "access_rules": ["[$hundredpunis],$ninetypunis,Koops,SuperBoots","[$hundredpunis],$ninetypunis,$yoshi,[Koops],SuperBoots"],
                         "item_count": 1
                     },
                     {
@@ -1563,7 +1563,7 @@
                     {
                         "name": "Rogueport Sewers Spania Room - Defend Plus",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwestground,Flurrie,BoatCurse,$yoshi","$sewerwestground,Flurrie,BoatCurse,UltraBoots,Koops"],
+                        "access_rules": ["$sewerwestground,Flurrie,BoatCurse,$yoshi","$sewerwestground,Flurrie,BoatCurse,UltraBoots,Koops","[$sewerwestground],Flurrie,BoatCurse,$yoshi,$HRGlvl1","[$sewerwestground],Flurrie,BoatCurse,UltraBoots,Koops,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -1571,7 +1571,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie"],
+                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie","[$sewerwestground],BoatCurse,Flurrie,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -1579,7 +1579,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie,UltraBoots"],
+                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie,UltraBoots","[$sewerwestground],BoatCurse,Flurrie,UltraBoots,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -1587,7 +1587,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie"],
+                        "access_rules": ["$sewerwestground,BoatCurse,Flurrie","[$sewerwestground],BoatCurse,Flurrie,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -1595,7 +1595,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["SuperHammer"],
+                        "access_rules": ["SuperHammer","[SuperHammer],$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -1670,7 +1670,7 @@
                         "name": "Rogueport Sewers Star Piece in House",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "visibility_rules": [""],
+                        "visibility_rules": ["piecesanity_no_panel"],
                         "access_rules": ["PlaneCurse,UltraBoots"],
                         "item_count": 1
                     },
@@ -1679,14 +1679,14 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$ttyd,PaperCurse,PlaneCurse","$pit,PaperCurse"],
+                        "access_rules": ["$ttyd,PaperCurse,PlaneCurse","$pit,PaperCurse","[$pit],PaperCurse,Flurrie,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers Thousand Year Door - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$ttyd,SuperBoots"],
+                        "access_rules": ["$ttyd,SuperBoots","[$ttyd],$HRGlvl2,Flurrie"],
                         "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
@@ -1694,7 +1694,7 @@
                         "name": "Rogueport Sewers Pit Entrance - Star Piece",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$pit"],
+                        "access_rules": ["$pit","[$pit],$HRGlvl1,Flurrie"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     }
@@ -1728,7 +1728,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwestground,UltraBoots"],
+                        "access_rules": ["$sewerwestground,UltraBoots","[$sewerwestground],UltraBoots,$HRGlvl1"],
                         "item_count": 1
                     },
                     {
@@ -1756,14 +1756,14 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$twilight_town"],
+                        "access_rules": ["$twilight_town","[$twilight_town],$HRG_twilight_town"],
                         "item_count": 1
                     },
                     {
                         "name": "Rogueport Sewers West Entrance - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$twilight_town","{$sewerwestground}"],
+                        "access_rules": ["$twilight_town","{$sewerwestground}","[$twilight_town],$HRG_twilight_town"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
@@ -1780,7 +1780,7 @@
                         "chest_unopened_img": "/images/items/ShineSpriteClosed.png",
                         "chest_opened_img": "/images/items/ShineSpriteOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest,UltraBoots"],
+                        "access_rules": ["$sewerwest,UltraBoots","[$sewerwest],$HRG_sewerwest,UltraBoots"],
                         "item_count": 1
                     },
                     {
@@ -1788,7 +1788,7 @@
                         "chest_unopened_img": "/images/items/BigChest.png",
                         "chest_opened_img": "/images/items/BigChestOpen.png",
                         "visibility_rules": [""],
-                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
+                        "access_rules": ["$sewerwest","[$sewerwest],$HRG_sewerwest"],
                         "item_count": 1
                     },
                     {
@@ -1803,7 +1803,7 @@
                         "name": "Rogueport Sewers Town - Star Piece 2",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
+                        "access_rules": ["$sewerwest","[$sewerwest],$HRG_sewerwest"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     },
@@ -1811,7 +1811,7 @@
                         "name": "Rogueport Sewers Town - Star Piece 3",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$sewerwest,SuperBoots"],
+                        "access_rules": ["$sewerwest,SuperBoots","[$sewerwest],$HRG_sewerwest,SuperBoots"],
                         "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
@@ -1819,7 +1819,7 @@
                         "name": "Rogueport Sewers Town - Star Piece 4",
                         "chest_unopened_img": "/images/items/StarPieceClosed.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$sewerwest","$sewerwestground,UltraBoots,$yoshi"],
+                        "access_rules": ["$sewerwest","[$sewerwest],$HRG_sewerwest"],
                         "visibility_rules": ["piecesanity_no_panel"],
                         "item_count": 1
                     }
@@ -1845,7 +1845,7 @@
                 "chest_opened_img": "/images/items/CoinDim.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$sewerwest","$sewerwestground,UltraBoots,$yoshi"
+                    "$sewerwest","[$sewerwest],$HRG_sewerwest"
                 ],
                 "sections": [
                     {
@@ -2907,7 +2907,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch4"],
                 "access_rules": [
-                    "$twilight_town"
+                    "$twilight_town","[$twilight_town],$HRG_twilight_town"
                 ],
                 "sections": [
                     {
@@ -3023,7 +3023,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch4"],
                 "access_rules": [
-                    "$twilight_town,ShopKey"
+                    "$twilight_town,ShopKey","[$twilight_town],$HRG_twilight_town,ShopKey"
                 ],
                 "sections": [
                     {
@@ -3085,7 +3085,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch4"],
                 "access_rules": [
-                    "$twilight_town"
+                    "$twilight_town","[$twilight_town],$HRG_twilight_town"
                 ],
                 "sections": [
                     {
@@ -4711,7 +4711,7 @@
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$palace"
+                    "$palace","[$palace],$HRG_palace"
                 ],
                 "sections": [
                     {
@@ -4795,7 +4795,7 @@
                 "chest_opened_img": "/images/items/YBlockOpen.png",
                 "overlay_background": "#000000",
                 "access_rules": [
-                    "$palace,$ttyd,PalaceKey1"
+                    "$palace,PalaceKey1","[$palace],PalaceKey1,$HRG_palace"
                 ],
                 "sections": [
                     {
@@ -4932,13 +4932,13 @@
                     {
                         "name": "Goal: Defeat Shadow Queen",
                         "visibility_rules": ["defeat_shadow_queen"],
-                        "access_rules": ["$palace,$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","YesPalaceSkip,$palace"],
+                        "access_rules": ["$palace,$palaceright,Bobbery,$yoshi,UltraBoots,PalaceKey3,PaperCurse,Flurrie,UltraHammer,PlaneCurse","YesPalaceSkip,$palace","YesPalaceSkip,[$palace],$HRG_palace"],
                         "item_count": 1
                     },
                     {
                         "name": "Goal: Bonetail",
                         "visibility_rules": ["defeat_bonetail"],
-                        "access_rules": ["$pit,$stars|5"],
+                        "access_rules": ["$pit,$stars|5","[$pit],$stars|5,$HRGlvl1,Flurrie"],
                         "item_count": 1
                     }
 		],
