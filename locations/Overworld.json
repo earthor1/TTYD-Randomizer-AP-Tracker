@@ -2397,7 +2397,7 @@
                 "overlay_background": "#000000",
                 "visibility_rules": ["Ch1"],
                 "access_rules": [
-                    "PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"
+                    "PlaneCurse","SuperBoots,SuperHammer,blue_pipes_on","[PlaneCurse],$HRGlvl2"
                 ],
                 "sections": [
                     {
@@ -2551,7 +2551,7 @@
                     {
                         "name": "Petal Meadows Bridge Room - Koops",
                         "visibility_rules": [""],
-                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"],
+                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer,blue_pipes_on","[PlaneCurse],$HRGlvl2"],
                         "item_count": 1
                     },
                     {
@@ -2577,13 +2577,13 @@
                     {
                         "name": "Petal Meadows Bridge Room - Fire Flower",
                         "visibility_rules": [""],
-                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"],
+                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer,blue_pipes_on","[PlaneCurse],$HRGlvl2"],
                         "item_count": 1
                     },
                     {
                         "name": "Petal Meadows Bridge Room - Mystery",
                         "visibility_rules": [""],
-                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"],
+                        "access_rules": ["PlaneCurse","SuperBoots,SuperHammer,blue_pipes_on","[PlaneCurse],$HRGlvl2"],
                         "item_count": 1
                     }
 		],
@@ -2609,7 +2609,7 @@
                 "overlay_background": "#000000",
 		"visibility_rules": ["Ch1"],
                 "access_rules": [
-                    "PlaneCurse","SuperBoots,SuperHammer","[PlaneCurse],$HRGlvl2"
+                    "PlaneCurse","SuperBoots,SuperHammer,blue_pipes_on","[PlaneCurse],$HRGlvl2"
                 ],
                 "sections": [
                     {

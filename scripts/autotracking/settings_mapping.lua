@@ -152,5 +152,14 @@ SLOT_CODES =
         [6] = 6, --  6 Chapters
         [7] = 7, --  7 Chapters
         }
+    },
+        blue_pipes =
+    {
+        code = "blue_pipes",
+        mapping =
+        {
+        [0] = 0, --  Blue Pipes Disabled
+        [1] = 1, --  Blue Pipes Enabled
+        }
     }
 }

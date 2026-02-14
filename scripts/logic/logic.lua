@@ -27,7 +27,7 @@ function westside()
 	end
 
 function bogglywoods()
-	return has("PaperCurse") or (has("Superhammer") and has("SuperBoots"))
+	return has("PaperCurse") or (has("Superhammer") and has("SuperBoots") and has("blue_pipes_on"))
 	end
 
 function pit()
@@ -55,12 +55,12 @@ function steeple()
 	end
 
 function keelhaul_key()
-	return ((yoshi()) and (tube()) and (has("OldLetter"))) or (has("UltraHammer") and has("SuperBoots"))
+	return (yoshi() and tube() and has("OldLetter")) or (has("UltraHammer") and has("SuperBoots") and has("blue_pipes_on"))
 	end
 
-function general_white()
-	return ((has("Bobbery") and has("PlaneCurse")) or (has("Bobbery") and has("SuperHammer") and has("SuperBoots"))) and (twilight_town()) and (keelhaul_key()) and (westside()) and has("BlimpTicket") and (bogglywoods()) and(fahr_outpost()) and has("Flurrie") and (twilight_town())
-	end
+--function general_white()
+--	return ((has("Bobbery") and has("PlaneCurse")) or (has("Bobbery") and has("SuperHammer") and has("SuperBoots"))) and (twilight_town()) and (keelhaul_key()) and (westside()) and has("BlimpTicket") and (bogglywoods()) and(fahr_outpost()) and has("Flurrie") and (twilight_town())
+--	end
 
 function moon()
 	return has("Bobbery") and has("GoldbobGuide") and (fahr_outpost())
@@ -79,7 +79,7 @@ function pirates_grotto()
 	end
 
 function poshley_heights() -- General regional access to Poshley Heights, not the Sanctum.
-	return ((poshleysanctum())) or (has("UltraHammer") and has("SuperBoots"))
+	return poshleysanctum() or (has("UltraHammer") and has("SuperBoots") and has("blue_pipes_on"))
 	end
 
 function poshleysanctum()  -- Access to the Sanctum is gated by the chapter 6 story, which is required to access the sanctum, as opposed to poshley_heights.
@@ -119,7 +119,7 @@ function HRGlvl1()
 	end
 
 function HRGlvl2()
-	return (has("SuperBoots") and has("GlitchedLogic"))
+	return (has("SuperBoots") and has("GlitchedLogic") and has("blue_pipes_on"))
 	end
 
 function HRG_twilight_town()

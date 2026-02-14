@@ -366,5 +366,22 @@
               "inherit_codes": false
           }
         ]
+      },
+      {
+        "name": "Blue Pipe Toggle",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+          {
+            "name": "Blue Pipes Disabled",
+            "codes": "blue_pipes_off, blue_pipes",
+            "inherit_codes": false
+          },
+          {
+            "name": "Blue Pipes Enabled",
+            "codes": "blue_pipes_on, blue_pipes",
+            "inherit_codes": false
+          }
+        ]
       }
 ]
