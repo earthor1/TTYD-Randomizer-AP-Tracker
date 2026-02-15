@@ -1686,7 +1686,7 @@
                         "name": "Rogueport Sewers Thousand Year Door - Star Piece",
                         "chest_unopened_img": "/images/items/StarPiecePanel.png",
                         "chest_opened_img": "/images/items/StarPieceOpen.png",
-                        "access_rules": ["$ttyd,SuperBoots","[$ttyd],$HRGlvl2,Flurrie"],
+                        "access_rules": ["$ttyd,SuperBoots","[$ttyd],$HRGlvl1,SuperBoots,Flurrie"],
                         "visibility_rules": ["piecesanity_full"],
                         "item_count": 1
                     },
